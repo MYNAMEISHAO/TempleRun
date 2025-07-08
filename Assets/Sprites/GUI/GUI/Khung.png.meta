@@ -1,0 +1,4134 @@
+fileFormatVersion: 2
+guid: 2b0f3edd882b6164b83b4c467f96e0a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8589706249212057990
+    second: Khung_0
+  - first:
+      213: -4428524630337728602
+    second: Khung_1
+  - first:
+      213: -3632771431425995634
+    second: Khung_2
+  - first:
+      213: 8851487623492929785
+    second: Khung_3
+  - first:
+      213: -3865213258201919036
+    second: Khung_4
+  - first:
+      213: -6690862622471873550
+    second: Khung_5
+  - first:
+      213: 4590141217316167564
+    second: Khung_6
+  - first:
+      213: -7240291223174578963
+    second: Khung_7
+  - first:
+      213: 1457167417208019558
+    second: Khung_8
+  - first:
+      213: 8767887290433829628
+    second: Khung_9
+  - first:
+      213: 5123797096062473435
+    second: Khung_10
+  - first:
+      213: -4399553490298959423
+    second: Khung_11
+  - first:
+      213: -3710577831137402259
+    second: Khung_12
+  - first:
+      213: -7441271188995143221
+    second: Khung_13
+  - first:
+      213: 4202366413809070903
+    second: Khung_14
+  - first:
+      213: -4179118621742542365
+    second: Khung_15
+  - first:
+      213: 5023244335427776233
+    second: Khung_16
+  - first:
+      213: 1010262931968151821
+    second: Khung_17
+  - first:
+      213: 1672602430274116011
+    second: Khung_18
+  - first:
+      213: -8925319672889479907
+    second: Khung_19
+  - first:
+      213: -2581624242859677992
+    second: Khung_20
+  - first:
+      213: 1576720549401146039
+    second: Khung_21
+  - first:
+      213: 4100931302713314658
+    second: Khung_22
+  - first:
+      213: 4665337209893173680
+    second: Khung_23
+  - first:
+      213: 6678401753794975086
+    second: Khung_24
+  - first:
+      213: 5605508670790135879
+    second: Khung_25
+  - first:
+      213: 8897241389756965603
+    second: Khung_26
+  - first:
+      213: -1557866013915732004
+    second: Khung_27
+  - first:
+      213: 6582163766018277823
+    second: Khung_28
+  - first:
+      213: 1742570345603324367
+    second: Khung_29
+  - first:
+      213: -7274583229986735559
+    second: Khung_30
+  - first:
+      213: 3481685790617010109
+    second: Khung_31
+  - first:
+      213: 3726628453193999441
+    second: Khung_32
+  - first:
+      213: 2597845634345742137
+    second: Khung_33
+  - first:
+      213: 7431295839047720349
+    second: Khung_34
+  - first:
+      213: -317369399274760345
+    second: Khung_35
+  - first:
+      213: -6023466006084354429
+    second: Khung_36
+  - first:
+      213: 2977426561090144109
+    second: Khung_37
+  - first:
+      213: 6117750806869429775
+    second: Khung_38
+  - first:
+      213: 9182002581023405850
+    second: Khung_39
+  - first:
+      213: 5452125387090326191
+    second: Khung_40
+  - first:
+      213: -603568973031060491
+    second: Khung_41
+  - first:
+      213: 1913581392224652714
+    second: Khung_42
+  - first:
+      213: 2754009128307085064
+    second: Khung_43
+  - first:
+      213: -5460792709479260663
+    second: Khung_44
+  - first:
+      213: -7863857983097695238
+    second: Khung_45
+  - first:
+      213: 3602237994643133912
+    second: Khung_46
+  - first:
+      213: -4414085103740237053
+    second: Khung_47
+  - first:
+      213: 3802453603618188623
+    second: Khung_48
+  - first:
+      213: -7218617786377808796
+    second: Khung_49
+  - first:
+      213: -1231606864008330500
+    second: Khung_50
+  - first:
+      213: -9015416097324890964
+    second: Khung_51
+  - first:
+      213: -8906308749696523136
+    second: Khung_52
+  - first:
+      213: -4219798567482431337
+    second: Khung_53
+  - first:
+      213: 1165693627323367021
+    second: Khung_54
+  - first:
+      213: -6261486629118862301
+    second: Khung_55
+  - first:
+      213: 2191058916666585111
+    second: Khung_56
+  - first:
+      213: -5250187328492046788
+    second: Khung_57
+  - first:
+      213: 5946256667511932546
+    second: Khung_58
+  - first:
+      213: -2057807452760940464
+    second: Khung_59
+  - first:
+      213: 5371933840347855978
+    second: Khung_60
+  - first:
+      213: -5318946840690797018
+    second: Khung_61
+  - first:
+      213: -2895530919632387956
+    second: Khung_62
+  - first:
+      213: 1327828541405968095
+    second: Khung_63
+  - first:
+      213: -1825205754722884268
+    second: Khung_64
+  - first:
+      213: -8755748483445075646
+    second: Khung_65
+  - first:
+      213: 3690360964544833240
+    second: Khung_66
+  - first:
+      213: -4906904502326238924
+    second: Khung_67
+  - first:
+      213: 8837475312493998480
+    second: Khung_68
+  - first:
+      213: 5901338535294936130
+    second: Khung_69
+  - first:
+      213: 2604337423263534673
+    second: Khung_70
+  - first:
+      213: -8924084158759547052
+    second: Khung_71
+  - first:
+      213: 2029012705949668480
+    second: Khung_72
+  - first:
+      213: -9181104092794880352
+    second: Khung_73
+  - first:
+      213: 4528949166648309338
+    second: Khung_74
+  - first:
+      213: 4961566370350721628
+    second: Khung_75
+  - first:
+      213: -5282429671565653736
+    second: Khung_76
+  - first:
+      213: -6088507559309748209
+    second: Khung_77
+  - first:
+      213: 2464768251509832200
+    second: Khung_78
+  - first:
+      213: -6689952841876726923
+    second: Khung_79
+  - first:
+      213: 2772258112356965106
+    second: Khung_80
+  - first:
+      213: 6224286827009524522
+    second: Khung_81
+  - first:
+      213: 5760806103282020747
+    second: Khung_82
+  - first:
+      213: -3500254195825193880
+    second: Khung_83
+  - first:
+      213: 2564889347999488539
+    second: Khung_84
+  - first:
+      213: -1964134741070862702
+    second: Khung_85
+  - first:
+      213: 6586373461846375993
+    second: Khung_86
+  - first:
+      213: -3069729939768343564
+    second: Khung_87
+  - first:
+      213: -4395354799396417624
+    second: Khung_88
+  - first:
+      213: 5304052675711024857
+    second: Khung_89
+  - first:
+      213: -5446270931421444380
+    second: Khung_90
+  - first:
+      213: 5432511012873184380
+    second: Khung_91
+  - first:
+      213: 1304664228575795224
+    second: Khung_92
+  - first:
+      213: 8036477450644560293
+    second: Khung_93
+  - first:
+      213: -6685730958871497709
+    second: Khung_94
+  - first:
+      213: -4106545264321914735
+    second: Khung_95
+  - first:
+      213: 1254399320545289267
+    second: Khung_96
+  - first:
+      213: 7182425883790573965
+    second: Khung_97
+  - first:
+      213: -2061705016048228048
+    second: Khung_98
+  - first:
+      213: -4051533600184780255
+    second: Khung_99
+  - first:
+      213: -1797149499821174640
+    second: Khung_100
+  - first:
+      213: 6321801908101112527
+    second: Khung_101
+  - first:
+      213: -7892983313102712208
+    second: Khung_102
+  - first:
+      213: -7681601189464628879
+    second: Khung_103
+  - first:
+      213: 3323718910849928073
+    second: Khung_104
+  - first:
+      213: -7374609678510686628
+    second: Khung_105
+  - first:
+      213: -6264492541543076489
+    second: Khung_106
+  - first:
+      213: 2663611022707194903
+    second: Khung_107
+  - first:
+      213: -6934640844237872460
+    second: Khung_108
+  - first:
+      213: 1889496757318599850
+    second: Khung_109
+  - first:
+      213: 6265285861345896346
+    second: Khung_110
+  - first:
+      213: -2697411718624437781
+    second: Khung_111
+  - first:
+      213: 6836383838465512656
+    second: Khung_112
+  - first:
+      213: 4740631658027684774
+    second: Khung_113
+  - first:
+      213: -129657156490584526
+    second: Khung_114
+  - first:
+      213: 4107467710402273702
+    second: Khung_115
+  - first:
+      213: -4339990051776761669
+    second: Khung_116
+  - first:
+      213: -6609021479445905663
+    second: Khung_117
+  - first:
+      213: -2451808620410342717
+    second: Khung_118
+  - first:
+      213: -2034876952638734058
+    second: Khung_119
+  - first:
+      213: 3511356451021455687
+    second: Khung_120
+  - first:
+      213: 7212762100101007172
+    second: Khung_121
+  - first:
+      213: 4611809794633876717
+    second: Khung_122
+  - first:
+      213: -4295261775223074610
+    second: Khung_123
+  - first:
+      213: -3402833184967620399
+    second: Khung_124
+  - first:
+      213: 7910582778140160485
+    second: Khung_125
+  - first:
+      213: 7239225595223906781
+    second: Khung_126
+  - first:
+      213: 6500894884923180244
+    second: Khung_127
+  - first:
+      213: 3057901123561831028
+    second: Khung_128
+  - first:
+      213: -7445404770562189584
+    second: Khung_129
+  - first:
+      213: -7011245312534612258
+    second: Khung_130
+  - first:
+      213: -8948407499554669582
+    second: Khung_131
+  - first:
+      213: 4242564541659389128
+    second: Khung_132
+  - first:
+      213: 5419959465405617576
+    second: Khung_133
+  - first:
+      213: -5909297169188057472
+    second: Khung_134
+  - first:
+      213: 5149939196396452150
+    second: Khung_135
+  - first:
+      213: 1739117682440476606
+    second: Khung_136
+  - first:
+      213: 556408730510675672
+    second: Khung_137
+  - first:
+      213: 8226301642281841985
+    second: Khung_138
+  - first:
+      213: -517000613897285484
+    second: Khung_139
+  - first:
+      213: -2100066373480280262
+    second: Khung_140
+  - first:
+      213: -7006051899787720767
+    second: Khung_141
+  - first:
+      213: 1020789469459732570
+    second: Khung_142
+  - first:
+      213: -1052400036143388843
+    second: Khung_143
+  - first:
+      213: 1352980766565934634
+    second: Khung_144
+  - first:
+      213: 2076036920710815452
+    second: Khung_145
+  - first:
+      213: 769759702645074594
+    second: Khung_146
+  - first:
+      213: 523914196007993362
+    second: Khung_147
+  - first:
+      213: 8153924089815330500
+    second: Khung_148
+  - first:
+      213: 5660652206011799755
+    second: Khung_149
+  - first:
+      213: 167109553230327367
+    second: Khung_150
+  - first:
+      213: -3176755975109432513
+    second: Khung_151
+  - first:
+      213: -7716474401347229339
+    second: Khung_152
+  - first:
+      213: -5676578558580628355
+    second: Khung_153
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Khung_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1547
+        width: 747
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689dc3dc254c43770800000000000000
+      internalID: 8589706249212057990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1313
+        width: 183
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afc6a1ef48ba82c0800000000000000
+      internalID: -4428524630337728602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1232
+        width: 182
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c8aaf51adc59dc0800000000000000
+      internalID: -3632771431425995634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1194
+        width: 182
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8001ca81dc6da70800000000000000
+      internalID: 8851487623492929785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_4
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1430
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c19ebb35010c5ac0800000000000000
+      internalID: -3865213258201919036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_5
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1430
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb10a205e74523a0800000000000000
+      internalID: -6690862622471873550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_6
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1391
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f52071e1573bf30800000000000000
+      internalID: 4590141217316167564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_7
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1356
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decfc444e71558b90800000000000000
+      internalID: -7240291223174578963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_8
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1310
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a15f8ab06e83410800000000000000
+      internalID: 1457167417208019558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1237
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa78f0590bcda970800000000000000
+      internalID: 8767887290433829628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1237
+        width: 147
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd45bf3df426b1740800000000000000
+      internalID: 5123797096062473435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1237
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c986601965a1f2c0800000000000000
+      internalID: -4399553490298959423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1274
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62ad9f3f11618cc0800000000000000
+      internalID: -3710577831137402259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1174
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc98896774b4bb890800000000000000
+      internalID: -7441271188995143221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1174
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7333f1ffcfdc15a30800000000000000
+      internalID: 4202366413809070903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1174
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1d0d461c9c006c0800000000000000
+      internalID: -4179118621742542365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_16
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1206
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee6a29db1626b540800000000000000
+      internalID: 5023244335427776233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_17
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1174
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01d4b5b8cc250e00800000000000000
+      internalID: 1010262931968151821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1174
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba991fa6c07463710800000000000000
+      internalID: 1672602430274116011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1174
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ded9ebb05e22480800000000000000
+      internalID: -8925319672889479907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1175
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6efccdd6a3c2cd0800000000000000
+      internalID: -2581624242859677992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1174
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b23d116cf2a1e510800000000000000
+      internalID: 1576720549401146039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1174
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dc18aca4f69e830800000000000000
+      internalID: 4100931302713314658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1174
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b93811797b9eb040800000000000000
+      internalID: 4665337209893173680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_24
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1206
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e659b4ae2037eac50800000000000000
+      internalID: 6678401753794975086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_25
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1174
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74071d3df64cacd40800000000000000
+      internalID: 5605508670790135879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_26
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1174
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2ed5587e9597b70800000000000000
+      internalID: 8897241389756965603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1174
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd726e04d19516ae0800000000000000
+      internalID: -1557866013915732004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_28
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1195
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb187f6421b885b50800000000000000
+      internalID: 6582163766018277823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1195
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9d0dd2f7ade2810800000000000000
+      internalID: 1742570345603324367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_30
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 769
+        width: 473
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a70af381d7b0b90800000000000000
+      internalID: -7274583229986735559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_31
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1094
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf7041a7ce615030800000000000000
+      internalID: 3481685790617010109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1096
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154ed7a65d4a7b330800000000000000
+      internalID: 3726628453193999441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1097
+        width: 361
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f2a7827d66d0420800000000000000
+      internalID: 2597845634345742137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1097
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d17436134412760800000000000000
+      internalID: 7431295839047720349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_35
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1094
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76716ad763a789bf0800000000000000
+      internalID: -317369399274760345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_36
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 768
+        width: 212
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e73b6c499586ca0800000000000000
+      internalID: -6023466006084354429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 659
+        width: 105
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d674796aea1f15920800000000000000
+      internalID: 2977426561090144109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_38
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 713
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ecfc312fd96e450800000000000000
+      internalID: 6117750806869429775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_39
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 719
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17be98f2b60d6f70800000000000000
+      internalID: 9182002581023405850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_40
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 719
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa278682727d9ab40800000000000000
+      internalID: 5452125387090326191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_41
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 712
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb49058731bf97f0800000000000000
+      internalID: -603568973031060491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_42
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 678
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad095c33286e8a10800000000000000
+      internalID: 1913581392224652714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_43
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 678
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f4de8f5b4383620800000000000000
+      internalID: 2754009128307085064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_44
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 678
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e127796fd5734b0800000000000000
+      internalID: -5460792709479260663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_45
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 709
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3975134d6fdd290800000000000000
+      internalID: -7863857983097695238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_46
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 674
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d59e13ee58bdf130800000000000000
+      internalID: 3602237994643133912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 674
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b48372cf40eb2c0800000000000000
+      internalID: -4414085103740237053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_48
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 690
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4de09ef76705c430800000000000000
+      internalID: 3802453603618188623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_49
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 690
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46452a18e5152db90800000000000000
+      internalID: -7218617786377808796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_50
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 674
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2c9df151478eee0800000000000000
+      internalID: -1231606864008330500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 674
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca48c9043dec2e280800000000000000
+      internalID: -9015416097324890964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_52
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 678
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084a26a316f666480800000000000000
+      internalID: -8906308749696523136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 678
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798e1817f834075c0800000000000000
+      internalID: -4219798567482431337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_54
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 678
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ebb8d8d206d2010800000000000000
+      internalID: 1165693627323367021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_55
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 667
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c1389e51bba19a0800000000000000
+      internalID: -6261486629118862301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_56
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 679
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7103dd9d974386e10800000000000000
+      internalID: 2191058916666585111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_57
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 678
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3679f001769327b0800000000000000
+      internalID: -5250187328492046788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_58
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 678
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286c85a3fe8558250800000000000000
+      internalID: 5946256667511932546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_59
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 678
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050680246033173e0800000000000000
+      internalID: -2057807452760940464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_60
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 678
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c75d6bd51fc8a40800000000000000
+      internalID: 5371933840347855978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_61
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 678
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6265075870e4f26b0800000000000000
+      internalID: -5318946840690797018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_62
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 678
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80c62348f101d7d0800000000000000
+      internalID: -2895530919632387956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_63
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 665
+        width: 111
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6b025f5056d6210800000000000000
+      internalID: 1327828541405968095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_64
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 644
+        width: 243
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4556eb359019ba6e0800000000000000
+      internalID: -1825205754722884268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_65
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 665
+        width: 111
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241579de4255d7680800000000000000
+      internalID: -8755748483445075646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_66
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 634
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6a9a0bebbc63330800000000000000
+      internalID: 3690360964544833240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_67
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 634
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43164106a5c27ebb0800000000000000
+      internalID: -4906904502326238924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_68
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 634
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0913d7849f405aa70800000000000000
+      internalID: 8837475312493998480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_69
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 634
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24424979124c5e150800000000000000
+      internalID: 5901338535294936130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_70
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 634
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e01ec8617742420800000000000000
+      internalID: 2604337423263534673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_71
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 365
+        width: 237
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f427b4db8472480800000000000000
+      internalID: -8924084158759547052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_72
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 634
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08452ee4e40882c10800000000000000
+      internalID: 2029012705949668480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_73
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 626
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae731f987a269080800000000000000
+      internalID: -9181104092794880352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_74
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 635
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56bfdb854f0ade30800000000000000
+      internalID: 4528949166648309338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_75
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 634
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a674a83560bd440800000000000000
+      internalID: 4961566370350721628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_76
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 634
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8198853833a01b6b0800000000000000
+      internalID: -5282429671565653736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_77
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 634
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08df0312a6418ba0800000000000000
+      internalID: -6088507559309748209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_78
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 635
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a77e47aad943220800000000000000
+      internalID: 2464768251509832200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_79
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 634
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b92dfc5538823a0800000000000000
+      internalID: -6689952841876726923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_80
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 634
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa5bbca01a097620800000000000000
+      internalID: 2772258112356965106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_81
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 625
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23cb0834eb116650800000000000000
+      internalID: 6224286827009524522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_82
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 626
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81f60ef0ae72ff40800000000000000
+      internalID: 5760806103282020747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_83
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 634
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cc442aa599c6fc0800000000000000
+      internalID: -3500254195825193880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_84
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 496
+        width: 385
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a51bbc541589320800000000000000
+      internalID: 2564889347999488539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_85
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 564
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296a7730cddfdb4e0800000000000000
+      internalID: -1964134741070862702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_86
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 571
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93eb96774cf776b50800000000000000
+      internalID: 6586373461846375993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_87
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 571
+        width: 229
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f30ab742e02665d0800000000000000
+      internalID: -3069729939768343564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_88
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 571
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af0b28f8109003c0800000000000000
+      internalID: -4395354799396417624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_89
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 565
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de37b57ec7cb9940800000000000000
+      internalID: 5304052675711024857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_90
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 364
+        width: 368
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6c6168175fa64b0800000000000000
+      internalID: -5446270931421444380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_91
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 280
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7424b8cbf7246b40800000000000000
+      internalID: 5432511012873184380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_92
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 280
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8185b6714391b1210800000000000000
+      internalID: 1304664228575795224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_93
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 280
+        width: 361
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a91b1b89ad478f60800000000000000
+      internalID: 8036477450644560293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_94
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 280
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314f1ac8d138733a0800000000000000
+      internalID: -6685730958871497709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_95
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 280
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198970ae6de9207c0800000000000000
+      internalID: -4106545264321914735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_96
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 280
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334e7933985886110800000000000000
+      internalID: 1254399320545289267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_97
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 207
+        width: 16
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8188e4894a1da360800000000000000
+      internalID: 7182425883790573965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_98
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 207
+        width: 156
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039edc6163a5363e0800000000000000
+      internalID: -2061705016048228048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_99
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 234
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a3d6518af06c7c0800000000000000
+      internalID: -4051533600184780255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_100
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 257
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09053e63d0e3f07e0800000000000000
+      internalID: -1797149499821174640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_101
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 234
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2e0c0575d8bb750800000000000000
+      internalID: 6321801908101112527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_102
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 234
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0725d6cde7d767290800000000000000
+      internalID: -7892983313102712208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 234
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1712eb3ca68756590800000000000000
+      internalID: -7681601189464628879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_104
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 234
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b45765db8302e20800000000000000
+      internalID: 3323718910849928073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_105
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 234
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e763bd19f18a990800000000000000
+      internalID: -7374609678510686628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 234
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dad33693d0019a0800000000000000
+      internalID: -6264492541543076489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_107
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 234
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cf64cdc1c07f420800000000000000
+      internalID: 2663611022707194903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_108
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 234
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2694ab4e433cf90800000000000000
+      internalID: -6934640844237872460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 233
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa44a303a47d83a10800000000000000
+      internalID: 1889496757318599850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_110
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 234
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97acc5cb44c2f650800000000000000
+      internalID: 6265285861345896346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_111
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 234
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be91a6a555ed09ad0800000000000000
+      internalID: -2697411718624437781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_112
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 233
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d455ff51e6bfde50800000000000000
+      internalID: 6836383838465512656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_113
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 225
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a316b3406b1ac140800000000000000
+      internalID: 4740631658027684774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_114
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 234
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e9accc08d533ef0800000000000000
+      internalID: -129657156490584526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_115
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 234
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a12aecce18a00930800000000000000
+      internalID: 4107467710402273702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_116
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 234
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0fd1bca0245c3c0800000000000000
+      internalID: -4339990051776761669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_117
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 234
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f33b40bf90844a0800000000000000
+      internalID: -6609021479445905663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_118
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 234
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2733bcc0d69fdd0800000000000000
+      internalID: -2451808620410342717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_119
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 239
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611c65c513aa2c3e0800000000000000
+      internalID: -2034876952638734058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_120
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 138
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74109e69618dab030800000000000000
+      internalID: 3511356451021455687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_121
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 143
+        width: 222
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447cbe94ae0e81460800000000000000
+      internalID: 7212762100101007172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_122
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 155
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4c1d4e290700040800000000000000
+      internalID: 4611809794633876717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_123
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 197
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0d3863c2a2464c0800000000000000
+      internalID: -4295261775223074610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_124
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 181
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8081c4f35b6c0d0800000000000000
+      internalID: -3402833184967620399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_125
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 187
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1fd59ef1908cd60800000000000000
+      internalID: 7910582778140160485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_126
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 114
+        width: 83
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd99c34e255e67460800000000000000
+      internalID: 7239225595223906781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_127
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 173
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d400026471d73a50800000000000000
+      internalID: 6500894884923180244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_128
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 57
+        width: 56
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47abb24ded8df6a20800000000000000
+      internalID: 3057901123561831028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_129
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 57
+        width: 156
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f654a10fcb9ca890800000000000000
+      internalID: -7445404770562189584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_130
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 142
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed67041198d03be90800000000000000
+      internalID: -7011245312534612258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_131
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 53
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb3a933aced0d380800000000000000
+      internalID: -8948407499554669582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_132
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 76
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc964af8fd90ea30800000000000000
+      internalID: 4242564541659389128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_133
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 52
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a59488ea60973b40800000000000000
+      internalID: 5419959465405617576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_134
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 76
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e035e8885fdfda0800000000000000
+      internalID: -5909297169188057472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_135
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 53
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6393210e962487740800000000000000
+      internalID: 5149939196396452150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_136
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 52
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb717746156922810800000000000000
+      internalID: 1739117682440476606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_137
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 53
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dec30cdac2c8b700800000000000000
+      internalID: 556408730510675672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_138
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 53
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145fb6342c1b92270800000000000000
+      internalID: 8226301642281841985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_139
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 85
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4905efb4eae33d8f0800000000000000
+      internalID: -517000613897285484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_140
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 56
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f07fb82c01bd2e0800000000000000
+      internalID: -2100066373480280262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_141
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 45
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7c333bae085ce90800000000000000
+      internalID: -7006051899787720767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_142
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 53
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a585b953d929a2e00800000000000000
+      internalID: 1020789469459732570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_143
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 53
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557a0143ebf1561f0800000000000000
+      internalID: -1052400036143388843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_144
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 53
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26291bb6d0c6c210800000000000000
+      internalID: 1352980766565934634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_145
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 53
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde509f74909fcc10800000000000000
+      internalID: 2076036920710815452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_146
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 53
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aae1960f5cbeaa00800000000000000
+      internalID: 769759702645074594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_147
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 53
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21047d97f21554700800000000000000
+      internalID: 523914196007993362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_148
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 53
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce61f222ce882170800000000000000
+      internalID: 8153924089815330500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_149
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 53
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc85d50a03dae8e40800000000000000
+      internalID: 5660652206011799755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 53
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e2ed6d041b15200800000000000000
+      internalID: 167109553230327367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_151
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 53
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ba0859545e9e3d0800000000000000
+      internalID: -3176755975109432513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_152
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 53
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569ad456a6399e490800000000000000
+      internalID: -7716474401347229339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Khung_153
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 53
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74e33470edb831b0800000000000000
+      internalID: -5676578558580628355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Khung_0: 8589706249212057990
+      Khung_1: -4428524630337728602
+      Khung_10: 5123797096062473435
+      Khung_100: -1797149499821174640
+      Khung_101: 6321801908101112527
+      Khung_102: -7892983313102712208
+      Khung_103: -7681601189464628879
+      Khung_104: 3323718910849928073
+      Khung_105: -7374609678510686628
+      Khung_106: -6264492541543076489
+      Khung_107: 2663611022707194903
+      Khung_108: -6934640844237872460
+      Khung_109: 1889496757318599850
+      Khung_11: -4399553490298959423
+      Khung_110: 6265285861345896346
+      Khung_111: -2697411718624437781
+      Khung_112: 6836383838465512656
+      Khung_113: 4740631658027684774
+      Khung_114: -129657156490584526
+      Khung_115: 4107467710402273702
+      Khung_116: -4339990051776761669
+      Khung_117: -6609021479445905663
+      Khung_118: -2451808620410342717
+      Khung_119: -2034876952638734058
+      Khung_12: -3710577831137402259
+      Khung_120: 3511356451021455687
+      Khung_121: 7212762100101007172
+      Khung_122: 4611809794633876717
+      Khung_123: -4295261775223074610
+      Khung_124: -3402833184967620399
+      Khung_125: 7910582778140160485
+      Khung_126: 7239225595223906781
+      Khung_127: 6500894884923180244
+      Khung_128: 3057901123561831028
+      Khung_129: -7445404770562189584
+      Khung_13: -7441271188995143221
+      Khung_130: -7011245312534612258
+      Khung_131: -8948407499554669582
+      Khung_132: 4242564541659389128
+      Khung_133: 5419959465405617576
+      Khung_134: -5909297169188057472
+      Khung_135: 5149939196396452150
+      Khung_136: 1739117682440476606
+      Khung_137: 556408730510675672
+      Khung_138: 8226301642281841985
+      Khung_139: -517000613897285484
+      Khung_14: 4202366413809070903
+      Khung_140: -2100066373480280262
+      Khung_141: -7006051899787720767
+      Khung_142: 1020789469459732570
+      Khung_143: -1052400036143388843
+      Khung_144: 1352980766565934634
+      Khung_145: 2076036920710815452
+      Khung_146: 769759702645074594
+      Khung_147: 523914196007993362
+      Khung_148: 8153924089815330500
+      Khung_149: 5660652206011799755
+      Khung_15: -4179118621742542365
+      Khung_150: 167109553230327367
+      Khung_151: -3176755975109432513
+      Khung_152: -7716474401347229339
+      Khung_153: -5676578558580628355
+      Khung_16: 5023244335427776233
+      Khung_17: 1010262931968151821
+      Khung_18: 1672602430274116011
+      Khung_19: -8925319672889479907
+      Khung_2: -3632771431425995634
+      Khung_20: -2581624242859677992
+      Khung_21: 1576720549401146039
+      Khung_22: 4100931302713314658
+      Khung_23: 4665337209893173680
+      Khung_24: 6678401753794975086
+      Khung_25: 5605508670790135879
+      Khung_26: 8897241389756965603
+      Khung_27: -1557866013915732004
+      Khung_28: 6582163766018277823
+      Khung_29: 1742570345603324367
+      Khung_3: 8851487623492929785
+      Khung_30: -7274583229986735559
+      Khung_31: 3481685790617010109
+      Khung_32: 3726628453193999441
+      Khung_33: 2597845634345742137
+      Khung_34: 7431295839047720349
+      Khung_35: -317369399274760345
+      Khung_36: -6023466006084354429
+      Khung_37: 2977426561090144109
+      Khung_38: 6117750806869429775
+      Khung_39: 9182002581023405850
+      Khung_4: -3865213258201919036
+      Khung_40: 5452125387090326191
+      Khung_41: -603568973031060491
+      Khung_42: 1913581392224652714
+      Khung_43: 2754009128307085064
+      Khung_44: -5460792709479260663
+      Khung_45: -7863857983097695238
+      Khung_46: 3602237994643133912
+      Khung_47: -4414085103740237053
+      Khung_48: 3802453603618188623
+      Khung_49: -7218617786377808796
+      Khung_5: -6690862622471873550
+      Khung_50: -1231606864008330500
+      Khung_51: -9015416097324890964
+      Khung_52: -8906308749696523136
+      Khung_53: -4219798567482431337
+      Khung_54: 1165693627323367021
+      Khung_55: -6261486629118862301
+      Khung_56: 2191058916666585111
+      Khung_57: -5250187328492046788
+      Khung_58: 5946256667511932546
+      Khung_59: -2057807452760940464
+      Khung_6: 4590141217316167564
+      Khung_60: 5371933840347855978
+      Khung_61: -5318946840690797018
+      Khung_62: -2895530919632387956
+      Khung_63: 1327828541405968095
+      Khung_64: -1825205754722884268
+      Khung_65: -8755748483445075646
+      Khung_66: 3690360964544833240
+      Khung_67: -4906904502326238924
+      Khung_68: 8837475312493998480
+      Khung_69: 5901338535294936130
+      Khung_7: -7240291223174578963
+      Khung_70: 2604337423263534673
+      Khung_71: -8924084158759547052
+      Khung_72: 2029012705949668480
+      Khung_73: -9181104092794880352
+      Khung_74: 4528949166648309338
+      Khung_75: 4961566370350721628
+      Khung_76: -5282429671565653736
+      Khung_77: -6088507559309748209
+      Khung_78: 2464768251509832200
+      Khung_79: -6689952841876726923
+      Khung_8: 1457167417208019558
+      Khung_80: 2772258112356965106
+      Khung_81: 6224286827009524522
+      Khung_82: 5760806103282020747
+      Khung_83: -3500254195825193880
+      Khung_84: 2564889347999488539
+      Khung_85: -1964134741070862702
+      Khung_86: 6586373461846375993
+      Khung_87: -3069729939768343564
+      Khung_88: -4395354799396417624
+      Khung_89: 5304052675711024857
+      Khung_9: 8767887290433829628
+      Khung_90: -5446270931421444380
+      Khung_91: 5432511012873184380
+      Khung_92: 1304664228575795224
+      Khung_93: 8036477450644560293
+      Khung_94: -6685730958871497709
+      Khung_95: -4106545264321914735
+      Khung_96: 1254399320545289267
+      Khung_97: 7182425883790573965
+      Khung_98: -2061705016048228048
+      Khung_99: -4051533600184780255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

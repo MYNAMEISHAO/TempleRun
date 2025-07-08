@@ -1,0 +1,6500 @@
+fileFormatVersion: 2
+guid: 1b919a6d51508044088700324f44b150
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2664737270725666667
+    second: GUITempleRun_0
+  - first:
+      213: 4857095969030751980
+    second: GUITempleRun_1
+  - first:
+      213: -6306034524683972264
+    second: GUITempleRun_2
+  - first:
+      213: -959793919545729232
+    second: GUITempleRun_3
+  - first:
+      213: -4514102374640645097
+    second: GUITempleRun_4
+  - first:
+      213: 2948797743868798539
+    second: GUITempleRun_5
+  - first:
+      213: 6668096610936739447
+    second: GUITempleRun_6
+  - first:
+      213: 960770164160652103
+    second: GUITempleRun_7
+  - first:
+      213: -8290049147085433697
+    second: GUITempleRun_8
+  - first:
+      213: -3518812263631294607
+    second: GUITempleRun_9
+  - first:
+      213: 1070998196500972795
+    second: GUITempleRun_10
+  - first:
+      213: -1278111713522151577
+    second: GUITempleRun_11
+  - first:
+      213: -3244913419154512753
+    second: GUITempleRun_12
+  - first:
+      213: 4923073888468848447
+    second: GUITempleRun_13
+  - first:
+      213: 7605984851593557611
+    second: GUITempleRun_14
+  - first:
+      213: -2455671469174171521
+    second: GUITempleRun_15
+  - first:
+      213: -3649775812958581714
+    second: GUITempleRun_16
+  - first:
+      213: 8844602079717448370
+    second: GUITempleRun_17
+  - first:
+      213: 3316354953235715333
+    second: GUITempleRun_18
+  - first:
+      213: -2677899115748493534
+    second: GUITempleRun_19
+  - first:
+      213: 7124289931043974218
+    second: GUITempleRun_20
+  - first:
+      213: 4166288432599698118
+    second: GUITempleRun_21
+  - first:
+      213: -15348521024383056
+    second: GUITempleRun_22
+  - first:
+      213: -2517931782295525219
+    second: GUITempleRun_23
+  - first:
+      213: -3724072942874077048
+    second: GUITempleRun_24
+  - first:
+      213: -1601180598870670452
+    second: GUITempleRun_25
+  - first:
+      213: -7599547287728932050
+    second: GUITempleRun_26
+  - first:
+      213: -7561188448897622241
+    second: GUITempleRun_27
+  - first:
+      213: 5860314320793550882
+    second: GUITempleRun_28
+  - first:
+      213: 653418229638526579
+    second: GUITempleRun_29
+  - first:
+      213: 6655314330604928661
+    second: GUITempleRun_30
+  - first:
+      213: -1803853356475191484
+    second: GUITempleRun_31
+  - first:
+      213: -475530387764409753
+    second: GUITempleRun_32
+  - first:
+      213: -2109391991495382531
+    second: GUITempleRun_33
+  - first:
+      213: 5881584955519380636
+    second: GUITempleRun_34
+  - first:
+      213: 4310314400108996801
+    second: GUITempleRun_35
+  - first:
+      213: 8037961474011353260
+    second: GUITempleRun_36
+  - first:
+      213: -4162707834134762942
+    second: GUITempleRun_37
+  - first:
+      213: -3425241361492187595
+    second: GUITempleRun_38
+  - first:
+      213: -4268220091413153954
+    second: GUITempleRun_39
+  - first:
+      213: -8191123022192178347
+    second: GUITempleRun_40
+  - first:
+      213: -5637006366517600528
+    second: GUITempleRun_41
+  - first:
+      213: -5903428195772775290
+    second: GUITempleRun_42
+  - first:
+      213: -2910681231332352909
+    second: GUITempleRun_43
+  - first:
+      213: 7769186580422413684
+    second: GUITempleRun_44
+  - first:
+      213: -3670573267345365793
+    second: GUITempleRun_45
+  - first:
+      213: 4945341517678692040
+    second: GUITempleRun_46
+  - first:
+      213: 3237445431247080152
+    second: GUITempleRun_47
+  - first:
+      213: -8795074517283375728
+    second: GUITempleRun_48
+  - first:
+      213: 4762752604805325809
+    second: GUITempleRun_49
+  - first:
+      213: 7736299157413005141
+    second: GUITempleRun_50
+  - first:
+      213: -7236890294156197288
+    second: GUITempleRun_51
+  - first:
+      213: -535133227627908307
+    second: GUITempleRun_52
+  - first:
+      213: 2268709038107787002
+    second: GUITempleRun_53
+  - first:
+      213: -5251010003642944572
+    second: GUITempleRun_54
+  - first:
+      213: -6565883517314076680
+    second: GUITempleRun_55
+  - first:
+      213: 5809964738877652779
+    second: GUITempleRun_56
+  - first:
+      213: -4405524973572399602
+    second: GUITempleRun_57
+  - first:
+      213: -399467291216512531
+    second: GUITempleRun_58
+  - first:
+      213: 7791425625852788584
+    second: GUITempleRun_59
+  - first:
+      213: 7609307234150821786
+    second: GUITempleRun_60
+  - first:
+      213: 8142436570252577411
+    second: GUITempleRun_61
+  - first:
+      213: -5795253230243261790
+    second: GUITempleRun_62
+  - first:
+      213: -5833378685167509875
+    second: GUITempleRun_63
+  - first:
+      213: 7552478624718414743
+    second: GUITempleRun_64
+  - first:
+      213: -4641711507540671474
+    second: GUITempleRun_65
+  - first:
+      213: -7635998665665146421
+    second: GUITempleRun_66
+  - first:
+      213: -405680345989578137
+    second: GUITempleRun_67
+  - first:
+      213: -7629426206267852837
+    second: GUITempleRun_68
+  - first:
+      213: -3657199011777870224
+    second: GUITempleRun_69
+  - first:
+      213: -1077281954346642859
+    second: GUITempleRun_70
+  - first:
+      213: 6542838567771097128
+    second: GUITempleRun_71
+  - first:
+      213: -2509981681304376945
+    second: GUITempleRun_72
+  - first:
+      213: -3231556834889779946
+    second: GUITempleRun_73
+  - first:
+      213: -9146923559272145299
+    second: GUITempleRun_74
+  - first:
+      213: 3952238366988953867
+    second: GUITempleRun_75
+  - first:
+      213: -4139329714033973305
+    second: GUITempleRun_76
+  - first:
+      213: -8164617496973427508
+    second: GUITempleRun_77
+  - first:
+      213: 27820257279043519
+    second: GUITempleRun_78
+  - first:
+      213: -4123064722200351370
+    second: GUITempleRun_79
+  - first:
+      213: 4862057271597499777
+    second: GUITempleRun_80
+  - first:
+      213: -1281661439700425239
+    second: GUITempleRun_81
+  - first:
+      213: -8591796002720999914
+    second: GUITempleRun_82
+  - first:
+      213: 2803086972714730307
+    second: GUITempleRun_83
+  - first:
+      213: -3825735665732352923
+    second: GUITempleRun_84
+  - first:
+      213: 4522449792662603214
+    second: GUITempleRun_85
+  - first:
+      213: -7968990553874412823
+    second: GUITempleRun_86
+  - first:
+      213: 7333326860505853863
+    second: GUITempleRun_87
+  - first:
+      213: 3640128555748106777
+    second: GUITempleRun_88
+  - first:
+      213: -7296379306312319778
+    second: GUITempleRun_89
+  - first:
+      213: -6567139834461034174
+    second: GUITempleRun_90
+  - first:
+      213: -1465974089218290798
+    second: GUITempleRun_91
+  - first:
+      213: -5985281666784371172
+    second: GUITempleRun_92
+  - first:
+      213: -789544912814237840
+    second: GUITempleRun_93
+  - first:
+      213: 3983374792116010519
+    second: GUITempleRun_94
+  - first:
+      213: 8010452125672298835
+    second: GUITempleRun_95
+  - first:
+      213: -1623371975871197398
+    second: GUITempleRun_96
+  - first:
+      213: -215823966992272405
+    second: GUITempleRun_97
+  - first:
+      213: -1670516192282868934
+    second: GUITempleRun_98
+  - first:
+      213: -1250146528642700882
+    second: GUITempleRun_99
+  - first:
+      213: -5970759502444381815
+    second: GUITempleRun_100
+  - first:
+      213: -4486497759296776415
+    second: GUITempleRun_101
+  - first:
+      213: -753960713560814125
+    second: GUITempleRun_102
+  - first:
+      213: 6951697005476541639
+    second: GUITempleRun_103
+  - first:
+      213: -6124903660535285274
+    second: GUITempleRun_104
+  - first:
+      213: -3611093498123511306
+    second: GUITempleRun_105
+  - first:
+      213: -4247298858669460993
+    second: GUITempleRun_106
+  - first:
+      213: -3529897755069631150
+    second: GUITempleRun_107
+  - first:
+      213: -4746904202064276720
+    second: GUITempleRun_108
+  - first:
+      213: 880255284095967219
+    second: GUITempleRun_109
+  - first:
+      213: 8698785160121445459
+    second: GUITempleRun_110
+  - first:
+      213: -2780255369414936220
+    second: GUITempleRun_111
+  - first:
+      213: -2797873586671540326
+    second: GUITempleRun_112
+  - first:
+      213: 8395391860242814599
+    second: GUITempleRun_113
+  - first:
+      213: -7722496281720030911
+    second: GUITempleRun_114
+  - first:
+      213: 9186172720651606326
+    second: GUITempleRun_115
+  - first:
+      213: -603097013264886826
+    second: GUITempleRun_116
+  - first:
+      213: -2490574527497378390
+    second: GUITempleRun_117
+  - first:
+      213: -3253113528376933637
+    second: GUITempleRun_118
+  - first:
+      213: 5270623445079540108
+    second: GUITempleRun_119
+  - first:
+      213: -1174150960623458251
+    second: GUITempleRun_120
+  - first:
+      213: 5651240071990295178
+    second: GUITempleRun_121
+  - first:
+      213: -2700655969628302240
+    second: GUITempleRun_122
+  - first:
+      213: -5841693475993769417
+    second: GUITempleRun_123
+  - first:
+      213: -6325883860703478666
+    second: GUITempleRun_124
+  - first:
+      213: -7147704857049008951
+    second: GUITempleRun_125
+  - first:
+      213: 3680574015315707690
+    second: GUITempleRun_126
+  - first:
+      213: -4101680712611501947
+    second: GUITempleRun_127
+  - first:
+      213: -7513163368503750365
+    second: GUITempleRun_128
+  - first:
+      213: 747205861320381072
+    second: GUITempleRun_129
+  - first:
+      213: -4274876702966900251
+    second: GUITempleRun_130
+  - first:
+      213: 7584888984840137166
+    second: GUITempleRun_131
+  - first:
+      213: 2168286367466015883
+    second: GUITempleRun_132
+  - first:
+      213: -5712322658210887483
+    second: GUITempleRun_133
+  - first:
+      213: 1601096868776449098
+    second: GUITempleRun_134
+  - first:
+      213: 7032812809487263865
+    second: GUITempleRun_135
+  - first:
+      213: 645609500114698586
+    second: GUITempleRun_136
+  - first:
+      213: 1539019494860835669
+    second: GUITempleRun_137
+  - first:
+      213: 3543123107529307783
+    second: GUITempleRun_138
+  - first:
+      213: -5481117049813707342
+    second: GUITempleRun_139
+  - first:
+      213: -8654187988263555428
+    second: GUITempleRun_140
+  - first:
+      213: -8433244079547107891
+    second: GUITempleRun_141
+  - first:
+      213: -6577596496436027566
+    second: GUITempleRun_142
+  - first:
+      213: -4642085488123862442
+    second: GUITempleRun_143
+  - first:
+      213: -5461067339281582661
+    second: GUITempleRun_144
+  - first:
+      213: 3391940543989676854
+    second: GUITempleRun_145
+  - first:
+      213: 2040064693362369447
+    second: GUITempleRun_146
+  - first:
+      213: 6185626959349950016
+    second: GUITempleRun_147
+  - first:
+      213: -3791633488826262169
+    second: GUITempleRun_148
+  - first:
+      213: -6959969046207045033
+    second: GUITempleRun_149
+  - first:
+      213: 2830181318163982055
+    second: GUITempleRun_150
+  - first:
+      213: 4530210808677202504
+    second: GUITempleRun_151
+  - first:
+      213: -4482942060858988321
+    second: GUITempleRun_152
+  - first:
+      213: -6134651648758004407
+    second: GUITempleRun_153
+  - first:
+      213: -2501092472326647965
+    second: GUITempleRun_154
+  - first:
+      213: -4195639129002652327
+    second: GUITempleRun_155
+  - first:
+      213: 6905732898542238985
+    second: GUITempleRun_156
+  - first:
+      213: -3298571103951161285
+    second: GUITempleRun_157
+  - first:
+      213: -1337061079448738851
+    second: GUITempleRun_158
+  - first:
+      213: -9022011597238955607
+    second: GUITempleRun_159
+  - first:
+      213: 2100409252652680638
+    second: GUITempleRun_160
+  - first:
+      213: 63108438789279874
+    second: GUITempleRun_161
+  - first:
+      213: 43045139776372892
+    second: GUITempleRun_162
+  - first:
+      213: 1136297599200014038
+    second: GUITempleRun_163
+  - first:
+      213: -8207026432865376439
+    second: GUITempleRun_164
+  - first:
+      213: 2570922795770635184
+    second: GUITempleRun_165
+  - first:
+      213: 130776057808061854
+    second: GUITempleRun_166
+  - first:
+      213: -4087192809775982999
+    second: GUITempleRun_167
+  - first:
+      213: -7707648731086951487
+    second: GUITempleRun_168
+  - first:
+      213: 1729975436103690368
+    second: GUITempleRun_169
+  - first:
+      213: 1717459506341109695
+    second: GUITempleRun_170
+  - first:
+      213: -8663878128749643801
+    second: GUITempleRun_171
+  - first:
+      213: -7293639467231915083
+    second: GUITempleRun_172
+  - first:
+      213: -7177462574270579644
+    second: GUITempleRun_173
+  - first:
+      213: 8443199372251509203
+    second: GUITempleRun_174
+  - first:
+      213: 4492727193101390380
+    second: GUITempleRun_175
+  - first:
+      213: -1049826349058406177
+    second: GUITempleRun_176
+  - first:
+      213: 8000927736186579021
+    second: GUITempleRun_177
+  - first:
+      213: 7400976722831622202
+    second: GUITempleRun_178
+  - first:
+      213: -5616486437735038627
+    second: GUITempleRun_179
+  - first:
+      213: 4813587113170664658
+    second: GUITempleRun_180
+  - first:
+      213: 7546051773736229209
+    second: GUITempleRun_181
+  - first:
+      213: 7827924491228757173
+    second: GUITempleRun_182
+  - first:
+      213: 2487871078527986392
+    second: GUITempleRun_183
+  - first:
+      213: -1958484260434272690
+    second: GUITempleRun_184
+  - first:
+      213: 6476224036219898961
+    second: GUITempleRun_185
+  - first:
+      213: 1210653067046657400
+    second: GUITempleRun_186
+  - first:
+      213: 1176678373669143005
+    second: GUITempleRun_187
+  - first:
+      213: -2318135190409493510
+    second: GUITempleRun_188
+  - first:
+      213: 8347284339059712450
+    second: GUITempleRun_189
+  - first:
+      213: -3816937838297591512
+    second: GUITempleRun_190
+  - first:
+      213: 6122289161412681718
+    second: GUITempleRun_191
+  - first:
+      213: -368398717067413315
+    second: GUITempleRun_192
+  - first:
+      213: -4883730447857691898
+    second: GUITempleRun_193
+  - first:
+      213: -5261955817214543844
+    second: GUITempleRun_194
+  - first:
+      213: 5029290340684703975
+    second: GUITempleRun_195
+  - first:
+      213: -1878862183923744331
+    second: GUITempleRun_196
+  - first:
+      213: -2462789558041875141
+    second: GUITempleRun_197
+  - first:
+      213: -122806827079812206
+    second: GUITempleRun_198
+  - first:
+      213: -3412403155455523828
+    second: GUITempleRun_199
+  - first:
+      213: -830940381404677231
+    second: GUITempleRun_200
+  - first:
+      213: 5211956282335149443
+    second: GUITempleRun_201
+  - first:
+      213: 7404912705830147547
+    second: GUITempleRun_202
+  - first:
+      213: -4461420076197188988
+    second: GUITempleRun_203
+  - first:
+      213: 5370411790110058365
+    second: GUITempleRun_204
+  - first:
+      213: 8542157036430077615
+    second: GUITempleRun_205
+  - first:
+      213: -8379316002256839881
+    second: GUITempleRun_206
+  - first:
+      213: -1236916238217782220
+    second: GUITempleRun_207
+  - first:
+      213: 4200434088977826541
+    second: GUITempleRun_208
+  - first:
+      213: -193234033820226271
+    second: GUITempleRun_209
+  - first:
+      213: -3126755359088237466
+    second: GUITempleRun_210
+  - first:
+      213: 719459514513715079
+    second: GUITempleRun_211
+  - first:
+      213: 9178219969438310553
+    second: GUITempleRun_212
+  - first:
+      213: -6407890140954944529
+    second: GUITempleRun_213
+  - first:
+      213: -4125762273382086007
+    second: GUITempleRun_214
+  - first:
+      213: 7631656645549660240
+    second: GUITempleRun_215
+  - first:
+      213: 7920940845311850187
+    second: GUITempleRun_216
+  - first:
+      213: 4504928532688593602
+    second: GUITempleRun_217
+  - first:
+      213: 4235128351839360678
+    second: GUITempleRun_218
+  - first:
+      213: 8361345051870066533
+    second: GUITempleRun_219
+  - first:
+      213: -1122802578330236797
+    second: GUITempleRun_220
+  - first:
+      213: 6250003317574934896
+    second: GUITempleRun_221
+  - first:
+      213: 712882639237113796
+    second: GUITempleRun_222
+  - first:
+      213: -239360700623629237
+    second: GUITempleRun_223
+  - first:
+      213: 9109966183054154495
+    second: GUITempleRun_224
+  - first:
+      213: 6035607982581854483
+    second: GUITempleRun_225
+  - first:
+      213: -8780776691766015268
+    second: GUITempleRun_226
+  - first:
+      213: 8250957778689551409
+    second: GUITempleRun_227
+  - first:
+      213: 8949903954862287142
+    second: GUITempleRun_228
+  - first:
+      213: -6814507189039548680
+    second: GUITempleRun_229
+  - first:
+      213: 8461140480812257324
+    second: GUITempleRun_230
+  - first:
+      213: -4997935762663220191
+    second: GUITempleRun_231
+  - first:
+      213: 7154151638542161475
+    second: GUITempleRun_232
+  - first:
+      213: -6194213975889883525
+    second: GUITempleRun_233
+  - first:
+      213: 2746616754829625177
+    second: GUITempleRun_234
+  - first:
+      213: 740695456792429237
+    second: GUITempleRun_235
+  - first:
+      213: 2275133435365471608
+    second: GUITempleRun_236
+  - first:
+      213: 6262706671516480976
+    second: GUITempleRun_237
+  - first:
+      213: -2586410730938326714
+    second: GUITempleRun_238
+  - first:
+      213: -8689967495614929182
+    second: GUITempleRun_239
+  - first:
+      213: 8303027652693270808
+    second: GUITempleRun_240
+  - first:
+      213: -6733380209061775474
+    second: GUITempleRun_241
+  - first:
+      213: 3859088092513445225
+    second: GUITempleRun_242
+  - first:
+      213: 6693607454718731857
+    second: GUITempleRun_243
+  - first:
+      213: -4413276467499452737
+    second: GUITempleRun_244
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GUITempleRun_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 857
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67e859ed6c0bf420800000000000000
+      internalID: 2664737270725666667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 965
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce64f02cc0fd76340800000000000000
+      internalID: 4857095969030751980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 857
+        width: 78
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851dcd6b2077c78a0800000000000000
+      internalID: -6306034524683972264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 857
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f95efe3802ea2f0800000000000000
+      internalID: -959793919545729232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_4
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 965
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c0cc79ecfaa51c0800000000000000
+      internalID: -4514102374640645097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 857
+        width: 84
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46e5c5bceb3ce820800000000000000
+      internalID: 2948797743868798539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_6
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 965
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776deded986d98c50800000000000000
+      internalID: 6668096610936739447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 857
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743e699bf57555d00800000000000000
+      internalID: 960770164160652103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 965
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9451792934d3fc80800000000000000
+      internalID: -8290049147085433697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 965
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fe7f2c3eaaa2fc0800000000000000
+      internalID: -3518812263631294607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 912
+        width: 75
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf446817f23fcde00800000000000000
+      internalID: 1070998196500972795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_11
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 866
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f0f341b2c334ee0800000000000000
+      internalID: -1278111713522151577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_12
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 883
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84a5640070c7f2d0800000000000000
+      internalID: -3244913419154512753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_13
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 866
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fcf253e95425440800000000000000
+      internalID: 4923073888468848447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 838
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b667c3e9ce2ed8960800000000000000
+      internalID: 7605984851593557611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 839
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78dfca3fc3bbedd0800000000000000
+      internalID: -2455671469174171521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 766
+        width: 108
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c8ac64c34695dc0800000000000000
+      internalID: -3649775812958581714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 839
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba5d351bb65eba70800000000000000
+      internalID: 8844602079717448370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_18
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 766
+        width: 91
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505d8b8524f060e20800000000000000
+      internalID: 3316354953235715333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_19
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 765
+        width: 190
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2277a7d31f036dad0800000000000000
+      internalID: -2677899115748493534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_20
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 840
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ca4c832ff8ed260800000000000000
+      internalID: 7124289931043974218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_21
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 839
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca8ce86141a1d930800000000000000
+      internalID: 4166288432599698118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 841
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b79388f99879cff0800000000000000
+      internalID: -15348521024383056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_23
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 814
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98eb9372628e0dd0800000000000000
+      internalID: -2517931782295525219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 823
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888d852b36f615cc0800000000000000
+      internalID: -3724072942874077048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 814
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83011f8ab677c9e0800000000000000
+      internalID: -1601180598870670452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_26
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 827
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b3225810cf88690800000000000000
+      internalID: -7599547287728932050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_27
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 827
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f9ba7aa23411790800000000000000
+      internalID: -7561188448897622241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 766
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220c80353d4045150800000000000000
+      internalID: 5860314320793550882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 780
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3767e5bfa68611900800000000000000
+      internalID: 653418229638526579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 766
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ef5405f1d6c5c50800000000000000
+      internalID: 6655314330604928661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 800
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f6664fdec67f6e0800000000000000
+      internalID: -1803853356475191484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 777
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a066db1a39669f0800000000000000
+      internalID: -475530387764409753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 777
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92dd6e82fe9b2e0800000000000000
+      internalID: -2109391991495382531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_34
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 777
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ca306ea569f9150800000000000000
+      internalID: 5881584955519380636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 765
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c86fb02c1051db30800000000000000
+      internalID: 4310314400108996801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 765
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0d8b8af539c8f60800000000000000
+      internalID: 8037961474011353260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_37
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 765
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a69a2a7471b36c0800000000000000
+      internalID: -4162707834134762942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_38
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 765
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536684221291770d0800000000000000
+      internalID: -3425241361492187595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_39
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 690
+        width: 272
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57322cd07c34c4c0800000000000000
+      internalID: -4268220091413153954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_40
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 704
+        width: 293
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b06be7209435e80800000000000000
+      internalID: -8191123022192178347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 653
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe5a17639455c1b0800000000000000
+      internalID: -5637006366517600528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_42
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 654
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68440f9655fc21ea0800000000000000
+      internalID: -5903428195772775290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cd90077de2b97d0800000000000000
+      internalID: -2910681231332352909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 654
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d4fcf2802b1db60800000000000000
+      internalID: 7769186580422413684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_45
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 653
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4a5d59f018f0dc0800000000000000
+      internalID: -3670573267345365793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 654
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6ca36a8e161a440800000000000000
+      internalID: 4945341517678692040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 638
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da813d8777bdec20800000000000000
+      internalID: 3237445431247080152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_48
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095fb38235e91f580800000000000000
+      internalID: -8795074517283375728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_49
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 648
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3ec7a8242b81240800000000000000
+      internalID: 4762752604805325809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_50
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 639
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55781c1581bdc5b60800000000000000
+      internalID: 7736299157413005141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_51
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8520952ce96619b90800000000000000
+      internalID: -7236890294156197288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_52
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 654
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23fabb2a23d298f0800000000000000
+      internalID: -535133227627908307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_53
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 654
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afef12b99d21c7f10800000000000000
+      internalID: 2268709038107787002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_54
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 654
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3f6d4093aa027b0800000000000000
+      internalID: -5251010003642944572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_55
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 654
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffe6e18abb41e4a0800000000000000
+      internalID: -6565883517314076680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_56
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 654
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ff852c52421a050800000000000000
+      internalID: 5809964738877652779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_57
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 654
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0eda15c06e6cd2c0800000000000000
+      internalID: -4405524973572399602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_58
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 638
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9f6a77d9ec47af0800000000000000
+      internalID: -399467291216512531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_59
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 654
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fb4d27354b02c60800000000000000
+      internalID: 7791425625852788584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_60
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 653
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fae561d90b99960800000000000000
+      internalID: 7609307234150821786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_61
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 654
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a0e009beebff070800000000000000
+      internalID: 8142436570252577411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_62
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a25ae344ef139fa0800000000000000
+      internalID: -5795253230243261790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_63
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 654
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e514e0efcab0fa0800000000000000
+      internalID: -5833378685167509875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_64
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 654
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79362106b4bcfc860800000000000000
+      internalID: 7552478624718414743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_65
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 648
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04023b0af3559fb0800000000000000
+      internalID: -4641711507540671474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_66
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc11cabbbab770690800000000000000
+      internalID: -7635998665665146421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_67
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 653
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7620fecefdbbe5af0800000000000000
+      internalID: -405680345989578137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_68
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7395fa945de1690800000000000000
+      internalID: -7629426206267852837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_69
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 635
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076021e10e40f3dc0800000000000000
+      internalID: -3657199011777870224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_70
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 654
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552da3c25c9bc01f0800000000000000
+      internalID: -1077281954346642859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_71
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 654
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828c8be0305dcca50800000000000000
+      internalID: 6542838567771097128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_72
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 654
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f896d1595f0ca2dd0800000000000000
+      internalID: -2509981681304376945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_73
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 654
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615b8e02e243723d0800000000000000
+      internalID: -3231556834889779946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_74
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 654
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9eed3c799f0180800000000000000
+      internalID: -9146923559272145299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 654
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09eb0cdadb29d630800000000000000
+      internalID: 3952238366988953867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_76
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 640
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c729c26e852e86c0800000000000000
+      internalID: -4139329714033973305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_77
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 635
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccb5fdf4a371be80800000000000000
+      internalID: -8164617496973427508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_78
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 640
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb76da86066d26000800000000000000
+      internalID: 27820257279043519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_79
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 566
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dad47ea7ee7c6c0800000000000000
+      internalID: -4123064722200351370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_80
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 640
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1858c27045f797340800000000000000
+      internalID: 4862057271597499777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_81
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 640
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5275c06bf963ee0800000000000000
+      internalID: -1281661439700425239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_82
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 640
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616913b8e0fc3c880800000000000000
+      internalID: -8591796002720999914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_83
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 580
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343cf2310c096e620800000000000000
+      internalID: 2803086972714730307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_84
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 566
+        width: 235
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5640b7f7ea148eac0800000000000000
+      internalID: -3825735665732352923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_85
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 617
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5813e1028f2ce30800000000000000
+      internalID: 4522449792662603214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_86
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 600
+        width: 169
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea4fd11055786190800000000000000
+      internalID: -7968990553874412823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_87
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 627
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af284e0de535c560800000000000000
+      internalID: 7333326860505853863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_88
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 627
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9122f1e92a5548230800000000000000
+      internalID: 3640128555748106777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_89
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 600
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc3eb4cdad0eba90800000000000000
+      internalID: -7296379306312319778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_90
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 566
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249e1a06d15dcd4a0800000000000000
+      internalID: -6567139834461034174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_91
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 566
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b873a3550d7abe0800000000000000
+      internalID: -1465974089218290798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_92
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 592
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ed8a2190200fca0800000000000000
+      internalID: -5985281666784371172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_93
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 577
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0779d71c519fa05f0800000000000000
+      internalID: -789544912814237840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_94
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 577
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ef153c44ac74730800000000000000
+      internalID: 3983374792116010519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_95
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 577
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35958f064c7da2f60800000000000000
+      internalID: 8010452125672298835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_96
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 577
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f8fd7f9cf9879e0800000000000000
+      internalID: -1623371975871197398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_97
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 583
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3f869de3d310df0800000000000000
+      internalID: -215823966992272405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_98
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 583
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a330177bf5221d8e0800000000000000
+      internalID: -1670516192282868934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_99
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 577
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea960131b5696aee0800000000000000
+      internalID: -1250146528642700882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_100
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 565
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989b381fdd9932da0800000000000000
+      internalID: -5970759502444381815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_101
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 565
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1279783fe02ccb1c0800000000000000
+      internalID: -4486497759296776415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_102
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 565
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd8b95c9b46985f0800000000000000
+      internalID: -753960713560814125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_103
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 565
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c473954893697060800000000000000
+      internalID: 6951697005476541639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_104
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 565
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9fd466298fffaa0800000000000000
+      internalID: -6124903660535285274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_105
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 565
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f910a98891d2edc0800000000000000
+      internalID: -3611093498123511306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_106
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 490
+        width: 208
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1b512f0309e05c0800000000000000
+      internalID: -4247298858669460993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 495
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25530a7a1b8430fc0800000000000000
+      internalID: -3529897755069631150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_108
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 499
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013562547cb9f1eb0800000000000000
+      internalID: -4746904202064276720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_109
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 495
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff5330648b473c00800000000000000
+      internalID: 880255284095967219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_110
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 523
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c6a76d30b48b870800000000000000
+      internalID: 8698785160121445459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_111
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 523
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4697621d87c8a69d0800000000000000
+      internalID: -2780255369414936220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_112
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 520
+        width: 53
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97aef3fbc4fb29d0800000000000000
+      internalID: -2797873586671540326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_113
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 479
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7869afb8a6c628470800000000000000
+      internalID: 8395391860242814599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_114
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 523
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1497dcc1c8e24d490800000000000000
+      internalID: -7722496281720030911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_115
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 262
+        width: 18
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63992d34b67db7f70800000000000000
+      internalID: 9186172720651606326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_116
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 510
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d35f37367e51a7f0800000000000000
+      internalID: -603097013264886826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_117
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 366
+        width: 74
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5e1e1b9a3bf6dd0800000000000000
+      internalID: -2490574527497378390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_118
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 488
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2431f4b7e9ad2d0800000000000000
+      internalID: -3253113528376933637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_119
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 486
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81cfcc2914052940800000000000000
+      internalID: 5270623445079540108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_120
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 482
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538ea571ce394bfe0800000000000000
+      internalID: -1174150960623458251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_121
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 431
+        width: 208
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a3f6767ec3d6e40800000000000000
+      internalID: 5651240071990295178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_122
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 435
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06454cd44b7558ad0800000000000000
+      internalID: -2700655969628302240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_123
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 438
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73aaca4fbb22eeea0800000000000000
+      internalID: -5841693475993769417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_124
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 436
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c74680522f538a0800000000000000
+      internalID: -6325883860703478666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_125
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 453
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4724c7d404ecc90800000000000000
+      internalID: -7147704857049008951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_126
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 453
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a270d600196041330800000000000000
+      internalID: 3680574015315707690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_127
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 435
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58868be9f17e317c0800000000000000
+      internalID: -4101680712611501947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_128
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 440
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3215bd809b1ebb790800000000000000
+      internalID: -7513163368503750365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_129
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 439
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0925712a5cb9e5a00800000000000000
+      internalID: 747205861320381072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_130
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 365
+        width: 208
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e99015b9469ca4c0800000000000000
+      internalID: -4274876702966900251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_131
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 422
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec96b226850f24960800000000000000
+      internalID: 7584888984840137166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_132
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 423
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c422096fc471e10800000000000000
+      internalID: 2168286367466015883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_133
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 366
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8cceabec0c9b0b0800000000000000
+      internalID: -5712322658210887483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_134
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 427
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4419628e1d383610800000000000000
+      internalID: 1601096868776449098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_135
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9782e412df1999160800000000000000
+      internalID: 7032812809487263865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_136
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 427
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5144f57b6aa5f800800000000000000
+      internalID: 645609500114698586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_137
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bc4959312bb5510800000000000000
+      internalID: 1539019494860835669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_138
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 369
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78633cba1b3bb2130800000000000000
+      internalID: 3543123107529307783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 375
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5548955192fe3b0800000000000000
+      internalID: -5481117049813707342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_140
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 393
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e291460e526e780800000000000000
+      internalID: -8654187988263555428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_141
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 393
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5bd6ed03917fa80800000000000000
+      internalID: -8433244079547107891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_142
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 366
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f931a06dea7b4a0800000000000000
+      internalID: -6577596496436027566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_143
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 409
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652a167e7dff39fb0800000000000000
+      internalID: -4642085488123862442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_144
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 414
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb532ab50346634b0800000000000000
+      internalID: -5461067339281582661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_145
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bffb714f7921f20800000000000000
+      internalID: 3391940543989676854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_146
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 377
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a32ea6a704cf4c10800000000000000
+      internalID: 2040064693362369447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_147
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 366
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046222952f2c7d550800000000000000
+      internalID: 6185626959349950016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_148
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 377
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d190c4e69616bc0800000000000000
+      internalID: -3791633488826262169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_149
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 365
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7526d192709396f90800000000000000
+      internalID: -6959969046207045033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_150
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 408
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e66c17f9e2d64720800000000000000
+      internalID: 2830181318163982055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_151
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 392
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84af6d87aba8ede30800000000000000
+      internalID: 4530210808677202504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_152
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 299
+        width: 208
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8a7d182f369c1c0800000000000000
+      internalID: -4482942060858988321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_153
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 301
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945c30704d65ddaa0800000000000000
+      internalID: -6134651648758004407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_154
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 308
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f0194d5a55a4dd0800000000000000
+      internalID: -2501092472326647965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_155
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 310
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d411e017816c5c0800000000000000
+      internalID: -4195639129002652327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_156
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 308
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90db65bab7716df50800000000000000
+      internalID: 6905732898542238985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_157
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 327
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b387f9abe0f1932d0800000000000000
+      internalID: -3298571103951161285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_158
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 325
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd32574480ec17de0800000000000000
+      internalID: -1337061079448738851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_159
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 320
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a11e13c0406bc280800000000000000
+      internalID: -9022011597238955607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_160
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 232
+        width: 208
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb58e4b3617262d10800000000000000
+      internalID: 2100409252652680638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_161
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 236
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2805d5c6ac430e000800000000000000
+      internalID: 63108438789279874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_162
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 245
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c908da9935de89000800000000000000
+      internalID: 43045139776372892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_163
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 234
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de227765a0f4cf00800000000000000
+      internalID: 1136297599200014038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_164
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 246
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94761d621f8ca1e80800000000000000
+      internalID: -8207026432865376439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_165
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 263
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3ecd259a0cda320800000000000000
+      internalID: 2570922795770635184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_166
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 263
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9586c6b12c90d100800000000000000
+      internalID: 130776057808061854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_167
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 184
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96695cc5bcf5747c0800000000000000
+      internalID: -4087192809775982999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_168
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 165
+        width: 208
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb6212e05ee80590800000000000000
+      internalID: -7707648731086951487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_169
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 170
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088ac1b4e7b120810800000000000000
+      internalID: 1729975436103690368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_170
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 170
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf549f4254a5d710800000000000000
+      internalID: 1717459506341109695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_171
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 174
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7f99ebeb8b3c780800000000000000
+      internalID: -8663878128749643801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_172
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 172
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b35fd34c89c7ca90800000000000000
+      internalID: -7293639467231915083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_173
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 188
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cf0f701d7846c90800000000000000
+      internalID: -7177462574270579644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_174
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 188
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d13ad658154c2570800000000000000
+      internalID: 8443199372251509203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_175
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 175
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22db81249f595e30800000000000000
+      internalID: 4492727193101390380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_176
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 118
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8478c6f744e61f0800000000000000
+      internalID: -1049826349058406177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_177
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 116
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48a8f4a261090f60800000000000000
+      internalID: 8000927736186579021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_178
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 117
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30405b0e1d85b660800000000000000
+      internalID: 7400976722831622202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_179
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 119
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d510101a75b3e02b0800000000000000
+      internalID: -5616486437735038627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_180
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 118
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7fe7d9fb4dc240800000000000000
+      internalID: 4813587113170664658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_181
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 119
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95911468b16f8b860800000000000000
+      internalID: 7546051773736229209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_182
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 119
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc3544c9df52ac60800000000000000
+      internalID: 7827924491228757173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_183
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 117
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dae0aa8091b68220800000000000000
+      internalID: 2487871078527986392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_184
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 117
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e1f9e01f012d4e0800000000000000
+      internalID: -1958484260434272690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_185
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 118
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ccbbcc27b20e950800000000000000
+      internalID: 6476224036219898961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_186
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 118
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d9d87dc8a1dc010800000000000000
+      internalID: 1210653067046657400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_187
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 119
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd10f6d1fb6645010800000000000000
+      internalID: 1176678373669143005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_188
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 119
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af34f4a835454dfd0800000000000000
+      internalID: -2318135190409493510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_189
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 95
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1e5dc61e287d370800000000000000
+      internalID: 8347284339059712450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_190
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 96
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82156825243870bc0800000000000000
+      internalID: -3816937838297591512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_191
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 95
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff1a361e8db6f450800000000000000
+      internalID: 6122289161412681718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_192
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 98
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8bc75915f23eaf0800000000000000
+      internalID: -368398717067413315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_193
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 97
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603dea46801893cb0800000000000000
+      internalID: -4883730447857691898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_194
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1870233017c9f6b0800000000000000
+      internalID: -5261955817214543844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_195
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 96
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8a0d42be0abc540800000000000000
+      internalID: 5029290340684703975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_196
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 98
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b18f416cc0fce5e0800000000000000
+      internalID: -1878862183923744331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_197
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 98
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d6f5402f962ddd0800000000000000
+      internalID: -2462789558041875141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_198
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 98
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b3ae767d3bb4ef0800000000000000
+      internalID: -122806827079812206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_199
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 96
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04c6a8e865b4a0d0800000000000000
+      internalID: -3412403155455523828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_200
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 97
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bb8d82028e774f0800000000000000
+      internalID: -830940381404677231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_201
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 96
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38db379ef96945840800000000000000
+      internalID: 5211956282335149443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_202
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 97
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd558cf7fd883c660800000000000000
+      internalID: 7404912705830147547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_203
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 95
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a687c041ad512c0800000000000000
+      internalID: -4461420076197188988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_204
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 74
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d776417c119878a40800000000000000
+      internalID: 5370411790110058365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_205
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 66
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faea40cf096db8670800000000000000
+      internalID: 8542157036430077615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_206
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 67
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b1cb0dd70b6bb80800000000000000
+      internalID: -8379316002256839881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_207
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 67
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cdd1c1c3795dee0800000000000000
+      internalID: -1236916238217782220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_208
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 67
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de207ff8c80fa4a30800000000000000
+      internalID: 4200434088977826541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_209
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 68
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d21a78bae715df0800000000000000
+      internalID: -193234033820226271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_210
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 65
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6642ff131988b94d0800000000000000
+      internalID: -3126755359088237466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_211
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 67
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f6dd8dd980cf900800000000000000
+      internalID: 719459514513715079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_212
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 66
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99064c41f669f5f70800000000000000
+      internalID: 9178219969438310553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_213
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 66
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb17a40ed99217a0800000000000000
+      internalID: -6407890140954944529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_214
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 67
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a4a5352195eb6c0800000000000000
+      internalID: -4125762273382086007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_215
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 68
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0589cbde84719e960800000000000000
+      internalID: 7631656645549660240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_216
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 66
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6f1bb5bb5dced60800000000000000
+      internalID: 7920940845311850187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_217
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 42
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2ec61e1a8b48e30800000000000000
+      internalID: 4504928532688593602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_218
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 42
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6129d1cc236ca30800000000000000
+      internalID: 4235128351839360678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_219
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 42
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5677f2d3607790470800000000000000
+      internalID: 8361345051870066533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_220
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 42
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388cbbdf0010b60f0800000000000000
+      internalID: -1122802578330236797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_221
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 41
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071211547e87cb650800000000000000
+      internalID: 6250003317574934896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_222
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 46
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7654ebbfaa4e900800000000000000
+      internalID: 712882639237113796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_223
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 43
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44d32206be9dacf0800000000000000
+      internalID: -239360700623629237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_224
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 41
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa93c01af91d6e70800000000000000
+      internalID: 9109966183054154495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_225
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 41
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311bd4d6b79c2c350800000000000000
+      internalID: 6035607982581854483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_226
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 40
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdac1431f1a642680800000000000000
+      internalID: -8780776691766015268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_227
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c698f526a418270800000000000000
+      internalID: 8250957778689551409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_228
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 40
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6292e637a32743c70800000000000000
+      internalID: 8949903954862287142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_229
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 42
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6b3fdf0d10e61a0800000000000000
+      internalID: -6814507189039548680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_230
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 41
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c201e7130720c6570800000000000000
+      internalID: 8461140480812257324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_231
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cdc3077e3c3aab0800000000000000
+      internalID: -4997935762663220191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_232
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 16
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346959cc207a84360800000000000000
+      internalID: 7154151638542161475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_233
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ec250153bb90aa0800000000000000
+      internalID: -6194213975889883525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_234
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 16
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95781c5e261fd1620800000000000000
+      internalID: 2746616754829625177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_235
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 22
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2cbd4f79a774a00800000000000000
+      internalID: 740695456792429237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_236
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 17
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875b2972ec5e29f10800000000000000
+      internalID: 2275133435365471608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_237
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d57538598a99e650800000000000000
+      internalID: 6262706671516480976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_238
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 22
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641a923c4293b1cd0800000000000000
+      internalID: -2586410730938326714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_239
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 7
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e66e2aaa98076780800000000000000
+      internalID: -8689967495614929182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_240
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 16
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8112707a8a74a3370800000000000000
+      internalID: 8303027652693270808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_241
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 16
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e873a35ff5a3e82a0800000000000000
+      internalID: -6733380209061775474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_242
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965243f7c2c3e8530800000000000000
+      internalID: 3859088092513445225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_243
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 15
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156aa6c048874ec50800000000000000
+      internalID: 6693607454718731857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUITempleRun_244
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 15
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6ba137f64e0c2c0800000000000000
+      internalID: -4413276467499452737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GUITempleRun_0: 2664737270725666667
+      GUITempleRun_1: 4857095969030751980
+      GUITempleRun_10: 1070998196500972795
+      GUITempleRun_100: -5970759502444381815
+      GUITempleRun_101: -4486497759296776415
+      GUITempleRun_102: -753960713560814125
+      GUITempleRun_103: 6951697005476541639
+      GUITempleRun_104: -6124903660535285274
+      GUITempleRun_105: -3611093498123511306
+      GUITempleRun_106: -4247298858669460993
+      GUITempleRun_107: -3529897755069631150
+      GUITempleRun_108: -4746904202064276720
+      GUITempleRun_109: 880255284095967219
+      GUITempleRun_11: -1278111713522151577
+      GUITempleRun_110: 8698785160121445459
+      GUITempleRun_111: -2780255369414936220
+      GUITempleRun_112: -2797873586671540326
+      GUITempleRun_113: 8395391860242814599
+      GUITempleRun_114: -7722496281720030911
+      GUITempleRun_115: 9186172720651606326
+      GUITempleRun_116: -603097013264886826
+      GUITempleRun_117: -2490574527497378390
+      GUITempleRun_118: -3253113528376933637
+      GUITempleRun_119: 5270623445079540108
+      GUITempleRun_12: -3244913419154512753
+      GUITempleRun_120: -1174150960623458251
+      GUITempleRun_121: 5651240071990295178
+      GUITempleRun_122: -2700655969628302240
+      GUITempleRun_123: -5841693475993769417
+      GUITempleRun_124: -6325883860703478666
+      GUITempleRun_125: -7147704857049008951
+      GUITempleRun_126: 3680574015315707690
+      GUITempleRun_127: -4101680712611501947
+      GUITempleRun_128: -7513163368503750365
+      GUITempleRun_129: 747205861320381072
+      GUITempleRun_13: 4923073888468848447
+      GUITempleRun_130: -4274876702966900251
+      GUITempleRun_131: 7584888984840137166
+      GUITempleRun_132: 2168286367466015883
+      GUITempleRun_133: -5712322658210887483
+      GUITempleRun_134: 1601096868776449098
+      GUITempleRun_135: 7032812809487263865
+      GUITempleRun_136: 645609500114698586
+      GUITempleRun_137: 1539019494860835669
+      GUITempleRun_138: 3543123107529307783
+      GUITempleRun_139: -5481117049813707342
+      GUITempleRun_14: 7605984851593557611
+      GUITempleRun_140: -8654187988263555428
+      GUITempleRun_141: -8433244079547107891
+      GUITempleRun_142: -6577596496436027566
+      GUITempleRun_143: -4642085488123862442
+      GUITempleRun_144: -5461067339281582661
+      GUITempleRun_145: 3391940543989676854
+      GUITempleRun_146: 2040064693362369447
+      GUITempleRun_147: 6185626959349950016
+      GUITempleRun_148: -3791633488826262169
+      GUITempleRun_149: -6959969046207045033
+      GUITempleRun_15: -2455671469174171521
+      GUITempleRun_150: 2830181318163982055
+      GUITempleRun_151: 4530210808677202504
+      GUITempleRun_152: -4482942060858988321
+      GUITempleRun_153: -6134651648758004407
+      GUITempleRun_154: -2501092472326647965
+      GUITempleRun_155: -4195639129002652327
+      GUITempleRun_156: 6905732898542238985
+      GUITempleRun_157: -3298571103951161285
+      GUITempleRun_158: -1337061079448738851
+      GUITempleRun_159: -9022011597238955607
+      GUITempleRun_16: -3649775812958581714
+      GUITempleRun_160: 2100409252652680638
+      GUITempleRun_161: 63108438789279874
+      GUITempleRun_162: 43045139776372892
+      GUITempleRun_163: 1136297599200014038
+      GUITempleRun_164: -8207026432865376439
+      GUITempleRun_165: 2570922795770635184
+      GUITempleRun_166: 130776057808061854
+      GUITempleRun_167: -4087192809775982999
+      GUITempleRun_168: -7707648731086951487
+      GUITempleRun_169: 1729975436103690368
+      GUITempleRun_17: 8844602079717448370
+      GUITempleRun_170: 1717459506341109695
+      GUITempleRun_171: -8663878128749643801
+      GUITempleRun_172: -7293639467231915083
+      GUITempleRun_173: -7177462574270579644
+      GUITempleRun_174: 8443199372251509203
+      GUITempleRun_175: 4492727193101390380
+      GUITempleRun_176: -1049826349058406177
+      GUITempleRun_177: 8000927736186579021
+      GUITempleRun_178: 7400976722831622202
+      GUITempleRun_179: -5616486437735038627
+      GUITempleRun_18: 3316354953235715333
+      GUITempleRun_180: 4813587113170664658
+      GUITempleRun_181: 7546051773736229209
+      GUITempleRun_182: 7827924491228757173
+      GUITempleRun_183: 2487871078527986392
+      GUITempleRun_184: -1958484260434272690
+      GUITempleRun_185: 6476224036219898961
+      GUITempleRun_186: 1210653067046657400
+      GUITempleRun_187: 1176678373669143005
+      GUITempleRun_188: -2318135190409493510
+      GUITempleRun_189: 8347284339059712450
+      GUITempleRun_19: -2677899115748493534
+      GUITempleRun_190: -3816937838297591512
+      GUITempleRun_191: 6122289161412681718
+      GUITempleRun_192: -368398717067413315
+      GUITempleRun_193: -4883730447857691898
+      GUITempleRun_194: -5261955817214543844
+      GUITempleRun_195: 5029290340684703975
+      GUITempleRun_196: -1878862183923744331
+      GUITempleRun_197: -2462789558041875141
+      GUITempleRun_198: -122806827079812206
+      GUITempleRun_199: -3412403155455523828
+      GUITempleRun_2: -6306034524683972264
+      GUITempleRun_20: 7124289931043974218
+      GUITempleRun_200: -830940381404677231
+      GUITempleRun_201: 5211956282335149443
+      GUITempleRun_202: 7404912705830147547
+      GUITempleRun_203: -4461420076197188988
+      GUITempleRun_204: 5370411790110058365
+      GUITempleRun_205: 8542157036430077615
+      GUITempleRun_206: -8379316002256839881
+      GUITempleRun_207: -1236916238217782220
+      GUITempleRun_208: 4200434088977826541
+      GUITempleRun_209: -193234033820226271
+      GUITempleRun_21: 4166288432599698118
+      GUITempleRun_210: -3126755359088237466
+      GUITempleRun_211: 719459514513715079
+      GUITempleRun_212: 9178219969438310553
+      GUITempleRun_213: -6407890140954944529
+      GUITempleRun_214: -4125762273382086007
+      GUITempleRun_215: 7631656645549660240
+      GUITempleRun_216: 7920940845311850187
+      GUITempleRun_217: 4504928532688593602
+      GUITempleRun_218: 4235128351839360678
+      GUITempleRun_219: 8361345051870066533
+      GUITempleRun_22: -15348521024383056
+      GUITempleRun_220: -1122802578330236797
+      GUITempleRun_221: 6250003317574934896
+      GUITempleRun_222: 712882639237113796
+      GUITempleRun_223: -239360700623629237
+      GUITempleRun_224: 9109966183054154495
+      GUITempleRun_225: 6035607982581854483
+      GUITempleRun_226: -8780776691766015268
+      GUITempleRun_227: 8250957778689551409
+      GUITempleRun_228: 8949903954862287142
+      GUITempleRun_229: -6814507189039548680
+      GUITempleRun_23: -2517931782295525219
+      GUITempleRun_230: 8461140480812257324
+      GUITempleRun_231: -4997935762663220191
+      GUITempleRun_232: 7154151638542161475
+      GUITempleRun_233: -6194213975889883525
+      GUITempleRun_234: 2746616754829625177
+      GUITempleRun_235: 740695456792429237
+      GUITempleRun_236: 2275133435365471608
+      GUITempleRun_237: 6262706671516480976
+      GUITempleRun_238: -2586410730938326714
+      GUITempleRun_239: -8689967495614929182
+      GUITempleRun_24: -3724072942874077048
+      GUITempleRun_240: 8303027652693270808
+      GUITempleRun_241: -6733380209061775474
+      GUITempleRun_242: 3859088092513445225
+      GUITempleRun_243: 6693607454718731857
+      GUITempleRun_244: -4413276467499452737
+      GUITempleRun_25: -1601180598870670452
+      GUITempleRun_26: -7599547287728932050
+      GUITempleRun_27: -7561188448897622241
+      GUITempleRun_28: 5860314320793550882
+      GUITempleRun_29: 653418229638526579
+      GUITempleRun_3: -959793919545729232
+      GUITempleRun_30: 6655314330604928661
+      GUITempleRun_31: -1803853356475191484
+      GUITempleRun_32: -475530387764409753
+      GUITempleRun_33: -2109391991495382531
+      GUITempleRun_34: 5881584955519380636
+      GUITempleRun_35: 4310314400108996801
+      GUITempleRun_36: 8037961474011353260
+      GUITempleRun_37: -4162707834134762942
+      GUITempleRun_38: -3425241361492187595
+      GUITempleRun_39: -4268220091413153954
+      GUITempleRun_4: -4514102374640645097
+      GUITempleRun_40: -8191123022192178347
+      GUITempleRun_41: -5637006366517600528
+      GUITempleRun_42: -5903428195772775290
+      GUITempleRun_43: -2910681231332352909
+      GUITempleRun_44: 7769186580422413684
+      GUITempleRun_45: -3670573267345365793
+      GUITempleRun_46: 4945341517678692040
+      GUITempleRun_47: 3237445431247080152
+      GUITempleRun_48: -8795074517283375728
+      GUITempleRun_49: 4762752604805325809
+      GUITempleRun_5: 2948797743868798539
+      GUITempleRun_50: 7736299157413005141
+      GUITempleRun_51: -7236890294156197288
+      GUITempleRun_52: -535133227627908307
+      GUITempleRun_53: 2268709038107787002
+      GUITempleRun_54: -5251010003642944572
+      GUITempleRun_55: -6565883517314076680
+      GUITempleRun_56: 5809964738877652779
+      GUITempleRun_57: -4405524973572399602
+      GUITempleRun_58: -399467291216512531
+      GUITempleRun_59: 7791425625852788584
+      GUITempleRun_6: 6668096610936739447
+      GUITempleRun_60: 7609307234150821786
+      GUITempleRun_61: 8142436570252577411
+      GUITempleRun_62: -5795253230243261790
+      GUITempleRun_63: -5833378685167509875
+      GUITempleRun_64: 7552478624718414743
+      GUITempleRun_65: -4641711507540671474
+      GUITempleRun_66: -7635998665665146421
+      GUITempleRun_67: -405680345989578137
+      GUITempleRun_68: -7629426206267852837
+      GUITempleRun_69: -3657199011777870224
+      GUITempleRun_7: 960770164160652103
+      GUITempleRun_70: -1077281954346642859
+      GUITempleRun_71: 6542838567771097128
+      GUITempleRun_72: -2509981681304376945
+      GUITempleRun_73: -3231556834889779946
+      GUITempleRun_74: -9146923559272145299
+      GUITempleRun_75: 3952238366988953867
+      GUITempleRun_76: -4139329714033973305
+      GUITempleRun_77: -8164617496973427508
+      GUITempleRun_78: 27820257279043519
+      GUITempleRun_79: -4123064722200351370
+      GUITempleRun_8: -8290049147085433697
+      GUITempleRun_80: 4862057271597499777
+      GUITempleRun_81: -1281661439700425239
+      GUITempleRun_82: -8591796002720999914
+      GUITempleRun_83: 2803086972714730307
+      GUITempleRun_84: -3825735665732352923
+      GUITempleRun_85: 4522449792662603214
+      GUITempleRun_86: -7968990553874412823
+      GUITempleRun_87: 7333326860505853863
+      GUITempleRun_88: 3640128555748106777
+      GUITempleRun_89: -7296379306312319778
+      GUITempleRun_9: -3518812263631294607
+      GUITempleRun_90: -6567139834461034174
+      GUITempleRun_91: -1465974089218290798
+      GUITempleRun_92: -5985281666784371172
+      GUITempleRun_93: -789544912814237840
+      GUITempleRun_94: 3983374792116010519
+      GUITempleRun_95: 8010452125672298835
+      GUITempleRun_96: -1623371975871197398
+      GUITempleRun_97: -215823966992272405
+      GUITempleRun_98: -1670516192282868934
+      GUITempleRun_99: -1250146528642700882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
