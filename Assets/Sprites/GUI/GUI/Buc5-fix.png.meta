@@ -1,0 +1,3994 @@
+fileFormatVersion: 2
+guid: 14747022a675a6e4a810b4f75b88883f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2750344604446805542
+    second: Buc5-fix_0
+  - first:
+      213: -1975643039505715202
+    second: Buc5-fix_1
+  - first:
+      213: 8357029987819326499
+    second: Buc5-fix_2
+  - first:
+      213: -5361507178530142327
+    second: Buc5-fix_3
+  - first:
+      213: 4191991202410455584
+    second: Buc5-fix_4
+  - first:
+      213: -5417220647069875657
+    second: Buc5-fix_5
+  - first:
+      213: -3024141809257955418
+    second: Buc5-fix_6
+  - first:
+      213: 7057605506186290193
+    second: Buc5-fix_7
+  - first:
+      213: 3686090145447205731
+    second: Buc5-fix_8
+  - first:
+      213: -121850681196029813
+    second: Buc5-fix_9
+  - first:
+      213: -342984040636528071
+    second: Buc5-fix_10
+  - first:
+      213: 4201787946320551937
+    second: Buc5-fix_11
+  - first:
+      213: 6762985085940160513
+    second: Buc5-fix_12
+  - first:
+      213: 136259443676309261
+    second: Buc5-fix_13
+  - first:
+      213: 5061748308866887213
+    second: Buc5-fix_14
+  - first:
+      213: -4985044602576290639
+    second: Buc5-fix_15
+  - first:
+      213: -1812850348859082050
+    second: Buc5-fix_16
+  - first:
+      213: 5338587595114803588
+    second: Buc5-fix_17
+  - first:
+      213: 267647884547949632
+    second: Buc5-fix_18
+  - first:
+      213: 8587184148088524155
+    second: Buc5-fix_19
+  - first:
+      213: 6145274191147510085
+    second: Buc5-fix_20
+  - first:
+      213: 5704934627651996906
+    second: Buc5-fix_21
+  - first:
+      213: 1112809265587259335
+    second: Buc5-fix_22
+  - first:
+      213: 4562639692196789074
+    second: Buc5-fix_23
+  - first:
+      213: -6873331460883677304
+    second: Buc5-fix_24
+  - first:
+      213: 869556640628103756
+    second: Buc5-fix_25
+  - first:
+      213: -7274741153495396254
+    second: Buc5-fix_26
+  - first:
+      213: 3260786508092517729
+    second: Buc5-fix_27
+  - first:
+      213: -2933281697288058594
+    second: Buc5-fix_28
+  - first:
+      213: -3910745531053500985
+    second: Buc5-fix_29
+  - first:
+      213: 6512415060062681735
+    second: Buc5-fix_30
+  - first:
+      213: -8087325764254997350
+    second: Buc5-fix_31
+  - first:
+      213: 4808091383990066153
+    second: Buc5-fix_32
+  - first:
+      213: 7990347689955140490
+    second: Buc5-fix_33
+  - first:
+      213: 8482863725600766312
+    second: Buc5-fix_34
+  - first:
+      213: 2199497915995974698
+    second: Buc5-fix_35
+  - first:
+      213: 1515214023829001563
+    second: Buc5-fix_36
+  - first:
+      213: 3729699154169853686
+    second: Buc5-fix_37
+  - first:
+      213: -501423257000384177
+    second: Buc5-fix_38
+  - first:
+      213: 7481070928567862553
+    second: Buc5-fix_39
+  - first:
+      213: 3252753544010410007
+    second: Buc5-fix_40
+  - first:
+      213: -3761582904830718501
+    second: Buc5-fix_41
+  - first:
+      213: -7560676099626292924
+    second: Buc5-fix_42
+  - first:
+      213: 8243351847024323751
+    second: Buc5-fix_43
+  - first:
+      213: 3290340311667713255
+    second: Buc5-fix_44
+  - first:
+      213: 5944832605255582124
+    second: Buc5-fix_45
+  - first:
+      213: -1204332562820031045
+    second: Buc5-fix_46
+  - first:
+      213: -7232481715834412561
+    second: Buc5-fix_47
+  - first:
+      213: 4386135493184577103
+    second: Buc5-fix_48
+  - first:
+      213: -8047821660677100930
+    second: Buc5-fix_49
+  - first:
+      213: 1980754538174133632
+    second: Buc5-fix_50
+  - first:
+      213: 647752026361317600
+    second: Buc5-fix_51
+  - first:
+      213: -8814736939835006278
+    second: Buc5-fix_52
+  - first:
+      213: 268216868729360103
+    second: Buc5-fix_53
+  - first:
+      213: -5790555568378417808
+    second: Buc5-fix_54
+  - first:
+      213: -1359394738038760856
+    second: Buc5-fix_55
+  - first:
+      213: -774878565367733823
+    second: Buc5-fix_56
+  - first:
+      213: -8323925445341948404
+    second: Buc5-fix_57
+  - first:
+      213: 5388312603213744778
+    second: Buc5-fix_58
+  - first:
+      213: 681299997149693277
+    second: Buc5-fix_59
+  - first:
+      213: 8954113868205990190
+    second: Buc5-fix_60
+  - first:
+      213: 3613306295569411846
+    second: Buc5-fix_61
+  - first:
+      213: 8665060932029370596
+    second: Buc5-fix_62
+  - first:
+      213: 2204768665783371588
+    second: Buc5-fix_63
+  - first:
+      213: 4250546647954042365
+    second: Buc5-fix_64
+  - first:
+      213: 3749213468465440376
+    second: Buc5-fix_65
+  - first:
+      213: -6651344312093726632
+    second: Buc5-fix_66
+  - first:
+      213: 419888464790134649
+    second: Buc5-fix_67
+  - first:
+      213: 4945433861362761595
+    second: Buc5-fix_68
+  - first:
+      213: -1920522744727791250
+    second: Buc5-fix_69
+  - first:
+      213: -4048147095298044158
+    second: Buc5-fix_70
+  - first:
+      213: -1375133218643603296
+    second: Buc5-fix_71
+  - first:
+      213: -4569342298016780036
+    second: Buc5-fix_72
+  - first:
+      213: -1891459898795224752
+    second: Buc5-fix_73
+  - first:
+      213: -1370718253306589326
+    second: Buc5-fix_74
+  - first:
+      213: -4527345176259411966
+    second: Buc5-fix_75
+  - first:
+      213: -2563390907041592328
+    second: Buc5-fix_76
+  - first:
+      213: 8110686131615972052
+    second: Buc5-fix_77
+  - first:
+      213: -3262007385500015609
+    second: Buc5-fix_78
+  - first:
+      213: -9108455667210017099
+    second: Buc5-fix_79
+  - first:
+      213: -4175947218114247222
+    second: Buc5-fix_80
+  - first:
+      213: -8480057145859808630
+    second: Buc5-fix_81
+  - first:
+      213: 8925909345437228540
+    second: Buc5-fix_82
+  - first:
+      213: -7584353855770795087
+    second: Buc5-fix_83
+  - first:
+      213: 708311794293471534
+    second: Buc5-fix_84
+  - first:
+      213: -8633271250030048672
+    second: Buc5-fix_85
+  - first:
+      213: 1021918579973932593
+    second: Buc5-fix_86
+  - first:
+      213: 4374643756791878686
+    second: Buc5-fix_87
+  - first:
+      213: -3365320899235269676
+    second: Buc5-fix_88
+  - first:
+      213: 5687567685259817724
+    second: Buc5-fix_89
+  - first:
+      213: 1177068762015176458
+    second: Buc5-fix_90
+  - first:
+      213: 2339511451206660784
+    second: Buc5-fix_91
+  - first:
+      213: -6076570741910479411
+    second: Buc5-fix_92
+  - first:
+      213: -3788376019915709008
+    second: Buc5-fix_93
+  - first:
+      213: -5494284154244707811
+    second: Buc5-fix_94
+  - first:
+      213: -3154084532984907775
+    second: Buc5-fix_95
+  - first:
+      213: -8386154254916463826
+    second: Buc5-fix_96
+  - first:
+      213: 7753365606707191188
+    second: Buc5-fix_97
+  - first:
+      213: 790707764723196279
+    second: Buc5-fix_98
+  - first:
+      213: 5839147406123971763
+    second: Buc5-fix_99
+  - first:
+      213: 4121227949415004824
+    second: Buc5-fix_100
+  - first:
+      213: -4404459935797230313
+    second: Buc5-fix_101
+  - first:
+      213: 4721742703988295629
+    second: Buc5-fix_102
+  - first:
+      213: 2537167701576244914
+    second: Buc5-fix_103
+  - first:
+      213: -668309770695574237
+    second: Buc5-fix_104
+  - first:
+      213: -3968003268370204475
+    second: Buc5-fix_105
+  - first:
+      213: -719484552547296
+    second: Buc5-fix_106
+  - first:
+      213: 6349794984856940593
+    second: Buc5-fix_107
+  - first:
+      213: -1808894991654003521
+    second: Buc5-fix_108
+  - first:
+      213: -4049249106860272795
+    second: Buc5-fix_109
+  - first:
+      213: 4358328834177880753
+    second: Buc5-fix_110
+  - first:
+      213: -4073293505544489422
+    second: Buc5-fix_111
+  - first:
+      213: 7790491859352113203
+    second: Buc5-fix_112
+  - first:
+      213: 8402939310943850212
+    second: Buc5-fix_113
+  - first:
+      213: -3409092273429145220
+    second: Buc5-fix_114
+  - first:
+      213: 7401269315760735102
+    second: Buc5-fix_115
+  - first:
+      213: 3667682610147086661
+    second: Buc5-fix_116
+  - first:
+      213: 7343936762442949734
+    second: Buc5-fix_117
+  - first:
+      213: 307246578795156971
+    second: Buc5-fix_118
+  - first:
+      213: -5413230839571012657
+    second: Buc5-fix_119
+  - first:
+      213: 3407526910467113753
+    second: Buc5-fix_120
+  - first:
+      213: -7083852793647861420
+    second: Buc5-fix_121
+  - first:
+      213: -8556606863405047700
+    second: Buc5-fix_122
+  - first:
+      213: 3181988260133327721
+    second: Buc5-fix_123
+  - first:
+      213: 7573072130579977090
+    second: Buc5-fix_124
+  - first:
+      213: -1654687524005486316
+    second: Buc5-fix_125
+  - first:
+      213: -7406518484978913070
+    second: Buc5-fix_126
+  - first:
+      213: -4624640729311974303
+    second: Buc5-fix_127
+  - first:
+      213: -7596453336245009459
+    second: Buc5-fix_128
+  - first:
+      213: 1584943288948287228
+    second: Buc5-fix_129
+  - first:
+      213: 8201709956855282500
+    second: Buc5-fix_130
+  - first:
+      213: -1440688747191807353
+    second: Buc5-fix_131
+  - first:
+      213: 3458555263833147673
+    second: Buc5-fix_132
+  - first:
+      213: -5762315293762582145
+    second: Buc5-fix_133
+  - first:
+      213: 1465891281697114370
+    second: Buc5-fix_134
+  - first:
+      213: 2421095559294902510
+    second: Buc5-fix_135
+  - first:
+      213: -7590855590803890833
+    second: Buc5-fix_136
+  - first:
+      213: 593589813105284244
+    second: Buc5-fix_137
+  - first:
+      213: 4191359911679044557
+    second: Buc5-fix_138
+  - first:
+      213: -6445018966399801530
+    second: Buc5-fix_139
+  - first:
+      213: 8781260225942474844
+    second: Buc5-fix_140
+  - first:
+      213: -3727331064478973412
+    second: Buc5-fix_141
+  - first:
+      213: -3647091037748133438
+    second: Buc5-fix_142
+  - first:
+      213: 3128458582846450898
+    second: Buc5-fix_143
+  - first:
+      213: 4958010406049905939
+    second: Buc5-fix_144
+  - first:
+      213: 8438252848038583310
+    second: Buc5-fix_145
+  - first:
+      213: -8440639997849536185
+    second: Buc5-fix_146
+  - first:
+      213: -7425950237931219844
+    second: Buc5-fix_147
+  - first:
+      213: 3171391992256161738
+    second: Buc5-fix_148
+  - first:
+      213: 372531236465103615
+    second: Buc5-fix_149
+  - first:
+      213: -3287169158261131914
+    second: Buc5-fix_150
+  - first:
+      213: 4800251231947502370
+    second: Buc5-fix_151
+  - first:
+      213: 2249935546357396655
+    second: Buc5-fix_152
+  - first:
+      213: -696331774849544572
+    second: Buc5-fix_153
+  - first:
+      213: 5788964703135912555
+    second: Buc5-fix_154
+  - first:
+      213: -4327495350332775243
+    second: Buc5-fix_155
+  - first:
+      213: -7737096445158379208
+    second: Buc5-fix_156
+  - first:
+      213: 4849855243324051509
+    second: Buc5-fix_157
+  - first:
+      213: -3923026868616811061
+    second: Buc5-fix_158
+  - first:
+      213: -1393260480845036248
+    second: Buc5-fix_159
+  - first:
+      213: 6639734738498252012
+    second: Buc5-fix_160
+  - first:
+      213: -8051233421571754851
+    second: Buc5-fix_161
+  - first:
+      213: 3449904215239185188
+    second: Buc5-fix_162
+  - first:
+      213: 3207145004864088415
+    second: Buc5-fix_163
+  - first:
+      213: 3527761219198524180
+    second: Buc5-fix_164
+  - first:
+      213: -8099024303325285831
+    second: Buc5-fix_165
+  - first:
+      213: 941889634025586681
+    second: Buc5-fix_166
+  - first:
+      213: -588205396036813591
+    second: Buc5-fix_167
+  - first:
+      213: -8095208865436805208
+    second: Buc5-fix_168
+  - first:
+      213: -8760302543052864901
+    second: Buc5-fix_169
+  - first:
+      213: 956971270075156398
+    second: Buc5-fix_170
+  - first:
+      213: 8206508981970795238
+    second: Buc5-fix_171
+  - first:
+      213: 3887876928050991813
+    second: Buc5-fix_172
+  - first:
+      213: -6493256326322396113
+    second: Buc5-fix_173
+  - first:
+      213: 6710245760112576839
+    second: Buc5-fix_174
+  - first:
+      213: 3763124219028216595
+    second: Buc5-fix_175
+  - first:
+      213: -8333924682119387361
+    second: Buc5-fix_176
+  - first:
+      213: -3905214266934821772
+    second: Buc5-fix_177
+  - first:
+      213: 1315890684804033236
+    second: Buc5-fix_178
+  - first:
+      213: -1638288474067285664
+    second: Buc5-fix_179
+  - first:
+      213: 7463918800475169889
+    second: Buc5-fix_180
+  - first:
+      213: -4397231897815373861
+    second: Buc5-fix_181
+  - first:
+      213: 4773411620455052447
+    second: Buc5-fix_182
+  - first:
+      213: -226461498828068663
+    second: Buc5-fix_183
+  - first:
+      213: 3420216663794426460
+    second: Buc5-fix_184
+  - first:
+      213: -3112827769925964672
+    second: Buc5-fix_185
+  - first:
+      213: 7805780102989439896
+    second: Buc5-fix_186
+  - first:
+      213: 1251100497040262652
+    second: Buc5-fix_187
+  - first:
+      213: 2575308409703043084
+    second: Buc5-fix_188
+  - first:
+      213: 2973162504927371173
+    second: Buc5-fix_189
+  - first:
+      213: 947002634434881654
+    second: Buc5-fix_190
+  - first:
+      213: -3071416621642472967
+    second: Buc5-fix_191
+  - first:
+      213: -7671906998875841921
+    second: Buc5-fix_192
+  - first:
+      213: -8370823597673733988
+    second: Buc5-fix_193
+  - first:
+      213: -8245823090652699944
+    second: Buc5-fix_194
+  - first:
+      213: -1152089276904991996
+    second: Buc5-fix_195
+  - first:
+      213: 1846023108758818107
+    second: Buc5-fix_196
+  - first:
+      213: 4574181493310148385
+    second: Buc5-fix_197
+  - first:
+      213: -1800016948733374000
+    second: Buc5-fix_198
+  - first:
+      213: -8018222447970305560
+    second: Buc5-fix_199
+  - first:
+      213: 8678362315385789840
+    second: Buc5-fix_200
+  - first:
+      213: -4871523572873338332
+    second: Buc5-fix_201
+  - first:
+      213: 1526262366828798419
+    second: Buc5-fix_202
+  - first:
+      213: 3386593021207798243
+    second: Buc5-fix_203
+  - first:
+      213: 1008723073850700115
+    second: Buc5-fix_204
+  - first:
+      213: -7209008207146573045
+    second: Buc5-fix_205
+  - first:
+      213: 3258320802976097889
+    second: Buc5-fix_206
+  - first:
+      213: -8812763241162500810
+    second: Buc5-fix_207
+  - first:
+      213: -7619006194339976494
+    second: Buc5-fix_208
+  - first:
+      213: -6260723559748929505
+    second: Buc5-fix_209
+  - first:
+      213: 3302077761612325821
+    second: Buc5-fix_210
+  - first:
+      213: 3066204365857016519
+    second: Buc5-fix_211
+  - first:
+      213: -8207820349132975268
+    second: Buc5-fix_212
+  - first:
+      213: 3307215554901779095
+    second: Buc5-fix_213
+  - first:
+      213: 9085550010246024923
+    second: Buc5-fix_214
+  - first:
+      213: 5209897381972195336
+    second: Buc5-fix_215
+  - first:
+      213: -1105810813517513045
+    second: Buc5-fix_216
+  - first:
+      213: 9056632800154912810
+    second: Buc5-fix_217
+  - first:
+      213: -6350810882613582726
+    second: Buc5-fix_218
+  - first:
+      213: -1631961307149866369
+    second: Buc5-fix_219
+  - first:
+      213: 4400556090843468139
+    second: Buc5-fix_220
+  - first:
+      213: -8317542750789832459
+    second: Buc5-fix_221
+  - first:
+      213: 6954311308469228276
+    second: Buc5-fix_222
+  - first:
+      213: -4464203341543578427
+    second: Buc5-fix_223
+  - first:
+      213: -8038871180253985996
+    second: Buc5-fix_224
+  - first:
+      213: 3459718095798419398
+    second: Buc5-fix_225
+  - first:
+      213: 6299371906264387841
+    second: Buc5-fix_226
+  - first:
+      213: 5166223751786641047
+    second: Buc5-fix_227
+  - first:
+      213: -2483614470483386355
+    second: Buc5-fix_228
+  - first:
+      213: 6767135714848396312
+    second: Buc5-fix_229
+  - first:
+      213: -4825186465491021420
+    second: Buc5-fix_230
+  - first:
+      213: 5214613508492640123
+    second: Buc5-fix_231
+  - first:
+      213: 2822260999959667095
+    second: Buc5-fix_232
+  - first:
+      213: 2395007992610014919
+    second: Buc5-fix_233
+  - first:
+      213: 159192248947205835
+    second: Buc5-fix_234
+  - first:
+      213: -2607323678944817664
+    second: Buc5-fix_235
+  - first:
+      213: 8187173551605196099
+    second: Buc5-fix_236
+  - first:
+      213: -7284164609841414231
+    second: Buc5-fix_237
+  - first:
+      213: 7380268061476616201
+    second: Buc5-fix_238
+  - first:
+      213: -3317462878670004477
+    second: Buc5-fix_239
+  - first:
+      213: -604261633828303504
+    second: Buc5-fix_240
+  - first:
+      213: -254637328033241926
+    second: Buc5-fix_241
+  - first:
+      213: 4161105824398571414
+    second: Buc5-fix_242
+  - first:
+      213: -6342211889180469173
+    second: Buc5-fix_243
+  - first:
+      213: -6695928802961522368
+    second: Buc5-fix_244
+  - first:
+      213: -4692413886660905758
+    second: Buc5-fix_245
+  - first:
+      213: -3521549035369243053
+    second: Buc5-fix_246
+  - first:
+      213: 2251827284644082564
+    second: Buc5-fix_247
+  - first:
+      213: 4072870006826631800
+    second: Buc5-fix_248
+  - first:
+      213: 6975848994441002658
+    second: Buc5-fix_249
+  - first:
+      213: -2014425479573655368
+    second: Buc5-fix_250
+  - first:
+      213: -5028279589848443833
+    second: Buc5-fix_251
+  - first:
+      213: -7138320982825579697
+    second: Buc5-fix_252
+  - first:
+      213: -1611869624037126275
+    second: Buc5-fix_253
+  - first:
+      213: 5264928735901705078
+    second: Buc5-fix_254
+  - first:
+      213: 5117687035556693497
+    second: Buc5-fix_255
+  - first:
+      213: -5334017684671674214
+    second: Buc5-fix_256
+  - first:
+      213: -6795870066971625889
+    second: Buc5-fix_257
+  - first:
+      213: -2457771438374547773
+    second: Buc5-fix_258
+  - first:
+      213: -6702097894445994126
+    second: Buc5-fix_259
+  - first:
+      213: 2229170439051868941
+    second: Buc5-fix_260
+  - first:
+      213: 2106032184657254124
+    second: Buc5-fix_261
+  - first:
+      213: -2609125353706473541
+    second: Buc5-fix_262
+  - first:
+      213: 5610310860559931502
+    second: Buc5-fix_263
+  - first:
+      213: -3858244924421010776
+    second: Buc5-fix_264
+  - first:
+      213: 825064625925427831
+    second: Buc5-fix_265
+  - first:
+      213: 1791397225376779876
+    second: Buc5-fix_266
+  - first:
+      213: -8108565350556287918
+    second: Buc5-fix_267
+  - first:
+      213: -7980976865691752525
+    second: Buc5-fix_268
+  - first:
+      213: -889941432969726535
+    second: Buc5-fix_269
+  - first:
+      213: -927270067323974830
+    second: Buc5-fix_270
+  - first:
+      213: -8080312163327175313
+    second: Buc5-fix_271
+  - first:
+      213: 9199015268757650342
+    second: Buc5-fix_272
+  - first:
+      213: -885994849759740152
+    second: Buc5-fix_273
+  - first:
+      213: -5399169138091343970
+    second: Buc5-fix_274
+  - first:
+      213: -3068115130651274818
+    second: Buc5-fix_275
+  - first:
+      213: 4899812362070451795
+    second: Buc5-fix_276
+  - first:
+      213: 8469676785604540148
+    second: Buc5-fix_277
+  - first:
+      213: 252325334944924802
+    second: Buc5-fix_278
+  - first:
+      213: -753144844491671347
+    second: Buc5-fix_279
+  - first:
+      213: -8869386668457687788
+    second: Buc5-fix_280
+  - first:
+      213: 9012517077364730201
+    second: Buc5-fix_281
+  - first:
+      213: -7958859040779244410
+    second: Buc5-fix_282
+  - first:
+      213: 7111630058156139200
+    second: Buc5-fix_283
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buc5-fix_0
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 450
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ec6f588df2b2620800000000000000
+      internalID: 2750344604446805542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 441
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1142319a0d6a1f160800000000000000
+      internalID: 7057605506186290193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_8
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 457
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bd271257f972330800000000000000
+      internalID: 3686090145447205731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 528
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88dba773791f4ef0800000000000000
+      internalID: -121850681196029813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 490
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a4b3e05d97d3bf0800000000000000
+      internalID: -342984040636528071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_11
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 587
+        width: 222
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10064f900efbf4a30800000000000000
+      internalID: 4201787946320551937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 916
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1085ab49a13fadd50800000000000000
+      internalID: 6762985085940160513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_13
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 870
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d076e99fd3714e100800000000000000
+      internalID: 136259443676309261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_14
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 886
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ee174c441fe3640800000000000000
+      internalID: 5061748308866887213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_15
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 870
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc36f9885091dab0800000000000000
+      internalID: -4985044602576290639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_16
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 859
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebabf4d663677d6e0800000000000000
+      internalID: -1812850348859082050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_23
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 751
+        width: 113
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bbc7b40a0c15f30800000000000000
+      internalID: 4562639692196789074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_25
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 778
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a58b45829411c00800000000000000
+      internalID: 869556640628103756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 767
+        width: 191
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260ddf0d67dea0b90800000000000000
+      internalID: -7274741153495396254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 756
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c51c96d8ad3ab9c0800000000000000
+      internalID: -3910745531053500985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 770
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9467bed01c04cf80800000000000000
+      internalID: -8087325764254997350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_41
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 682
+        width: 284
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd026c174c2ccbc0800000000000000
+      internalID: -3761582904830718501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_42
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 688
+        width: 288
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4492df34525131790800000000000000
+      internalID: -7560676099626292924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_46
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 705
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd1da93ae9594fe0800000000000000
+      internalID: -1204332562820031045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 699
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1ae23e23011ab90800000000000000
+      internalID: -7232481715834412561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_96
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 604
+        width: 169
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23d21c03256e9b80800000000000000
+      internalID: -8386154254916463826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_103
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 570
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bedb040594d53320800000000000000
+      internalID: 2537167701576244914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_119
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 494
+        width: 223
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc32e206b3750e4b0800000000000000
+      internalID: -5413230839571012657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_121
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 499
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451f5718a6911bd90800000000000000
+      internalID: -7083852793647861420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_122
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 502
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60a2108463d04980800000000000000
+      internalID: -8556606863405047700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_123
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 500
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963d5b4b671b82c20800000000000000
+      internalID: 3181988260133327721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_124
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 524
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28351a99af4f81960800000000000000
+      internalID: 7573072130579977090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_125
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 483
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411e16db67e5909e0800000000000000
+      internalID: -1654687524005486316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_126
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 266
+        width: 21
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0b778eda2c63990800000000000000
+      internalID: -7406518484978913070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_131
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 303
+        width: 210
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782dabfa735a10ce0800000000000000
+      internalID: -1440688747191807353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_132
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 360
+        width: 79
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91905d030b14fff20800000000000000
+      internalID: 3458555263833147673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_134
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 486
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20906e4aa54e75410800000000000000
+      internalID: 1465891281697114370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_135
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 437
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee06c0b6595799120800000000000000
+      internalID: 2421095559294902510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_136
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 441
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d98d8ee0dd7a690800000000000000
+      internalID: -7590855590803890833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_141
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 368
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12c375252cd54cc0800000000000000
+      internalID: -3727331064478973412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_148
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 378
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac762f5d63c030c20800000000000000
+      internalID: 3171391992256161738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_149
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 379
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff25d319f2f7b2500800000000000000
+      internalID: 372531236465103615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_150
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 368
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675b9351111a162d0800000000000000
+      internalID: -3287169158261131914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_151
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 413
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223bcd8001bed9240800000000000000
+      internalID: 4800251231947502370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_154
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 398
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62d0bbe9b8865050800000000000000
+      internalID: 5788964703135912555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_167
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 304
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecf14a0f4646d7f0800000000000000
+      internalID: -588205396036813591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_168
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 311
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7db095d6a08af80800000000000000
+      internalID: -8095208865436805208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_169
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 315
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72026c40472d6680800000000000000
+      internalID: -8760302543052864901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_170
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 312
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea78515cc48d74d00800000000000000
+      internalID: 956971270075156398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_173
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 331
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24eef126c153e5a0800000000000000
+      internalID: -6493256326322396113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_174
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 324
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749c41767f49f1d50800000000000000
+      internalID: 6710245760112576839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_175
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 309
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b98d01a8d493430800000000000000
+      internalID: 3763124219028216595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_177
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 236
+        width: 208
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cff8f9054edc9c0800000000000000
+      internalID: -3905214266934821772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_178
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 237
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da6dfe1b9bf24210800000000000000
+      internalID: 1315890684804033236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_179
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 250
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0694a971051a349e0800000000000000
+      internalID: -1638288474067285664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_180
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 252
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164aeae7a9a259760800000000000000
+      internalID: 7463918800475169889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_181
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 249
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7a2bfe2e4e9f2c0800000000000000
+      internalID: -4397231897815373861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_182
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 267
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94f1f304909e3240800000000000000
+      internalID: 4773411620455052447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_184
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 259
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52a6544fec077f20800000000000000
+      internalID: 3420216663794426460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_185
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 164
+        width: 208
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c679eb2a30dc4d0800000000000000
+      internalID: -3112827769925964672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_188
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 165
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c001d63aa555db320800000000000000
+      internalID: 2575308409703043084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_189
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 164
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afd4b5bb8bc24920800000000000000
+      internalID: 2973162504927371173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_192
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 165
+        width: 17
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a1c266b39e78590800000000000000
+      internalID: -7671906998875841921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_193
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 175
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c902337d94cd4db80800000000000000
+      internalID: -8370823597673733988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_194
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 192
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2aee85693f09d80800000000000000
+      internalID: -8245823090652699944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_201
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 122
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42261f3fe1fd46cb0800000000000000
+      internalID: -4871523572873338332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_202
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 120
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1a0e0498f5e2510800000000000000
+      internalID: 1526262366828798419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_203
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 121
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e168ebe8689ffe20800000000000000
+      internalID: 3386593021207798243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_204
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 124
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3517c9d8a44bffd00800000000000000
+      internalID: 1008723073850700115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_205
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 122
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0327260b3574fb90800000000000000
+      internalID: -7209008207146573045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_206
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 124
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166e7a9c181e73d20800000000000000
+      internalID: 3258320802976097889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_207
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 123
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63593e03686c2b580800000000000000
+      internalID: -8812763241162500810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_208
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 121
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da6dd4cb3ad34690800000000000000
+      internalID: -7619006194339976494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_209
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 121
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18fe38d7117d19a0800000000000000
+      internalID: -6260723559748929505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_210
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 121
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3ae91aa3653dd20800000000000000
+      internalID: 3302077761612325821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_212
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 123
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53d4bd11e6f71e80800000000000000
+      internalID: -8207820349132975268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_213
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 123
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7922199560795ed20800000000000000
+      internalID: 3307215554901779095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_214
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 99
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdec2c5d89b561e70800000000000000
+      internalID: 9085550010246024923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_215
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 100
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808b0b0d0164d4840800000000000000
+      internalID: 5209897381972195336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_216
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baeb0878cee57a0f0800000000000000
+      internalID: -1105810813517513045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_217
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 102
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2882623c8f9fad70800000000000000
+      internalID: 9056632800154912810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_218
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 101
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74e12a76236dd7a0800000000000000
+      internalID: -6350810882613582726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_219
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 100
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a662076db1a59e0800000000000000
+      internalID: -1631961307149866369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_220
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 102
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6118e0137ae11d30800000000000000
+      internalID: 4400556090843468139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_224
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 100
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43306d9d041307090800000000000000
+      internalID: -8038871180253985996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_225
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 101
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf3e0b1743630030800000000000000
+      internalID: 3459718095798419398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_226
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 100
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101d6fc8f5ddb6750800000000000000
+      internalID: 6299371906264387841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_227
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 101
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796bd63612d12b740800000000000000
+      internalID: 5166223751786641047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_228
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 99
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0061df3ccd688dd0800000000000000
+      internalID: -2483614470483386355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_229
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 79
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814d56e2412b9ed50800000000000000
+      internalID: 6767135714848396312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_230
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 69
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491926d797e790db0800000000000000
+      internalID: -4825186465491021420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_231
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 71
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f38a69b570e5840800000000000000
+      internalID: 5214613508492640123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_232
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 71
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791e80e2d6faa2720800000000000000
+      internalID: 2822260999959667095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_233
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 71
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6cdb97417cc3120800000000000000
+      internalID: 2395007992610014919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_234
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 72
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc66e79c180953200800000000000000
+      internalID: 159192248947205835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_235
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 69
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e870e9dece0dbd0800000000000000
+      internalID: -2607323678944817664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_236
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 71
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345a6e9b7feae9170800000000000000
+      internalID: 8187173551605196099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_237
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 70
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af3ee861e279ea90800000000000000
+      internalID: -7284164609841414231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_238
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 70
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908797713bafb6660800000000000000
+      internalID: 7380268061476616201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_239
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 71
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f5459a61106f1d0800000000000000
+      internalID: -3317462878670004477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_240
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 72
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d444cde3b3d97f0800000000000000
+      internalID: -604261633828303504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_241
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 70
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4260403b8577cf0800000000000000
+      internalID: -254637328033241926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_242
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 46
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697f51863b73fb930800000000000000
+      internalID: 4161105824398571414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_243
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 46
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b489327a3efebf7a0800000000000000
+      internalID: -6342211889180469173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_244
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 40
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0410c22fa384313a0800000000000000
+      internalID: -6695928802961522368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_245
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 38
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4777a7e6231eeb0800000000000000
+      internalID: -4692413886660905758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_246
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 45
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e52bf6fc1f02fc0800000000000000
+      internalID: -3521549035369243053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_247
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 50
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4833eb41cf8104f10800000000000000
+      internalID: 2251827284644082564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_248
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8728e3531bdb58830800000000000000
+      internalID: 4072870006826631800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_249
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 43
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aefb6863b13fc060800000000000000
+      internalID: 6975848994441002658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_250
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 38
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0348ff2b25b04e0800000000000000
+      internalID: -2014425479573655368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_251
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 44
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7449cbf9a56f73ab0800000000000000
+      internalID: -5028279589848443833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_252
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 44
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bc6f5f2e69fec90800000000000000
+      internalID: -7138320982825579697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_253
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 40
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f4603fd1d71a9e0800000000000000
+      internalID: -1611869624037126275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_254
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 38
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673ea2f5ac8c01940800000000000000
+      internalID: 5264928735901705078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_255
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 45
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f58af18e3da50740800000000000000
+      internalID: 5117687035556693497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_256
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 20
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a984e773d23c9f5b0800000000000000
+      internalID: -5334017684671674214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_258
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce859c06ed34edd0800000000000000
+      internalID: -2457771438374547773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_262
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb73cd580568acbd0800000000000000
+      internalID: -2609125353706473541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_264
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 20
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa8e6fdea2c47ac0800000000000000
+      internalID: -3858244924421010776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_265
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 21
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7729609e7e7337b00800000000000000
+      internalID: 825064625925427831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_267
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 21
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c3d0256c6987f80800000000000000
+      internalID: -8108565350556287918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_271
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 26
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f659d9616e6fcdf80800000000000000
+      internalID: -8080312163327175313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_272
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 21
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abb1b106a779af70800000000000000
+      internalID: 9199015268757650342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_274
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 20
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f30d1664c4215b0800000000000000
+      internalID: -5399169138091343970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_275
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 19
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb197835b8ddb65d0800000000000000
+      internalID: -3068115130651274818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_279
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 17
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc838a711ca4c85f0800000000000000
+      internalID: -753144844491671347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_282
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 19
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c62f8ced37c8190800000000000000
+      internalID: -7958859040779244410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc5-fix_283
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 19
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2236edbd591b260800000000000000
+      internalID: 7111630058156139200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e60e8c4ecfea512479e94d50d8d379bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Buc5-fix_0: 2750344604446805542
+      Buc5-fix_1: -1975643039505715202
+      Buc5-fix_10: -342984040636528071
+      Buc5-fix_100: 4121227949415004824
+      Buc5-fix_101: -4404459935797230313
+      Buc5-fix_102: 4721742703988295629
+      Buc5-fix_103: 2537167701576244914
+      Buc5-fix_104: -668309770695574237
+      Buc5-fix_105: -3968003268370204475
+      Buc5-fix_106: -719484552547296
+      Buc5-fix_107: 6349794984856940593
+      Buc5-fix_108: -1808894991654003521
+      Buc5-fix_109: -4049249106860272795
+      Buc5-fix_11: 4201787946320551937
+      Buc5-fix_110: 4358328834177880753
+      Buc5-fix_111: -4073293505544489422
+      Buc5-fix_112: 7790491859352113203
+      Buc5-fix_113: 8402939310943850212
+      Buc5-fix_114: -3409092273429145220
+      Buc5-fix_115: 7401269315760735102
+      Buc5-fix_116: 3667682610147086661
+      Buc5-fix_117: 7343936762442949734
+      Buc5-fix_118: 307246578795156971
+      Buc5-fix_119: -5413230839571012657
+      Buc5-fix_12: 6762985085940160513
+      Buc5-fix_120: 3407526910467113753
+      Buc5-fix_121: -7083852793647861420
+      Buc5-fix_122: -8556606863405047700
+      Buc5-fix_123: 3181988260133327721
+      Buc5-fix_124: 7573072130579977090
+      Buc5-fix_125: -1654687524005486316
+      Buc5-fix_126: -7406518484978913070
+      Buc5-fix_127: -4624640729311974303
+      Buc5-fix_128: -7596453336245009459
+      Buc5-fix_129: 1584943288948287228
+      Buc5-fix_13: 136259443676309261
+      Buc5-fix_130: 8201709956855282500
+      Buc5-fix_131: -1440688747191807353
+      Buc5-fix_132: 3458555263833147673
+      Buc5-fix_133: -5762315293762582145
+      Buc5-fix_134: 1465891281697114370
+      Buc5-fix_135: 2421095559294902510
+      Buc5-fix_136: -7590855590803890833
+      Buc5-fix_137: 593589813105284244
+      Buc5-fix_138: 4191359911679044557
+      Buc5-fix_139: -6445018966399801530
+      Buc5-fix_14: 5061748308866887213
+      Buc5-fix_140: 8781260225942474844
+      Buc5-fix_141: -3727331064478973412
+      Buc5-fix_142: -3647091037748133438
+      Buc5-fix_143: 3128458582846450898
+      Buc5-fix_144: 4958010406049905939
+      Buc5-fix_145: 8438252848038583310
+      Buc5-fix_146: -8440639997849536185
+      Buc5-fix_147: -7425950237931219844
+      Buc5-fix_148: 3171391992256161738
+      Buc5-fix_149: 372531236465103615
+      Buc5-fix_15: -4985044602576290639
+      Buc5-fix_150: -3287169158261131914
+      Buc5-fix_151: 4800251231947502370
+      Buc5-fix_152: 2249935546357396655
+      Buc5-fix_153: -696331774849544572
+      Buc5-fix_154: 5788964703135912555
+      Buc5-fix_155: -4327495350332775243
+      Buc5-fix_156: -7737096445158379208
+      Buc5-fix_157: 4849855243324051509
+      Buc5-fix_158: -3923026868616811061
+      Buc5-fix_159: -1393260480845036248
+      Buc5-fix_16: -1812850348859082050
+      Buc5-fix_160: 6639734738498252012
+      Buc5-fix_161: -8051233421571754851
+      Buc5-fix_162: 3449904215239185188
+      Buc5-fix_163: 3207145004864088415
+      Buc5-fix_164: 3527761219198524180
+      Buc5-fix_165: -8099024303325285831
+      Buc5-fix_166: 941889634025586681
+      Buc5-fix_167: -588205396036813591
+      Buc5-fix_168: -8095208865436805208
+      Buc5-fix_169: -8760302543052864901
+      Buc5-fix_17: 5338587595114803588
+      Buc5-fix_170: 956971270075156398
+      Buc5-fix_171: 8206508981970795238
+      Buc5-fix_172: 3887876928050991813
+      Buc5-fix_173: -6493256326322396113
+      Buc5-fix_174: 6710245760112576839
+      Buc5-fix_175: 3763124219028216595
+      Buc5-fix_176: -8333924682119387361
+      Buc5-fix_177: -3905214266934821772
+      Buc5-fix_178: 1315890684804033236
+      Buc5-fix_179: -1638288474067285664
+      Buc5-fix_18: 267647884547949632
+      Buc5-fix_180: 7463918800475169889
+      Buc5-fix_181: -4397231897815373861
+      Buc5-fix_182: 4773411620455052447
+      Buc5-fix_183: -226461498828068663
+      Buc5-fix_184: 3420216663794426460
+      Buc5-fix_185: -3112827769925964672
+      Buc5-fix_186: 7805780102989439896
+      Buc5-fix_187: 1251100497040262652
+      Buc5-fix_188: 2575308409703043084
+      Buc5-fix_189: 2973162504927371173
+      Buc5-fix_19: 8587184148088524155
+      Buc5-fix_190: 947002634434881654
+      Buc5-fix_191: -3071416621642472967
+      Buc5-fix_192: -7671906998875841921
+      Buc5-fix_193: -8370823597673733988
+      Buc5-fix_194: -8245823090652699944
+      Buc5-fix_195: -1152089276904991996
+      Buc5-fix_196: 1846023108758818107
+      Buc5-fix_197: 4574181493310148385
+      Buc5-fix_198: -1800016948733374000
+      Buc5-fix_199: -8018222447970305560
+      Buc5-fix_2: 8357029987819326499
+      Buc5-fix_20: 6145274191147510085
+      Buc5-fix_200: 8678362315385789840
+      Buc5-fix_201: -4871523572873338332
+      Buc5-fix_202: 1526262366828798419
+      Buc5-fix_203: 3386593021207798243
+      Buc5-fix_204: 1008723073850700115
+      Buc5-fix_205: -7209008207146573045
+      Buc5-fix_206: 3258320802976097889
+      Buc5-fix_207: -8812763241162500810
+      Buc5-fix_208: -7619006194339976494
+      Buc5-fix_209: -6260723559748929505
+      Buc5-fix_21: 5704934627651996906
+      Buc5-fix_210: 3302077761612325821
+      Buc5-fix_211: 3066204365857016519
+      Buc5-fix_212: -8207820349132975268
+      Buc5-fix_213: 3307215554901779095
+      Buc5-fix_214: 9085550010246024923
+      Buc5-fix_215: 5209897381972195336
+      Buc5-fix_216: -1105810813517513045
+      Buc5-fix_217: 9056632800154912810
+      Buc5-fix_218: -6350810882613582726
+      Buc5-fix_219: -1631961307149866369
+      Buc5-fix_22: 1112809265587259335
+      Buc5-fix_220: 4400556090843468139
+      Buc5-fix_221: -8317542750789832459
+      Buc5-fix_222: 6954311308469228276
+      Buc5-fix_223: -4464203341543578427
+      Buc5-fix_224: -8038871180253985996
+      Buc5-fix_225: 3459718095798419398
+      Buc5-fix_226: 6299371906264387841
+      Buc5-fix_227: 5166223751786641047
+      Buc5-fix_228: -2483614470483386355
+      Buc5-fix_229: 6767135714848396312
+      Buc5-fix_23: 4562639692196789074
+      Buc5-fix_230: -4825186465491021420
+      Buc5-fix_231: 5214613508492640123
+      Buc5-fix_232: 2822260999959667095
+      Buc5-fix_233: 2395007992610014919
+      Buc5-fix_234: 159192248947205835
+      Buc5-fix_235: -2607323678944817664
+      Buc5-fix_236: 8187173551605196099
+      Buc5-fix_237: -7284164609841414231
+      Buc5-fix_238: 7380268061476616201
+      Buc5-fix_239: -3317462878670004477
+      Buc5-fix_24: -6873331460883677304
+      Buc5-fix_240: -604261633828303504
+      Buc5-fix_241: -254637328033241926
+      Buc5-fix_242: 4161105824398571414
+      Buc5-fix_243: -6342211889180469173
+      Buc5-fix_244: -6695928802961522368
+      Buc5-fix_245: -4692413886660905758
+      Buc5-fix_246: -3521549035369243053
+      Buc5-fix_247: 2251827284644082564
+      Buc5-fix_248: 4072870006826631800
+      Buc5-fix_249: 6975848994441002658
+      Buc5-fix_25: 869556640628103756
+      Buc5-fix_250: -2014425479573655368
+      Buc5-fix_251: -5028279589848443833
+      Buc5-fix_252: -7138320982825579697
+      Buc5-fix_253: -1611869624037126275
+      Buc5-fix_254: 5264928735901705078
+      Buc5-fix_255: 5117687035556693497
+      Buc5-fix_256: -5334017684671674214
+      Buc5-fix_257: -6795870066971625889
+      Buc5-fix_258: -2457771438374547773
+      Buc5-fix_259: -6702097894445994126
+      Buc5-fix_26: -7274741153495396254
+      Buc5-fix_260: 2229170439051868941
+      Buc5-fix_261: 2106032184657254124
+      Buc5-fix_262: -2609125353706473541
+      Buc5-fix_263: 5610310860559931502
+      Buc5-fix_264: -3858244924421010776
+      Buc5-fix_265: 825064625925427831
+      Buc5-fix_266: 1791397225376779876
+      Buc5-fix_267: -8108565350556287918
+      Buc5-fix_268: -7980976865691752525
+      Buc5-fix_269: -889941432969726535
+      Buc5-fix_27: 3260786508092517729
+      Buc5-fix_270: -927270067323974830
+      Buc5-fix_271: -8080312163327175313
+      Buc5-fix_272: 9199015268757650342
+      Buc5-fix_273: -885994849759740152
+      Buc5-fix_274: -5399169138091343970
+      Buc5-fix_275: -3068115130651274818
+      Buc5-fix_276: 4899812362070451795
+      Buc5-fix_277: 8469676785604540148
+      Buc5-fix_278: 252325334944924802
+      Buc5-fix_279: -753144844491671347
+      Buc5-fix_28: -2933281697288058594
+      Buc5-fix_280: -8869386668457687788
+      Buc5-fix_281: 9012517077364730201
+      Buc5-fix_282: -7958859040779244410
+      Buc5-fix_283: 7111630058156139200
+      Buc5-fix_29: -3910745531053500985
+      Buc5-fix_3: -5361507178530142327
+      Buc5-fix_30: 6512415060062681735
+      Buc5-fix_31: -8087325764254997350
+      Buc5-fix_32: 4808091383990066153
+      Buc5-fix_33: 7990347689955140490
+      Buc5-fix_34: 8482863725600766312
+      Buc5-fix_35: 2199497915995974698
+      Buc5-fix_36: 1515214023829001563
+      Buc5-fix_37: 3729699154169853686
+      Buc5-fix_38: -501423257000384177
+      Buc5-fix_39: 7481070928567862553
+      Buc5-fix_4: 4191991202410455584
+      Buc5-fix_40: 3252753544010410007
+      Buc5-fix_41: -3761582904830718501
+      Buc5-fix_42: -7560676099626292924
+      Buc5-fix_43: 8243351847024323751
+      Buc5-fix_44: 3290340311667713255
+      Buc5-fix_45: 5944832605255582124
+      Buc5-fix_46: -1204332562820031045
+      Buc5-fix_47: -7232481715834412561
+      Buc5-fix_48: 4386135493184577103
+      Buc5-fix_49: -8047821660677100930
+      Buc5-fix_5: -5417220647069875657
+      Buc5-fix_50: 1980754538174133632
+      Buc5-fix_51: 647752026361317600
+      Buc5-fix_52: -8814736939835006278
+      Buc5-fix_53: 268216868729360103
+      Buc5-fix_54: -5790555568378417808
+      Buc5-fix_55: -1359394738038760856
+      Buc5-fix_56: -774878565367733823
+      Buc5-fix_57: -8323925445341948404
+      Buc5-fix_58: 5388312603213744778
+      Buc5-fix_59: 681299997149693277
+      Buc5-fix_6: -3024141809257955418
+      Buc5-fix_60: 8954113868205990190
+      Buc5-fix_61: 3613306295569411846
+      Buc5-fix_62: 8665060932029370596
+      Buc5-fix_63: 2204768665783371588
+      Buc5-fix_64: 4250546647954042365
+      Buc5-fix_65: 3749213468465440376
+      Buc5-fix_66: -6651344312093726632
+      Buc5-fix_67: 419888464790134649
+      Buc5-fix_68: 4945433861362761595
+      Buc5-fix_69: -1920522744727791250
+      Buc5-fix_7: 7057605506186290193
+      Buc5-fix_70: -4048147095298044158
+      Buc5-fix_71: -1375133218643603296
+      Buc5-fix_72: -4569342298016780036
+      Buc5-fix_73: -1891459898795224752
+      Buc5-fix_74: -1370718253306589326
+      Buc5-fix_75: -4527345176259411966
+      Buc5-fix_76: -2563390907041592328
+      Buc5-fix_77: 8110686131615972052
+      Buc5-fix_78: -3262007385500015609
+      Buc5-fix_79: -9108455667210017099
+      Buc5-fix_8: 3686090145447205731
+      Buc5-fix_80: -4175947218114247222
+      Buc5-fix_81: -8480057145859808630
+      Buc5-fix_82: 8925909345437228540
+      Buc5-fix_83: -7584353855770795087
+      Buc5-fix_84: 708311794293471534
+      Buc5-fix_85: -8633271250030048672
+      Buc5-fix_86: 1021918579973932593
+      Buc5-fix_87: 4374643756791878686
+      Buc5-fix_88: -3365320899235269676
+      Buc5-fix_89: 5687567685259817724
+      Buc5-fix_9: -121850681196029813
+      Buc5-fix_90: 1177068762015176458
+      Buc5-fix_91: 2339511451206660784
+      Buc5-fix_92: -6076570741910479411
+      Buc5-fix_93: -3788376019915709008
+      Buc5-fix_94: -5494284154244707811
+      Buc5-fix_95: -3154084532984907775
+      Buc5-fix_96: -8386154254916463826
+      Buc5-fix_97: 7753365606707191188
+      Buc5-fix_98: 790707764723196279
+      Buc5-fix_99: 5839147406123971763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

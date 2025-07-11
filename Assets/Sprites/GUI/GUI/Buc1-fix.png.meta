@@ -1,0 +1,1074 @@
+fileFormatVersion: 2
+guid: 9c6865d171ccf354aae7d0638bfa4728
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5493343221748660829
+    second: Buc1-fix_0
+  - first:
+      213: -417526181398722529
+    second: Buc1-fix_1
+  - first:
+      213: 6200127931935018872
+    second: Buc1-fix_2
+  - first:
+      213: 6518900200015149401
+    second: Buc1-fix_3
+  - first:
+      213: 1543402230821943270
+    second: Buc1-fix_4
+  - first:
+      213: 5262168840387655699
+    second: Buc1-fix_5
+  - first:
+      213: -1301530851936578755
+    second: Buc1-fix_6
+  - first:
+      213: 3450906131691135553
+    second: Buc1-fix_7
+  - first:
+      213: -7517167766977808143
+    second: Buc1-fix_8
+  - first:
+      213: 6800351913781266489
+    second: Buc1-fix_9
+  - first:
+      213: 9214010097798053844
+    second: Buc1-fix_10
+  - first:
+      213: 6375093076406743385
+    second: Buc1-fix_11
+  - first:
+      213: 7700397431005752183
+    second: Buc1-fix_12
+  - first:
+      213: 423096563140282633
+    second: Buc1-fix_13
+  - first:
+      213: 4329674091204121127
+    second: Buc1-fix_14
+  - first:
+      213: -8627010173242402467
+    second: Buc1-fix_15
+  - first:
+      213: -7831335857475382191
+    second: Buc1-fix_16
+  - first:
+      213: -7483322074141160994
+    second: Buc1-fix_17
+  - first:
+      213: -325486111819197126
+    second: Buc1-fix_18
+  - first:
+      213: -7083507031817889452
+    second: Buc1-fix_19
+  - first:
+      213: -2941021847753188393
+    second: Buc1-fix_20
+  - first:
+      213: 4432163345528808359
+    second: Buc1-fix_21
+  - first:
+      213: 6165843668552289322
+    second: Buc1-fix_22
+  - first:
+      213: -486975005836626949
+    second: Buc1-fix_23
+  - first:
+      213: 2320715307874071682
+    second: Buc1-fix_24
+  - first:
+      213: -2751596332361760855
+    second: Buc1-fix_25
+  - first:
+      213: 8344055355817898809
+    second: Buc1-fix_26
+  - first:
+      213: 1918742776376669715
+    second: Buc1-fix_27
+  - first:
+      213: 8866894716925505375
+    second: Buc1-fix_28
+  - first:
+      213: -6589443019690807356
+    second: Buc1-fix_29
+  - first:
+      213: -1605924939358942504
+    second: Buc1-fix_30
+  - first:
+      213: 5747331278012893481
+    second: Buc1-fix_31
+  - first:
+      213: 4310689476032686988
+    second: Buc1-fix_32
+  - first:
+      213: -5599827140117192934
+    second: Buc1-fix_33
+  - first:
+      213: 5492899117710651491
+    second: Buc1-fix_34
+  - first:
+      213: -3841338910719008837
+    second: Buc1-fix_35
+  - first:
+      213: -4655422489732576523
+    second: Buc1-fix_36
+  - first:
+      213: 5825190310745582959
+    second: Buc1-fix_37
+  - first:
+      213: -7494700085376313386
+    second: Buc1-fix_38
+  - first:
+      213: -8320507799755010614
+    second: Buc1-fix_39
+  - first:
+      213: 6765891181808567770
+    second: Buc1-fix_40
+  - first:
+      213: 2128187012091062592
+    second: Buc1-fix_41
+  - first:
+      213: -2158927520354635257
+    second: Buc1-fix_42
+  - first:
+      213: -4894511997021241549
+    second: Buc1-fix_43
+  - first:
+      213: 1351886072752742107
+    second: Buc1-fix_44
+  - first:
+      213: -2835671066175369517
+    second: Buc1-fix_45
+  - first:
+      213: -425417496598920803
+    second: Buc1-fix_46
+  - first:
+      213: 7004137304426623995
+    second: Buc1-fix_47
+  - first:
+      213: -4894908502843219614
+    second: Buc1-fix_48
+  - first:
+      213: -740513846339367733
+    second: Buc1-fix_49
+  - first:
+      213: 2917885564089522167
+    second: Buc1-fix_50
+  - first:
+      213: 8546464635373503577
+    second: Buc1-fix_51
+  - first:
+      213: 4660228914762268863
+    second: Buc1-fix_52
+  - first:
+      213: -7474881478970889211
+    second: Buc1-fix_53
+  - first:
+      213: -2710346837639122423
+    second: Buc1-fix_54
+  - first:
+      213: -2167759234908225903
+    second: Buc1-fix_55
+  - first:
+      213: -2183967237572677740
+    second: Buc1-fix_56
+  - first:
+      213: -4910218995094119001
+    second: Buc1-fix_57
+  - first:
+      213: -8516473351934277290
+    second: Buc1-fix_58
+  - first:
+      213: -7529671674022992367
+    second: Buc1-fix_59
+  - first:
+      213: -6172693222736841648
+    second: Buc1-fix_60
+  - first:
+      213: 6475357364220698048
+    second: Buc1-fix_61
+  - first:
+      213: 8866886767317701432
+    second: Buc1-fix_62
+  - first:
+      213: -1709425549737796678
+    second: Buc1-fix_63
+  - first:
+      213: 385763873997657045
+    second: Buc1-fix_64
+  - first:
+      213: 1463223258178510304
+    second: Buc1-fix_65
+  - first:
+      213: -4953678130000316359
+    second: Buc1-fix_66
+  - first:
+      213: -6690432197025877760
+    second: Buc1-fix_67
+  - first:
+      213: 6242435148620792399
+    second: Buc1-fix_68
+  - first:
+      213: -1514256930194897007
+    second: Buc1-fix_69
+  - first:
+      213: 2787135980041939780
+    second: Buc1-fix_70
+  - first:
+      213: -5064405665602371570
+    second: Buc1-fix_71
+  - first:
+      213: -3457633194214402240
+    second: Buc1-fix_72
+  - first:
+      213: -2905093960060115288
+    second: Buc1-fix_73
+  - first:
+      213: 6213962757191034886
+    second: Buc1-fix_74
+  - first:
+      213: -2351826636572580776
+    second: Buc1-fix_75
+  - first:
+      213: 4146203841941959747
+    second: Buc1-fix_76
+  - first:
+      213: -8411637415606837090
+    second: Buc1-fix_77
+  - first:
+      213: 1463676932788398317
+    second: Buc1-fix_78
+  - first:
+      213: 1249656478322824407
+    second: Buc1-fix_79
+  - first:
+      213: -5268589265442480107
+    second: Buc1-fix_80
+  - first:
+      213: 6274316565080614172
+    second: Buc1-fix_81
+  - first:
+      213: -5381344870840933811
+    second: Buc1-fix_82
+  - first:
+      213: 3038724975724656551
+    second: Buc1-fix_83
+  - first:
+      213: 3036539744979455947
+    second: Buc1-fix_84
+  - first:
+      213: 2139037018198581386
+    second: Buc1-fix_85
+  - first:
+      213: 1853656374836457143
+    second: Buc1-fix_86
+  - first:
+      213: -8055888733262650773
+    second: Buc1-fix_87
+  - first:
+      213: 5448865832033050111
+    second: Buc1-fix_88
+  - first:
+      213: -6051213382905555860
+    second: Buc1-fix_89
+  - first:
+      213: -426575695699869741
+    second: Buc1-fix_90
+  - first:
+      213: -8977118499585741505
+    second: Buc1-fix_91
+  - first:
+      213: 1965197179481400907
+    second: Buc1-fix_92
+  - first:
+      213: 2011811968758437587
+    second: Buc1-fix_93
+  - first:
+      213: -5332064571841249774
+    second: Buc1-fix_94
+  - first:
+      213: 7461228956353060912
+    second: Buc1-fix_95
+  - first:
+      213: -2279800611685665051
+    second: Buc1-fix_96
+  - first:
+      213: 1128067545272229170
+    second: Buc1-fix_97
+  - first:
+      213: 4626175975835017097
+    second: Buc1-fix_98
+  - first:
+      213: 6838911529561139580
+    second: Buc1-fix_99
+  - first:
+      213: 7614246370018387541
+    second: Buc1-fix_100
+  - first:
+      213: 7279283051073915964
+    second: Buc1-fix_101
+  - first:
+      213: 4915577194364164444
+    second: Buc1-fix_102
+  - first:
+      213: -2604934421998246134
+    second: Buc1-fix_103
+  - first:
+      213: -8403273781528948452
+    second: Buc1-fix_104
+  - first:
+      213: -5500458840931259210
+    second: Buc1-fix_105
+  - first:
+      213: -5507870869047005974
+    second: Buc1-fix_106
+  - first:
+      213: -5452033208869626304
+    second: Buc1-fix_107
+  - first:
+      213: -5721425166704644234
+    second: Buc1-fix_108
+  - first:
+      213: 8891991593648808993
+    second: Buc1-fix_109
+  - first:
+      213: -3547912242080828879
+    second: Buc1-fix_110
+  - first:
+      213: -335399388632770205
+    second: Buc1-fix_111
+  - first:
+      213: 956746182037224056
+    second: Buc1-fix_112
+  - first:
+      213: -8241638612865183837
+    second: Buc1-fix_113
+  - first:
+      213: -2605527577629670833
+    second: Buc1-fix_114
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buc1-fix_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1210
+        width: 161
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5af0a12e864c3c40800000000000000
+      internalID: 5493343221748660829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1149
+        width: 162
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18cd417626a43af0800000000000000
+      internalID: -417526181398722529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1121
+        width: 162
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fc6f021874b0650800000000000000
+      internalID: 6200127931935018872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1297
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959302c7139c77a50800000000000000
+      internalID: 6518900200015149401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_4
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1297
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7ffa1d6244b6510800000000000000
+      internalID: 1543402230821943270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1267
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3187f6f1eaaf60940800000000000000
+      internalID: 5262168840387655699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_6
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1241
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33db12069800fde0800000000000000
+      internalID: -1301530851936578755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_7
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1207
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142eaa4d7d414ef20800000000000000
+      internalID: 3450906131691135553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1154
+        width: 159
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8754c5eb7ada790800000000000000
+      internalID: -7517167766977808143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_9
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1181
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93884982904bf5e50800000000000000
+      internalID: 6800351913781266489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_25
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1123
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af3f4cd6bd50d9d0800000000000000
+      internalID: -2751596332361760855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_26
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1123
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933b8bd232a0cc370800000000000000
+      internalID: 8344055355817898809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 804
+        width: 420
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3163741a36eb0aa10800000000000000
+      internalID: 1918742776376669715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 804
+        width: 188
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fe12724c98d0b70800000000000000
+      internalID: 8866894716925505375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 504
+        width: 237
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfe6a76c789d84a0800000000000000
+      internalID: -6589443019690807356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_64
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 502
+        width: 344
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d31fc413328a5500800000000000000
+      internalID: 385763873997657045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_65
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 442
+        width: 412
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edd1d20dc96e4410800000000000000
+      internalID: 1463223258178510304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_66
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 389
+        width: 152
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938b5b98cfff04bb0800000000000000
+      internalID: -4953678130000316359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_87
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 274
+        width: 77
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62eec701ebb33090800000000000000
+      internalID: -8055888733262650773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_88
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 335
+        width: 232
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdd71bda924e9b40800000000000000
+      internalID: 5448865832033050111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_113
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 192
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af07010951df9d80800000000000000
+      internalID: -8241638612865183837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buc1-fix_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 13
+        width: 194
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4246ea097e47dbd0800000000000000
+      internalID: -2605527577629670833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42a6d89166ff54544919968aebe6146e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Buc1-fix_0: 5493343221748660829
+      Buc1-fix_1: -417526181398722529
+      Buc1-fix_10: 9214010097798053844
+      Buc1-fix_100: 7614246370018387541
+      Buc1-fix_101: 7279283051073915964
+      Buc1-fix_102: 4915577194364164444
+      Buc1-fix_103: -2604934421998246134
+      Buc1-fix_104: -8403273781528948452
+      Buc1-fix_105: -5500458840931259210
+      Buc1-fix_106: -5507870869047005974
+      Buc1-fix_107: -5452033208869626304
+      Buc1-fix_108: -5721425166704644234
+      Buc1-fix_109: 8891991593648808993
+      Buc1-fix_11: 6375093076406743385
+      Buc1-fix_110: -3547912242080828879
+      Buc1-fix_111: -335399388632770205
+      Buc1-fix_112: 956746182037224056
+      Buc1-fix_113: -8241638612865183837
+      Buc1-fix_114: -2605527577629670833
+      Buc1-fix_12: 7700397431005752183
+      Buc1-fix_13: 423096563140282633
+      Buc1-fix_14: 4329674091204121127
+      Buc1-fix_15: -8627010173242402467
+      Buc1-fix_16: -7831335857475382191
+      Buc1-fix_17: -7483322074141160994
+      Buc1-fix_18: -325486111819197126
+      Buc1-fix_19: -7083507031817889452
+      Buc1-fix_2: 6200127931935018872
+      Buc1-fix_20: -2941021847753188393
+      Buc1-fix_21: 4432163345528808359
+      Buc1-fix_22: 6165843668552289322
+      Buc1-fix_23: -486975005836626949
+      Buc1-fix_24: 2320715307874071682
+      Buc1-fix_25: -2751596332361760855
+      Buc1-fix_26: 8344055355817898809
+      Buc1-fix_27: 1918742776376669715
+      Buc1-fix_28: 8866894716925505375
+      Buc1-fix_29: -6589443019690807356
+      Buc1-fix_3: 6518900200015149401
+      Buc1-fix_30: -1605924939358942504
+      Buc1-fix_31: 5747331278012893481
+      Buc1-fix_32: 4310689476032686988
+      Buc1-fix_33: -5599827140117192934
+      Buc1-fix_34: 5492899117710651491
+      Buc1-fix_35: -3841338910719008837
+      Buc1-fix_36: -4655422489732576523
+      Buc1-fix_37: 5825190310745582959
+      Buc1-fix_38: -7494700085376313386
+      Buc1-fix_39: -8320507799755010614
+      Buc1-fix_4: 1543402230821943270
+      Buc1-fix_40: 6765891181808567770
+      Buc1-fix_41: 2128187012091062592
+      Buc1-fix_42: -2158927520354635257
+      Buc1-fix_43: -4894511997021241549
+      Buc1-fix_44: 1351886072752742107
+      Buc1-fix_45: -2835671066175369517
+      Buc1-fix_46: -425417496598920803
+      Buc1-fix_47: 7004137304426623995
+      Buc1-fix_48: -4894908502843219614
+      Buc1-fix_49: -740513846339367733
+      Buc1-fix_5: 5262168840387655699
+      Buc1-fix_50: 2917885564089522167
+      Buc1-fix_51: 8546464635373503577
+      Buc1-fix_52: 4660228914762268863
+      Buc1-fix_53: -7474881478970889211
+      Buc1-fix_54: -2710346837639122423
+      Buc1-fix_55: -2167759234908225903
+      Buc1-fix_56: -2183967237572677740
+      Buc1-fix_57: -4910218995094119001
+      Buc1-fix_58: -8516473351934277290
+      Buc1-fix_59: -7529671674022992367
+      Buc1-fix_6: -1301530851936578755
+      Buc1-fix_60: -6172693222736841648
+      Buc1-fix_61: 6475357364220698048
+      Buc1-fix_62: 8866886767317701432
+      Buc1-fix_63: -1709425549737796678
+      Buc1-fix_64: 385763873997657045
+      Buc1-fix_65: 1463223258178510304
+      Buc1-fix_66: -4953678130000316359
+      Buc1-fix_67: -6690432197025877760
+      Buc1-fix_68: 6242435148620792399
+      Buc1-fix_69: -1514256930194897007
+      Buc1-fix_7: 3450906131691135553
+      Buc1-fix_70: 2787135980041939780
+      Buc1-fix_71: -5064405665602371570
+      Buc1-fix_72: -3457633194214402240
+      Buc1-fix_73: -2905093960060115288
+      Buc1-fix_74: 6213962757191034886
+      Buc1-fix_75: -2351826636572580776
+      Buc1-fix_76: 4146203841941959747
+      Buc1-fix_77: -8411637415606837090
+      Buc1-fix_78: 1463676932788398317
+      Buc1-fix_79: 1249656478322824407
+      Buc1-fix_8: -7517167766977808143
+      Buc1-fix_80: -5268589265442480107
+      Buc1-fix_81: 6274316565080614172
+      Buc1-fix_82: -5381344870840933811
+      Buc1-fix_83: 3038724975724656551
+      Buc1-fix_84: 3036539744979455947
+      Buc1-fix_85: 2139037018198581386
+      Buc1-fix_86: 1853656374836457143
+      Buc1-fix_87: -8055888733262650773
+      Buc1-fix_88: 5448865832033050111
+      Buc1-fix_89: -6051213382905555860
+      Buc1-fix_9: 6800351913781266489
+      Buc1-fix_90: -426575695699869741
+      Buc1-fix_91: -8977118499585741505
+      Buc1-fix_92: 1965197179481400907
+      Buc1-fix_93: 2011811968758437587
+      Buc1-fix_94: -5332064571841249774
+      Buc1-fix_95: 7461228956353060912
+      Buc1-fix_96: -2279800611685665051
+      Buc1-fix_97: 1128067545272229170
+      Buc1-fix_98: 4626175975835017097
+      Buc1-fix_99: 6838911529561139580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
