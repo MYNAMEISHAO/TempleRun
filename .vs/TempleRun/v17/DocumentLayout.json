@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Temp\\Compiled-UI-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\Compiled-UI-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\player\\newmonobehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newmonobehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Compiled-UI-Default.shader",
-              "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Temp\\Compiled-UI-Default.shader",
-              "RelativeDocumentMoniker": "Temp\\Compiled-UI-Default.shader",
-              "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Temp\\Compiled-UI-Default.shader",
-              "RelativeToolTip": "Temp\\Compiled-UI-Default.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-07-11T08:07:57.787Z",
+              "Title": "NewMonoBehaviourScript.cs",
+              "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Player\\NewMonoBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewMonoBehaviourScript.cs",
+              "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Player\\NewMonoBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\NewMonoBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T18:33:44.122Z",
               "EditorCaption": ""
             }
           ]
