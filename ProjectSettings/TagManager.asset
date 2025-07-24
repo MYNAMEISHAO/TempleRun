@@ -38,14 +38,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Entity
-    uniqueID: 744371289
+  - name: BackGround
+    uniqueID: 4125460715
     locked: 0
   - name: Decor
     uniqueID: 1707037629
     locked: 0
-  - name: BackGround
-    uniqueID: 4125460715
+  - name: Entity
+    uniqueID: 744371289
     locked: 0
   - name: Default
     uniqueID: 0

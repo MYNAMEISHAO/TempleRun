@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: 6db1f9636837f714eab53835a972e698
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7246410156724672392
+    second: ts2-fix-2-decorpart_0
+  - first:
+      213: -3353335923851547503
+    second: ts2-fix-2-decorpart_1
+  - first:
+      213: -459519879870507506
+    second: ts2-fix-2-decorpart_2
+  - first:
+      213: 6630620669437142536
+    second: ts2-fix-2-decorpart_3
+  - first:
+      213: -8936933070191235241
+    second: ts2-fix-2-decorpart_4
+  - first:
+      213: -8748984048189762824
+    second: ts2-fix-2-decorpart_5
+  - first:
+      213: 6026678430163423604
+    second: ts2-fix-2-decorpart_6
+  - first:
+      213: -7807774196425891026
+    second: ts2-fix-2-decorpart_7
+  - first:
+      213: 1549930166413818088
+    second: ts2-fix-2-decorpart_8
+  - first:
+      213: 8760101457456726811
+    second: ts2-fix-2-decorpart_9
+  - first:
+      213: -3019287214016700443
+    second: ts2-fix-2-decorpart_10
+  - first:
+      213: -3995713412795170231
+    second: ts2-fix-2-decorpart_11
+  - first:
+      213: 3279907648380396250
+    second: ts2-fix-2-decorpart_12
+  - first:
+      213: 8893001178751394847
+    second: ts2-fix-2-decorpart_13
+  - first:
+      213: 4536839953941482133
+    second: ts2-fix-2-decorpart_14
+  - first:
+      213: 9061198924630358319
+    second: ts2-fix-2-decorpart_15
+  - first:
+      213: -7993618840488604552
+    second: ts2-fix-2-decorpart_16
+  - first:
+      213: -3083404058758354722
+    second: ts2-fix-2-decorpart_17
+  - first:
+      213: 7096514702213682151
+    second: ts2-fix-2-decorpart_18
+  - first:
+      213: 459049966251023867
+    second: ts2-fix-2-decorpart_19
+  - first:
+      213: -571135214813926923
+    second: ts2-fix-2-decorpart_20
+  - first:
+      213: -2359783757769363896
+    second: ts2-fix-2-decorpart_21
+  - first:
+      213: -7364440987385420439
+    second: ts2-fix-2-decorpart_22
+  - first:
+      213: 6514291791869198756
+    second: ts2-fix-2-decorpart_23
+  - first:
+      213: -7864211974615224186
+    second: ts2-fix-2-decorpart_24
+  - first:
+      213: -2786420620932598084
+    second: ts2-fix-2-decorpart_25
+  - first:
+      213: -5718137511120540860
+    second: ts2-fix-2-decorpart_26
+  - first:
+      213: -3302920515522568462
+    second: ts2-fix-2-decorpart_27
+  - first:
+      213: 2255512942845276551
+    second: ts2-fix-2-decorpart_28
+  - first:
+      213: -8989043511323953398
+    second: ts2-fix-2-decorpart_29
+  - first:
+      213: 1736532875002762619
+    second: ts2-fix-2-decorpart_30
+  - first:
+      213: 2869791182030077739
+    second: ts2-fix-2-decorpart_31
+  - first:
+      213: -3105294185297614782
+    second: ts2-fix-2-decorpart_32
+  - first:
+      213: 2040177382035066156
+    second: ts2-fix-2-decorpart_33
+  - first:
+      213: 6386156893090409395
+    second: ts2-fix-2-decorpart_34
+  - first:
+      213: 8812113086829599592
+    second: ts2-fix-2-decorpart_35
+  - first:
+      213: -4197254081044496459
+    second: ts2-fix-2-decorpart_36
+  - first:
+      213: -3617734510124320179
+    second: ts2-fix-2-decorpart_37
+  - first:
+      213: 954395875770954311
+    second: ts2-fix-2-decorpart_38
+  - first:
+      213: 5078344733435978539
+    second: ts2-fix-2-decorpart_39
+  - first:
+      213: 209806219128616617
+    second: ts2-fix-2-decorpart_40
+  - first:
+      213: 8720795931843227674
+    second: ts2-fix-2-decorpart_41
+  - first:
+      213: 175946560694299978
+    second: ts2-fix-2-decorpart_42
+  - first:
+      213: 8154542381522440462
+    second: ts2-fix-2-decorpart_43
+  - first:
+      213: -7692038773725830715
+    second: ts2-fix-2-decorpart_44
+  - first:
+      213: 1564215101727102260
+    second: ts2-fix-2-decorpart_45
+  - first:
+      213: -7232541740608891978
+    second: ts2-fix-2-decorpart_46
+  - first:
+      213: 2195429468912448638
+    second: ts2-fix-2-decorpart_47
+  - first:
+      213: -4383936037873639930
+    second: ts2-fix-2-decorpart_48
+  - first:
+      213: -4460851323495941496
+    second: ts2-fix-2-decorpart_49
+  - first:
+      213: -1222406171411002145
+    second: ts2-fix-2-decorpart_50
+  - first:
+      213: 4918368717946519812
+    second: ts2-fix-2-decorpart_51
+  - first:
+      213: -198023031881163490
+    second: ts2-fix-2-decorpart_52
+  - first:
+      213: -7694890076208171740
+    second: ts2-fix-2-decorpart_53
+  - first:
+      213: -3946465176662914567
+    second: ts2-fix-2-decorpart_54
+  - first:
+      213: 4058406911983665366
+    second: ts2-fix-2-decorpart_55
+  - first:
+      213: 286210932360323700
+    second: ts2-fix-2-decorpart_56
+  - first:
+      213: 5698179186762483389
+    second: ts2-fix-2-decorpart_57
+  - first:
+      213: -6913354243790849817
+    second: ts2-fix-2-decorpart_58
+  - first:
+      213: 1335729295229686661
+    second: ts2-fix-2-decorpart_59
+  - first:
+      213: 4733713952945351035
+    second: ts2-fix-2-decorpart_60
+  - first:
+      213: 6161803427998869671
+    second: ts2-fix-2-decorpart_61
+  - first:
+      213: 8368122611961438324
+    second: ts2-fix-2-decorpart_62
+  - first:
+      213: -654172579555406690
+    second: ts2-fix-2-decorpart_63
+  - first:
+      213: -7039357947534907758
+    second: ts2-fix-2-decorpart_64
+  - first:
+      213: 8147195909707765676
+    second: ts2-fix-2-decorpart_65
+  - first:
+      213: 695216912077362252
+    second: ts2-fix-2-decorpart_66
+  - first:
+      213: 5381141231173705820
+    second: ts2-fix-2-decorpart_67
+  - first:
+      213: 8120099880047536581
+    second: ts2-fix-2-decorpart_68
+  - first:
+      213: -6738759701570205223
+    second: ts2-fix-2-decorpart_69
+  - first:
+      213: 3607644065644511052
+    second: ts2-fix-2-decorpart_70
+  - first:
+      213: 821194043943030216
+    second: ts2-fix-2-decorpart_71
+  - first:
+      213: 3368657090958051931
+    second: ts2-fix-2-decorpart_72
+  - first:
+      213: 4155413362418791020
+    second: ts2-fix-2-decorpart_73
+  - first:
+      213: 7881589276549880960
+    second: ts2-fix-2-decorpart_74
+  - first:
+      213: 2673123582245939718
+    second: ts2-fix-2-decorpart_75
+  - first:
+      213: 4476995901907901456
+    second: ts2-fix-2-decorpart_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 470
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0696199a157f99f0800000000000000
+      internalID: -459519879870507506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_3
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 467
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806e92a4e52b40c50800000000000000
+      internalID: 6630620669437142536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_4
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 415
+        width: 195
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f6fc9f8b2a9f380800000000000000
+      internalID: -8936933070191235241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_30
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 328
+        width: 105
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75d3530377691810800000000000000
+      internalID: 1736532875002762619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_31
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 371
+        width: 214
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f737010eb83d720800000000000000
+      internalID: 2869791182030077739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_32
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 340
+        width: 133
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248ef3a1467c7e4d0800000000000000
+      internalID: -3105294185297614782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_33
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 276
+        width: 140
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d8cf6058a205c10800000000000000
+      internalID: 2040177382035066156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_61
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 146
+        width: 84
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a828a5329f138550800000000000000
+      internalID: 6161803427998869671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_66
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 138
+        width: 106
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44173e1918e5a900800000000000000
+      internalID: 695216912077362252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_67
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 230
+        width: 93
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5021527077adaa40800000000000000
+      internalID: 5381141231173705820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_68
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 212
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9ecea91d360b070800000000000000
+      internalID: 8120099880047536581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_69
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 154
+        width: 93
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9c03141cd1b72a0800000000000000
+      internalID: -6738759701570205223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_70
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 36
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f79c0e92de01230800000000000000
+      internalID: 3607644065644511052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_71
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 35
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd04e0d1a7756b00800000000000000
+      internalID: 821194043943030216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_72
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 34
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ac7acb6cfdfbe20800000000000000
+      internalID: 3368657090958051931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_73
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 34
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6232e1df6efaa930800000000000000
+      internalID: 4155413362418791020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_74
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 33
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c984640b7016d60800000000000000
+      internalID: 7881589276549880960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_75
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 76
+        width: 120
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a2d783cb7d81520800000000000000
+      internalID: 2673123582245939718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ts2-fix-2-decorpart_76
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 32
+        width: 150
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c991a7d0c712e30800000000000000
+      internalID: 4476995901907901456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1bbfcd0fb27d1c24eb0f6b726655fd4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ts2-fix-2-decorpart_0: -7246410156724672392
+      ts2-fix-2-decorpart_1: -3353335923851547503
+      ts2-fix-2-decorpart_10: -3019287214016700443
+      ts2-fix-2-decorpart_11: -3995713412795170231
+      ts2-fix-2-decorpart_12: 3279907648380396250
+      ts2-fix-2-decorpart_13: 8893001178751394847
+      ts2-fix-2-decorpart_14: 4536839953941482133
+      ts2-fix-2-decorpart_15: 9061198924630358319
+      ts2-fix-2-decorpart_16: -7993618840488604552
+      ts2-fix-2-decorpart_17: -3083404058758354722
+      ts2-fix-2-decorpart_18: 7096514702213682151
+      ts2-fix-2-decorpart_19: 459049966251023867
+      ts2-fix-2-decorpart_2: -459519879870507506
+      ts2-fix-2-decorpart_20: -571135214813926923
+      ts2-fix-2-decorpart_21: -2359783757769363896
+      ts2-fix-2-decorpart_22: -7364440987385420439
+      ts2-fix-2-decorpart_23: 6514291791869198756
+      ts2-fix-2-decorpart_24: -7864211974615224186
+      ts2-fix-2-decorpart_25: -2786420620932598084
+      ts2-fix-2-decorpart_26: -5718137511120540860
+      ts2-fix-2-decorpart_27: -3302920515522568462
+      ts2-fix-2-decorpart_28: 2255512942845276551
+      ts2-fix-2-decorpart_29: -8989043511323953398
+      ts2-fix-2-decorpart_3: 6630620669437142536
+      ts2-fix-2-decorpart_30: 1736532875002762619
+      ts2-fix-2-decorpart_31: 2869791182030077739
+      ts2-fix-2-decorpart_32: -3105294185297614782
+      ts2-fix-2-decorpart_33: 2040177382035066156
+      ts2-fix-2-decorpart_34: 6386156893090409395
+      ts2-fix-2-decorpart_35: 8812113086829599592
+      ts2-fix-2-decorpart_36: -4197254081044496459
+      ts2-fix-2-decorpart_37: -3617734510124320179
+      ts2-fix-2-decorpart_38: 954395875770954311
+      ts2-fix-2-decorpart_39: 5078344733435978539
+      ts2-fix-2-decorpart_4: -8936933070191235241
+      ts2-fix-2-decorpart_40: 209806219128616617
+      ts2-fix-2-decorpart_41: 8720795931843227674
+      ts2-fix-2-decorpart_42: 175946560694299978
+      ts2-fix-2-decorpart_43: 8154542381522440462
+      ts2-fix-2-decorpart_44: -7692038773725830715
+      ts2-fix-2-decorpart_45: 1564215101727102260
+      ts2-fix-2-decorpart_46: -7232541740608891978
+      ts2-fix-2-decorpart_47: 2195429468912448638
+      ts2-fix-2-decorpart_48: -4383936037873639930
+      ts2-fix-2-decorpart_49: -4460851323495941496
+      ts2-fix-2-decorpart_5: -8748984048189762824
+      ts2-fix-2-decorpart_50: -1222406171411002145
+      ts2-fix-2-decorpart_51: 4918368717946519812
+      ts2-fix-2-decorpart_52: -198023031881163490
+      ts2-fix-2-decorpart_53: -7694890076208171740
+      ts2-fix-2-decorpart_54: -3946465176662914567
+      ts2-fix-2-decorpart_55: 4058406911983665366
+      ts2-fix-2-decorpart_56: 286210932360323700
+      ts2-fix-2-decorpart_57: 5698179186762483389
+      ts2-fix-2-decorpart_58: -6913354243790849817
+      ts2-fix-2-decorpart_59: 1335729295229686661
+      ts2-fix-2-decorpart_6: 6026678430163423604
+      ts2-fix-2-decorpart_60: 4733713952945351035
+      ts2-fix-2-decorpart_61: 6161803427998869671
+      ts2-fix-2-decorpart_62: 8368122611961438324
+      ts2-fix-2-decorpart_63: -654172579555406690
+      ts2-fix-2-decorpart_64: -7039357947534907758
+      ts2-fix-2-decorpart_65: 8147195909707765676
+      ts2-fix-2-decorpart_66: 695216912077362252
+      ts2-fix-2-decorpart_67: 5381141231173705820
+      ts2-fix-2-decorpart_68: 8120099880047536581
+      ts2-fix-2-decorpart_69: -6738759701570205223
+      ts2-fix-2-decorpart_7: -7807774196425891026
+      ts2-fix-2-decorpart_70: 3607644065644511052
+      ts2-fix-2-decorpart_71: 821194043943030216
+      ts2-fix-2-decorpart_72: 3368657090958051931
+      ts2-fix-2-decorpart_73: 4155413362418791020
+      ts2-fix-2-decorpart_74: 7881589276549880960
+      ts2-fix-2-decorpart_75: 2673123582245939718
+      ts2-fix-2-decorpart_76: 4476995901907901456
+      ts2-fix-2-decorpart_8: 1549930166413818088
+      ts2-fix-2-decorpart_9: 8760101457456726811
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
