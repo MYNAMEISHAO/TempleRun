@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
     private float coyoteCounter = 0;
     private Rigidbody2D rb;
     private Transform groundCheck;
-    
+    private bool isJumppressed = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,16 +17,22 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        isJumppressed = Input.GetButtonDown("Jump");
+        if (isJumppressed )
         {
-            Debug.Log("Jump");
-            Jump();
+            Jump(); 
+           
         }
+
+        
+
     }
 
     void Jump()
     {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, pConfig.jumpForce);
+        rb.linearVelocity = new Vector2(0, 10f);
 
     }
+
 }

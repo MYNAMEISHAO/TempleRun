@@ -11,6 +11,7 @@ public class BackGroundManager : MonoBehaviour
     private float startPos1, startPos2;
     private float bgLength;
     private GameObject Cam;
+    public float parallexEffect = 0.5f;                 //Hệ số quyết định tốc độ của nền
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,10 +33,10 @@ public class BackGroundManager : MonoBehaviour
     {
         totalTime += Time.deltaTime;
 
-        float speedFactor = speed.speedOverTime.Evaluate(totalTime);
+        float speedFactor = speed.speedOverTime.Evaluate(totalTime) * parallexEffect;
 
-        if (speedFactor >= speed.maxSpeed) { 
-            speedFactor = speed.maxSpeed;
+        if (speedFactor >= speed.maxSpeed * parallexEffect) { 
+            speedFactor = speed.maxSpeed * parallexEffect;
         }
        // Debug.Log("Speed" + speedFactor);
         //tinh vi tri moi cua background bang cach tinh khoang cach so voi vi tri ban dau
