@@ -12,14 +12,14 @@ public class GroundPool : MonoBehaviour
 
     LinkedList<GameObject> GroundQueue; //queue 2 chiều
     float GroundLength = 0;
-
+    GameSpeedConfig GameSpeedConfig;
     private void Start()
     {
         //Nạp các prefab Ground vào List
         setUpDictionaryAndDequeue();
         GroundLength = transform.GetChild(1).GetComponent<SpriteRenderer>().bounds.size.x;
         GroundPrefab = Resources.LoadAll<GameObject>("Prefabs/Ground");
-        
+        GameSpeedConfig = GameObject.Find("GameSpeed").gameObject.GetComponent<GameSpeedConfig>();
     }
 
     public void Update()
@@ -34,13 +34,14 @@ public class GroundPool : MonoBehaviour
                 int ID_Last_Ground = getIDLastGround();
                 int ID_Next_Ground = getIDNextGround(ID_Last_Ground);
                 GameObject nextGround = getNextGround(ID_Next_Ground);
+                float Distance = GameSpeedConfig.speedOverTime.Evaluate(GameSpeedConfig.totalTime) * 0.5f;
                 //Debug.Log("NextGround is " + nextGround.name);
                 Despawn(transform.GetChild(i).gameObject);
 
                 if (ID_Next_Ground == 1)
                 {
                     Vector3 lastGroundPos = GroundQueue.Last.Value.transform.position;
-                    Vector3 nextSpawnPos = lastGroundPos + new Vector3(GroundLength + 5, 0, 0);
+                    Vector3 nextSpawnPos = lastGroundPos + new Vector3(GroundLength + Distance, 0, 0);
                     Spawn(nextSpawnPos, nextGround);
                     //Spawn(nextSpawnPos, transform.GetChild(i).gameObject);
                     break;
@@ -48,7 +49,7 @@ public class GroundPool : MonoBehaviour
                 else
                 {
                     Vector3 lastGroundPos = GroundQueue.Last.Value.transform.position;
-                    Vector3 nextSpawnPos = lastGroundPos + new Vector3(GroundLength, 0, 0);
+                    Vector3 nextSpawnPos = lastGroundPos + new Vector3(GroundLength - 1, 0, 0);
                     Spawn(nextSpawnPos, nextGround);
                     //Spawn(nextSpawnPos, transform.GetChild(i).gameObject);
                     break;
@@ -60,12 +61,9 @@ public class GroundPool : MonoBehaviour
     //Lấy ngãu nhiên 1 ground dựa trên ground cuối cùng xuất hiện
     private int getIDNextGround(int i)
     {
-        if (i == 1 || i == 2)
-        {
-            int numb = Random.Range(2, 4);
-            return numb;
-        }
-        return 1;
+        List<int> candidates = nextGround[i];
+        int randomIndex = Random.Range(0, candidates.Count);
+        return candidates[randomIndex];
     }
 
     private GameObject getNextGround(int i)
@@ -104,8 +102,8 @@ public class GroundPool : MonoBehaviour
     {
         if (GroundQueue != null)
         {
-            if (GroundQueue.Last.Value.name.Equals("StartPlatform")) return 1;
-            else if (GroundQueue.Last.Value.name.Equals("MiddlePlatform")) return 2;
+            if (GroundQueue.Last.Value.name.Contains("StartPlatform")) return 1;
+            else if (GroundQueue.Last.Value.name.Contains("MiddlePlatform")) return 2;
             return 3;
         }
         return 2;
@@ -138,8 +136,8 @@ public class GroundPool : MonoBehaviour
     {
         //Dictionary
         nextGround = new Dictionary<int, List<int>>();
-        nextGround[1] = new List<int> { 2, 3 };
-        nextGround[2] = new List<int> { 2, 3 };
+        nextGround[1] = new List<int> { 2, 2, 2, 2, 3 };
+        nextGround[2] = new List<int> { 2, 2, 2, 3 };
         nextGround[3] = new List<int> { 1 };
 
         //Dequeue
