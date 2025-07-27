@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\environment\\pool\\pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\pool\\pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\units\\environment\\ground\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\ground\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\environment\\ground\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\ground\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\environment\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\gamespeed\\gamespeedconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\gamespeed\\gamespeedconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\gamespeed\\gamespeedconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\gamespeed\\gamespeedconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\gamespeed\\playerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\gamespeed\\playerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\units\\environment\\pool\\groundpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\units\\environment\\pool\\groundpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\environment\\ground\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\ground\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,46 +46,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pool.cs",
-              "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Pool\\Pool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Pool\\Pool.cs",
-              "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Pool\\Pool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Units\\Environment\\Pool\\Pool.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GroundPool.cs",
+              "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Pool\\GroundPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Pool\\GroundPool.cs",
+              "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Pool\\GroundPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Units\\Environment\\Pool\\GroundPool.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T18:39:04.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T03:31:25.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Unit.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\Unit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Ground\\Unit.cs",
               "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\Unit.cs",
               "RelativeToolTip": "Assets\\Scripts\\Units\\Environment\\Ground\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T18:32:47.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T18:32:47.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GroundController.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
               "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T17:59:34.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PlayerConfig.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\GameSpeed\\PlayerConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\GameSpeed\\PlayerConfig.cs",
@@ -97,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GameSpeedConfig.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\GameSpeed\\GameSpeedConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\GameSpeed\\GameSpeedConfig.cs",
@@ -109,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
@@ -121,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BackGroundController.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",

@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4418398239873612170}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.867, y: -0.71, z: 0}
+  m_LocalPosition: {x: 51625.09, y: -3.65, z: 10}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -147,38 +147,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 992746412b8b0e3499e5c8f7f0e4cb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedConfig:
-    baseSpeed: 5
-    maxSpeed: 20
-    speedOverTime:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 10
-        value: 5
-        inSlope: 0.13636364
-        outSlope: 0.13636364
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 120
-        value: 20
-        inSlope: 0.13636364
-        outSlope: 0.13636364
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
   parallexEffect: 1
   unit:
     prefab: {fileID: 4418398239873612170}
-    percentage: 25
-  pool: {fileID: 0}
+    ID: 0
+  speedConfig: {fileID: 0}
   groundLength: 0
   camLength: 0
-  SpawnPoint: {fileID: 6875197429261764032, guid: 6615d24692bb8264c8919a512a140813, type: 3}
+  SpawnPoint: {fileID: 0}

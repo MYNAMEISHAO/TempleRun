@@ -2,7 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class BackGroundManager : MonoBehaviour
+public class BackGroundController : MonoBehaviour
 {
     public GameSpeedConfig speed;
     private float Distance1,Distance2;
@@ -11,7 +11,7 @@ public class BackGroundManager : MonoBehaviour
     private float startPos1, startPos2;
     private float bgLength;
     private GameObject Cam;
-    public float parallexEffect = 0.5f;                 //Hệ số quyết định tốc độ của nền
+    public float parallexEffect;                 //Hệ số quyết định tốc độ của nền
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,6 +25,7 @@ public class BackGroundManager : MonoBehaviour
         startPos2 = bg2.transform.position.x;
 
         bgLength = bg1.GetComponent<SpriteRenderer>().bounds.size.x;
+        speed = GameObject.Find("GameSpeed").GetComponent<GameSpeedConfig>();
 
     }
 
@@ -63,6 +64,7 @@ public class BackGroundManager : MonoBehaviour
     }
     void SetUpVariables()
     {
+        parallexEffect = 0.1f;       
         Distance1 = 0f;
         Distance2 = 0f;
     }
