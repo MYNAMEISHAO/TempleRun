@@ -24,7 +24,7 @@ public class GroundPool : MonoBehaviour
 
     public void Update()
     {
-        for (int i = 1; i < transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
             float PosX = transform.GetChild(i).position.x;
             
@@ -142,7 +142,7 @@ public class GroundPool : MonoBehaviour
 
         //Dequeue
         GroundQueue = new LinkedList<GameObject>();
-        for (int i = 1; i < transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
             GroundQueue.AddLast(transform.GetChild(i).gameObject);
         }

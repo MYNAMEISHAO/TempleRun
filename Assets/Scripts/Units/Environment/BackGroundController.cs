@@ -1,71 +1,65 @@
-using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class BackGroundController : MonoBehaviour
 {
     public GameSpeedConfig speed;
-    private float Distance1,Distance2;
-    private float totalTime;
-    private Transform bg1, bg2;
-    private float startPos1, startPos2;
     private float bgLength;
-    private GameObject Cam;
+    private Camera Cam;
     public float parallexEffect;                 //Hệ số quyết định tốc độ của nền
+
+    public LinkedList<GameObject> listBG = new LinkedList<GameObject>();
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SetUpVariables();
-
-        bg1 = transform.GetChild(0);
-        bg2 = transform.GetChild(1);
-        Cam = Camera.main.gameObject;
-
-        startPos1 = bg1.transform.position.x;
-        startPos2 = bg2.transform.position.x;
-
-        bgLength = bg1.GetComponent<SpriteRenderer>().bounds.size.x;
+        Cam = Camera.main;
         speed = GameObject.Find("GameSpeed").GetComponent<GameSpeedConfig>();
+
+        for(int i = 0;i < transform.childCount; i++)
+        {
+            listBG.AddLast(transform.GetChild(i).gameObject);
+        }
+        bgLength = listBG.First.Value.GetComponent<SpriteRenderer>().bounds.size.x;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        totalTime += Time.deltaTime;
+        float totalTime = speed.totalTime;
 
         float speedFactor = speed.speedOverTime.Evaluate(totalTime) * parallexEffect;
 
-        if (speedFactor >= speed.maxSpeed * parallexEffect) { 
+        if (speedFactor >= speed.maxSpeed * parallexEffect)
+        {
             speedFactor = speed.maxSpeed * parallexEffect;
         }
-       // Debug.Log("Speed" + speedFactor);
+        //Debug.Log("Speed" + speedFactor);
         //tinh vi tri moi cua background bang cach tinh khoang cach so voi vi tri ban dau
-        Distance1 += speedFactor * Time.deltaTime;
-        Distance2 += speedFactor * Time.deltaTime;
-        
 
-
-        if(startPos1 - Distance1 < Cam.transform.position.x - bgLength)
+        for (int i = 0; i < transform.childCount; i++)
         {
-            startPos1 = startPos2 - Distance2 + bgLength;
-            Distance1 = 0;
+            Transform current = transform.GetChild(i);
+            if (transform.GetChild(i).position.x + bgLength/2 < Cam.transform.position.x - Cam.orthographicSize * Cam.aspect)
+            {
+                listBG.RemoveFirst();
+
+                Transform lastBgPos = LastBGPosition();
+                current.position = lastBgPos.position + new Vector3(bgLength,0,0);
+                listBG.AddLast(current.gameObject);
+
+            }
+
+            current.position = new Vector3(current.position.x - speedFactor * Time.deltaTime,current.position.y,current.position.z);
         }
-        if(startPos2 - Distance2 < Cam.transform.position.x - bgLength)
-        {
-            startPos2 = startPos1 - Distance1 + bgLength;
-            Distance2 = 0;
-        }
-        bg1.position = new Vector3(startPos1 - Distance1, transform.position.y, transform.position.z);
-        bg2.position = new Vector3(startPos2 - Distance2, transform.position.y, transform.position.z);
-
-
-
+      
     }
-    void SetUpVariables()
+
+    public Transform LastBGPosition()
     {
-        parallexEffect = 0.1f;       
-        Distance1 = 0f;
-        Distance2 = 0f;
+        return listBG.Last.Value.transform;
     }
+
 }

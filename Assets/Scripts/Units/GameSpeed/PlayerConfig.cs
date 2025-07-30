@@ -1,5 +1,5 @@
 using UnityEngine;
-
+[SerializeField]
 public class PlayerConfig
 {
     [Header("Player Settings")]

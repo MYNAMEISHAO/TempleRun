@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0992dc3d9e004be4e817788f0ebfed30
+guid: 069d09acbe5d40a4890abc949ac55044
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -116,10 +116,10 @@ TextureImporter:
       name: plat3_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 319
         y: 191
-        width: 609
-        height: 114
+        width: 162
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
