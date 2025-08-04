@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 801076063940555138}
   - component: {fileID: 257532112887833429}
   - component: {fileID: 5909209926150052014}
+  - component: {fileID: -7355719386790563219}
+  - component: {fileID: -1059611854518567756}
   m_Layer: 8
   m_Name: StartPlatform
   m_TagString: Untagged
@@ -155,3 +157,62 @@ MonoBehaviour:
   groundLength: 0
   camLength: 0
   SpawnPoint: {fileID: 0}
+--- !u!114 &-7355719386790563219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3656464627340286845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f205665ac46fa4980d6de91090d2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnChance: 0
+  coinPrefab: {fileID: 6113488413275928888, guid: 8c3c7271cfe77484dbc09fdb5d20adac, type: 3}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  coinSpacing: 0.7
+  spawnHeightOffset: 0.5
+  lineCount: 7
+  squareSide: 4
+  staggeredRows: 3
+  staggeredCols: 6
+--- !u!114 &-1059611854518567756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3656464627340286845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46ddff805c49fd47b1c9999d6a2e907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPrefabs:
+  - {fileID: 1771634106423943699, guid: b585114a264da25429dc6d534a064267, type: 3}
+  - {fileID: 2497146797540981714, guid: 7f6e3b9ba8d7c2949957f9d55882287e, type: 3}
+  - {fileID: 4519494272765908396, guid: 0078e3302a3ae504888910c4e1655500, type: 3}
+  - {fileID: 1175942809572426819, guid: 32951c65cfbb1c44d9cef29920043f4d, type: 3}
+  - {fileID: 3228920211837024306, guid: b8e8199e90f7e81418301842057a504d, type: 3}
+  - {fileID: 75361135035352947, guid: 489b45c5e525624449939a075aa2ac86, type: 3}
+  - {fileID: 1039181633967615678, guid: 58e6f7c5dabf9d14cb2f32ee8029d95d, type: 3}
+  - {fileID: 3248779744662579037, guid: a02b6f7a72457464e87dc2de8b0d951c, type: 3}
+  - {fileID: 9144449465127973648, guid: e73af8c8b8f923a4fa3df501852f40e1, type: 3}
+  - {fileID: 2159141445026688297, guid: 12a74c9658689d343b257bd47c553910, type: 3}
+  - {fileID: 4703096030238197412, guid: cec09b300b57bfb4d8bc5555e2fb5e04, type: 3}
+  - {fileID: 8193237700332504433, guid: 8efc33cde331c834ba348a5fda3e4b1f, type: 3}
+  - {fileID: 1423527890858671846, guid: c5fbbd3f30d06104bb58b923dbd23944, type: 3}
+  - {fileID: 1657859810569240503, guid: c89cb65a60345e1419de5a948d378d82, type: 3}
+  - {fileID: 8538691698692095668, guid: d1a72ce7effdc7440a11899f6d37b43e, type: 3}
+  - {fileID: 4064041166349383139, guid: 1b422bd1c303cc742b0a1a44f9255a1d, type: 3}
+  spawnChance: 0.5
+  maxAmount: 2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  spawnHeightOffset: 0.5
+  itemContainer: {fileID: 0}
