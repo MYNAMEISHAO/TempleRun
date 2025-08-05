@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7800961436790840819}
   - component: {fileID: 121135442552651540}
   - component: {fileID: 4498694529835209294}
+  - component: {fileID: 229499344817134514}
   m_Layer: 8
   m_Name: EndPlatform
   m_TagString: Untagged
@@ -155,3 +156,26 @@ MonoBehaviour:
   groundLength: 0
   camLength: 0
   SpawnPoint: {fileID: 0}
+--- !u!114 &229499344817134514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418398239873612170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f205665ac46fa4980d6de91090d2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnChance: 0.75
+  coinPrefab: {fileID: 6113488413275928888, guid: 8c3c7271cfe77484dbc09fdb5d20adac, type: 3}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  coinSpacing: 0.7
+  spawnHeightOffset: 0.5
+  lineCount: 7
+  squareSide: 4
+  staggeredRows: 3
+  staggeredCols: 6
