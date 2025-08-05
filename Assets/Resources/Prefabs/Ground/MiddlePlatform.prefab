@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6190016788720438252}
   - component: {fileID: 1690971947469530476}
   - component: {fileID: 3191973496305787603}
+  - component: {fileID: 4991052729854244783}
   m_Layer: 8
   m_Name: MiddlePlatform
   m_TagString: Untagged
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7530819910645127492, guid: 078bec24bc885264a8835dd7cfe3ac0c, type: 3}
+  m_Sprite: {fileID: -6060739831708070957, guid: 82539d02ce0ac1847953288a555536c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +128,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.09, y: 1.14}
+    oldSize: {x: 6.09, y: 1.3}
     newSize: {x: 6.09, y: 1.14}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -155,3 +156,65 @@ MonoBehaviour:
   groundLength: 0
   camLength: 0
   SpawnPoint: {fileID: 0}
+--- !u!114 &4991052729854244783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820994038351748934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f205665ac46fa4980d6de91090d2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnCategories:
+  - categoryName: Coins
+    prefabs:
+    - {fileID: 6113488413275928888, guid: 8c3c7271cfe77484dbc09fdb5d20adac, type: 3}
+    spawnChance: 0.6
+    amount: 1
+  - categoryName: Fruits
+    prefabs:
+    - {fileID: 1771634106423943699, guid: b585114a264da25429dc6d534a064267, type: 3}
+    - {fileID: 2497146797540981714, guid: 7f6e3b9ba8d7c2949957f9d55882287e, type: 3}
+    - {fileID: 4519494272765908396, guid: 0078e3302a3ae504888910c4e1655500, type: 3}
+    - {fileID: 1175942809572426819, guid: 32951c65cfbb1c44d9cef29920043f4d, type: 3}
+    - {fileID: 3228920211837024306, guid: b8e8199e90f7e81418301842057a504d, type: 3}
+    - {fileID: 75361135035352947, guid: 489b45c5e525624449939a075aa2ac86, type: 3}
+    - {fileID: 1039181633967615678, guid: 58e6f7c5dabf9d14cb2f32ee8029d95d, type: 3}
+    - {fileID: 3248779744662579037, guid: a02b6f7a72457464e87dc2de8b0d951c, type: 3}
+    - {fileID: 9144449465127973648, guid: e73af8c8b8f923a4fa3df501852f40e1, type: 3}
+    - {fileID: 2159141445026688297, guid: 12a74c9658689d343b257bd47c553910, type: 3}
+    - {fileID: 4703096030238197412, guid: cec09b300b57bfb4d8bc5555e2fb5e04, type: 3}
+    - {fileID: 8193237700332504433, guid: 8efc33cde331c834ba348a5fda3e4b1f, type: 3}
+    - {fileID: 1423527890858671846, guid: c5fbbd3f30d06104bb58b923dbd23944, type: 3}
+    - {fileID: 1657859810569240503, guid: c89cb65a60345e1419de5a948d378d82, type: 3}
+    - {fileID: 8538691698692095668, guid: d1a72ce7effdc7440a11899f6d37b43e, type: 3}
+    - {fileID: 4064041166349383139, guid: 1b422bd1c303cc742b0a1a44f9255a1d, type: 3}
+    spawnChance: 0.5
+    amount: 1
+  - categoryName: Fruits
+    prefabs:
+    - {fileID: 1771634106423943699, guid: b585114a264da25429dc6d534a064267, type: 3}
+    - {fileID: 2497146797540981714, guid: 7f6e3b9ba8d7c2949957f9d55882287e, type: 3}
+    - {fileID: 4519494272765908396, guid: 0078e3302a3ae504888910c4e1655500, type: 3}
+    - {fileID: 1175942809572426819, guid: 32951c65cfbb1c44d9cef29920043f4d, type: 3}
+    - {fileID: 3228920211837024306, guid: b8e8199e90f7e81418301842057a504d, type: 3}
+    - {fileID: 75361135035352947, guid: 489b45c5e525624449939a075aa2ac86, type: 3}
+    - {fileID: 1039181633967615678, guid: 58e6f7c5dabf9d14cb2f32ee8029d95d, type: 3}
+    - {fileID: 3248779744662579037, guid: a02b6f7a72457464e87dc2de8b0d951c, type: 3}
+    - {fileID: 9144449465127973648, guid: e73af8c8b8f923a4fa3df501852f40e1, type: 3}
+    - {fileID: 2159141445026688297, guid: 12a74c9658689d343b257bd47c553910, type: 3}
+    - {fileID: 4703096030238197412, guid: cec09b300b57bfb4d8bc5555e2fb5e04, type: 3}
+    - {fileID: 8193237700332504433, guid: 8efc33cde331c834ba348a5fda3e4b1f, type: 3}
+    - {fileID: 1423527890858671846, guid: c5fbbd3f30d06104bb58b923dbd23944, type: 3}
+    - {fileID: 1657859810569240503, guid: c89cb65a60345e1419de5a948d378d82, type: 3}
+    - {fileID: 8538691698692095668, guid: d1a72ce7effdc7440a11899f6d37b43e, type: 3}
+    - {fileID: 4064041166349383139, guid: 1b422bd1c303cc742b0a1a44f9255a1d, type: 3}
+    spawnChance: 0.5
+    amount: 11
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  spawnHeightOffset: 0.5

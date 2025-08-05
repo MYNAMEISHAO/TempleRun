@@ -1,8 +1,45 @@
-/Library
-/Logs
-/Temp
-/obj
-*.vsidx
-.vsconfig
+# # Unity generated files
+# /Library
+# /Logs
+# /Temp
+# /obj
+# Build/
+# Builds/
+# *.vsidx
+# .vsconfig
+# *.csproj
+# *.sln
+
+# # Visual Studio cache
+# .vs/
+
+# # User-specific settings
+# UserSettings/
+
+
+# Visual Studio / Rider / Unity cache
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Unity auto-generated
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+
+# Ignore Unity generated .meta files for ignored assets
 *.csproj
-*.sln
+*.pidb
+*.booproj
+
+# Ignore scene & settings backups
+*.backup
+*.dwlt
+*.json
