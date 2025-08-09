@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\TempleRun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|e:\\templerun\\assets\\scripts\\units\\item\\itemandcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\units\\item\\itemandcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\item\\itemandcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|e:\\templerun\\assets\\scripts\\units\\item\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\item\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\units\\environment\\ground\\groundpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\units\\environment\\ground\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\ground\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\units\\item\\mapchunkitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\item\\mapchunkitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\units\\item\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\item\\coincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\units\\item\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\item\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\manager\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|E:\\TempleRun\\assets\\scripts\\units\\environment\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\templerun\\assets\\scripts\\units\\item\\mapchunkcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\units\\item\\mapchunkcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -84,7 +76,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Item\\ItemAndCoinSpawner.cs",
               "ToolTip": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\ItemAndCoinSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Units\\Item\\ItemAndCoinSpawner.cs",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAAAOgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANsAAAAAAAAAAAAiwE4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T10:38:28.041Z",
               "EditorCaption": ""
@@ -103,30 +95,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapChunkItemSpawner.cs",
-              "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\MapChunkItemSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Item\\MapChunkItemSpawner.cs",
-              "ToolTip": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\MapChunkItemSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Units\\Item\\MapChunkItemSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T08:07:31.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MapChunkCoinSpawner.cs",
-              "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\MapChunkCoinSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Item\\MapChunkCoinSpawner.cs",
-              "ToolTip": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\MapChunkCoinSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Units\\Item\\MapChunkCoinSpawner.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAYwIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T17:10:50.222Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ItemData.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\ItemData.cs",
@@ -139,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GroundController.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
@@ -151,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GroundPool.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\GroundPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Ground\\GroundPool.cs",
@@ -187,15 +155,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Item\\ScoreManager.cs",
               "ToolTip": "E:\\TempleRun\\Assets\\Scripts\\Units\\Item\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Units\\Item\\ScoreManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T19:06:13.186Z"
+              "WhenOpened": "2025-08-01T19:06:13.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "EntityManager.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Manager\\EntityManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\EntityManager.cs",
@@ -223,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "PlayerConfig.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\GameSpeed\\PlayerConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\GameSpeed\\PlayerConfig.cs",
@@ -235,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "GameSpeedConfig.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\GameSpeed\\GameSpeedConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\GameSpeed\\GameSpeedConfig.cs",
@@ -247,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
@@ -259,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "BackGroundController.cs",
               "DocumentMoniker": "E:\\TempleRun\\Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",
