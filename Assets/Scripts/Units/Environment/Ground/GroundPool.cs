@@ -15,6 +15,7 @@ public class GroundPool : MonoBehaviour
     GameSpeedConfig GameSpeedConfig;
     private void Start()
     {
+        Random.InitState((int)System.DateTime.Now.Ticks);
         //Nạp các prefab Ground vào List
         setUpDictionaryAndDequeue();
         GroundLength = transform.GetChild(1).GetComponent<SpriteRenderer>().bounds.size.x;

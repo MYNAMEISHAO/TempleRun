@@ -25,13 +25,13 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         // Cập nhật UI lúc bắt đầu game
-        scoreText.text = "Score: " + score.ToString();
+        scoreText.text = score.ToString();
     }
 
     // Hàm để các script khác gọi vào để cộng điểm
     public void AddPoints(int points)
     {
         score += points;
-        scoreText.text = "Score: " + score.ToString();
+        scoreText.text = score.ToString();
     }
 }
