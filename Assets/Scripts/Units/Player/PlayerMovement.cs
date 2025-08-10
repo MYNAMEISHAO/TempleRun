@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -15,11 +16,15 @@ public class PlayerMovement : MonoBehaviour
     private Transform groundCheck;
     public LayerMask groundLayer;              // Chọn layer ground
     public float groundCheckRadius = 0.1f;
+    private bool isGrounded = false;
 
     //Kiểm tra đã ấn nhảy chưa
-    private bool isJumppressed = false;
+    private bool isJumpPressed = false;
     private bool isGameStart = true;
 
+    private bool isRollPressed = false;
+
+    private bool isDead = false;
     public Animator animator;
     private string currentAnim = "";
 
@@ -45,71 +50,90 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isRollPressed = Input.GetKeyDown(KeyCode.S);
+        isJumpPressed = Input.GetButtonDown("Jump");
 
-        isJumppressed = Input.GetButtonDown("Jump");
-        if (isJumppressed )
-        {
-            Jump();
-            
-        }
-        
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+
+        HandleInput();
         CheckAnimation();
 
     }
 
-    void Jump()
+    public void HandleInput()
     {
-        rb.linearVelocity = new Vector2(0, jumpForce);
+        if(isJumpPressed)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            return;
+        }
         
+        if(isRollPressed)
+        {
+            ChangeAnimation("Roll");
+            if (!isGrounded)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, -jumpForce);
+                return;
+            }
+
+        }
     }
 
-    private void ChangeAnimation(string animation, float crossFade = 0.2f)
+    public void ChangeAnimation(string animation, float crossFade = 0.2f, float time = 0)
     {
-        if (currentAnim != animation)
+        if(time > 0)
         {
-            currentAnim = animation;
-            animator.CrossFade(animation, crossFade);
+            StartCoroutine(Wait());
         }
+        else
+        {
+            Validate();
+        }
+
+        IEnumerator Wait()
+        {
+            yield return new WaitForSeconds(time - crossFade);
+            Validate();
+        }
+
+        void Validate()
+        {
+            if (currentAnim != animation)
+            {
+                currentAnim = animation;
+                animator.CrossFade(animation, crossFade);
+            }
+        }
+        
     }
 
     private void CheckAnimation()
     {
-        Debug.Log("velocity la " + rb.linearVelocityY);
-        string state = CheckState();
-        if (state == "Jump")
+        if (currentAnim == "Roll")
         {
-            ChangeAnimation("Jump");
+            return;
         }
-        else if (state == "Fall")
+        if (isDead)
         {
-            ChangeAnimation("Fall");
-        }
-        else if(state == "Idle")
-        {
-            ChangeAnimation("Idle");
+            ChangeAnimation("Die");
         }
         else
         {
-            ChangeAnimation("Run");
+            if (rb.linearVelocityY > 0.1f)
+            {
+                ChangeAnimation("Jump");
+            }
+            else if (rb.linearVelocityY < -0.1f)
+            {
+                ChangeAnimation("Fall");
+            }
+            else if (isGrounded)
+            {
+                ChangeAnimation("Run");
+            }
+            
         }
     }
-
-    private string CheckState()
-    {
-        if (rb.linearVelocityY > 0.1f)
-        {
-            return "Jump";
-        }
-        if (rb.linearVelocityY < -0.1f)
-        {
-            return "Fall";
-        }
-        if(Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer) && !isGameStart)
-        {
-            return "Idle";
-        }
-        return "Run";
-        
-    }
-        
 }

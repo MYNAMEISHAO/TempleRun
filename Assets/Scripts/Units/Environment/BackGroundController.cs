@@ -22,14 +22,12 @@ public class BackGroundController : MonoBehaviour
             listBG.AddLast(transform.GetChild(i).gameObject);
         }
         bgLength = listBG.First.Value.GetComponent<SpriteRenderer>().bounds.size.x;
-
     }
 
     // Update is called once per frame
     void Update()
     {
         float totalTime = speed.totalTime;
-
         float speedFactor = speed.speedOverTime.Evaluate(totalTime) * parallexEffect;
 
         if (speedFactor >= speed.maxSpeed * parallexEffect)
@@ -52,8 +50,9 @@ public class BackGroundController : MonoBehaviour
 
             }
 
-            current.position = new Vector3(current.position.x - speedFactor * Time.deltaTime,current.position.y,current.position.z);
+            current.position = new Vector3(current.position.x - speedFactor * Time.deltaTime,current.position.y ,current.position.z);
         }
+
       
     }
 
