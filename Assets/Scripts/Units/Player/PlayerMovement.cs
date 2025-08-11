@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isDead = true;
             transform.gameObject.SetActive(false);
-            //GameManager.Instance
+            GameManager.instance.UpdateGameState(GameState.GameOver);
             return;
         }
 
@@ -124,13 +124,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckAnimation()
     {
-        if (currentAnim == "Roll")
-        {
-            return;
-        }
         if (isDead)
         {
             ChangeAnimation("Die");
+        }
+        if (currentAnim == "Roll")
+        {
+            return;
         }
         else
         {
