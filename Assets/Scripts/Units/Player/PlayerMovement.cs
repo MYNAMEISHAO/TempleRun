@@ -24,9 +24,10 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isRollPressed = false;
 
-    private bool isDead = false;
+    public bool isDead = false; // Kiểm tra nhân vật đã chết chưa
     public Animator animator;
     private string currentAnim = "";
+    private float minY;
 
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -44,6 +45,9 @@ public class PlayerMovement : MonoBehaviour
 
         groundCheck = transform.GetChild(1).GetComponent<Transform>();
 
+
+        minY = pConfig.minHeight;
+
         ChangeAnimation("Run");
     }
 
@@ -55,7 +59,6 @@ public class PlayerMovement : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-
         HandleInput();
         CheckAnimation();
 
@@ -63,13 +66,22 @@ public class PlayerMovement : MonoBehaviour
 
     public void HandleInput()
     {
-        if(isJumpPressed)
+        if (transform.position.y < minY)
         {
+            isDead = true;
+            transform.gameObject.SetActive(false);
+            //GameManager.Instance
+            return;
+        }
+
+        if (isJumpPressed && isGrounded)
+        {
+            ChangeAnimation("Jump");
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             return;
         }
-        
-        if(isRollPressed)
+
+        if (isRollPressed)
         {
             ChangeAnimation("Roll");
             if (!isGrounded)
@@ -80,6 +92,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
     }
+
 
     public void ChangeAnimation(string animation, float crossFade = 0.2f, float time = 0)
     {
@@ -125,7 +138,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 ChangeAnimation("Jump");
             }
-            else if (rb.linearVelocityY < -0.1f)
+            else if (!isGrounded)
             {
                 ChangeAnimation("Fall");
             }
