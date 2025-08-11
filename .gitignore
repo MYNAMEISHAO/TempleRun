@@ -1,8 +1,28 @@
-/Library
-/Logs
-/Temp
-/obj
-*.vsidx
-.vsconfig
+# Unity generated files
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+
+# User-specific settings
 *.csproj
-*.sln
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Unity Editor layout and preferences
+UserSettings/
+.vs/
+*.dwlt
+*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
