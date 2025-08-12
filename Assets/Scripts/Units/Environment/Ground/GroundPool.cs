@@ -24,6 +24,10 @@ public class GroundPool : MonoBehaviour
 
     public void Update()
     {
+        if (GameManager.instance.state != GameState.Playing)
+        {
+            return; // Thoát khỏi hàm ngay lập tức
+        }
         for (int i = 0; i < transform.childCount; i++)
         {
             float PosX = transform.GetChild(i).position.x;

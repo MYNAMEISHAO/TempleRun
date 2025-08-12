@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -6,16 +6,37 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public GameState state;
     public static event Action<GameState> OnGameStateChanged;
+    public static bool startPlayingImmediately = false;
 
     private void Awake()
     {
-        instance = this;
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return; 
+        }
+
+        // Đặt trạng thái game ngay lập tức trong Awake
+        UpdateGameState(GameState.Home);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        UpdateGameState(GameState.Playing);
+        if (startPlayingImmediately)
+        {
+            UpdateGameState(GameState.Playing);
+            startPlayingImmediately = false; // Reset lại cờ ngay sau khi dùng
+        }
+        //else
+        //{
+        //    UpdateGameState(GameState.Home);
+        //}
     }
 
     public void UpdateGameState(GameState newState)

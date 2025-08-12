@@ -25,6 +25,10 @@ public class GroundController : Entity
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.instance.state != GameState.Playing)
+        {
+            return; // Thoát khỏi hàm ngay lập tức
+        }
         if (isGameStart)
         {
             float time = speedConfig.totalTime;

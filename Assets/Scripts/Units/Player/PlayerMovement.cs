@@ -53,6 +53,10 @@ public class PlayerMovement : Entity
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.instance.state != GameState.Playing)
+        {
+            return; // Thoát khỏi hàm Update ngay
+        }
         if (isGameStart)
         {
             isRollPressed = Input.GetKeyDown(KeyCode.S);
