@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
@@ -5,35 +6,42 @@ using UnityEngine;
 public class EntityManager : MonoBehaviour
 {
     public static EntityManager Instance;
-    public List<GameObject> list;
+    [SerializeField] private List<GameObject> list;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
         Instance = this;
+        GameManager.OnGameStateChanged += HandleGameStateChange;
+
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.OnGameStateChanged -= HandleGameStateChange;
+    }
+
+    private void HandleGameStateChange(GameState state)
+    {
+        if (state == GameState.Playing)
+        {
+            
+        }
+        else if (state == GameState.Home)
+        {
+            StopMoving(1f);
+        }
+        else if (state == GameState.Paused)
+        {
+            Freeze();
+        }
+        else if (state == GameState.GameOver)
+        {
+            StopMoving(1f);
+        }
     }
 
     // Update is called once per frame
-    public void TurnOff()
-    {
-        foreach (GameObject go in list)
-        {
-            if (go != null)
-            {
-                go.SetActive(false);
-            }
-        }
-    }
-
-    public void TurnOn()
-    {
-        foreach (GameObject go in list)
-        {
-            if (go != null)
-            {
-                go.SetActive(true);
-            }
-        }
-    }
+    
 
     public void Freeze()
     {
@@ -45,23 +53,14 @@ public class EntityManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void StopMoving()
+    public void StopMoving(float afterSec)
     {
-        foreach (GameObject go in list)
+        StartCoroutine(Wait());
+        Entity.Instance.StopMoving();
+
+        IEnumerator Wait()
         {
-            if (go != null)
-            {
-                Rigidbody rb = go.GetComponent<Rigidbody>();
-                if (rb != null)
-                {
-                    rb.linearVelocity = Vector3.zero;
-                    rb.angularVelocity = Vector3.zero;
-                }
-                else
-                {
-                    go.SetActive(false);
-                }
-            }
+            yield return new WaitForSeconds(afterSec);
         }
         
     }

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackGroundController : MonoBehaviour
+public class BackGroundController : Entity
 {
     public GameSpeedConfig speed;
     private float bgLength;
@@ -27,33 +27,36 @@ public class BackGroundController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float totalTime = speed.totalTime;
-        float speedFactor = speed.speedOverTime.Evaluate(totalTime) * parallexEffect;
-
-        if (speedFactor >= speed.maxSpeed * parallexEffect)
+        if (isGameStart)
         {
-            speedFactor = speed.maxSpeed * parallexEffect;
-        }
-        //Debug.Log("Speed" + speedFactor);
-        //tinh vi tri moi cua background bang cach tinh khoang cach so voi vi tri ban dau
+            float totalTime = speed.totalTime;
+            float speedFactor = speed.speedOverTime.Evaluate(totalTime) * parallexEffect;
 
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            Transform current = transform.GetChild(i);
-            if (transform.GetChild(i).position.x + bgLength/2 < Cam.transform.position.x - Cam.orthographicSize * Cam.aspect)
+            if (speedFactor >= speed.maxSpeed * parallexEffect)
             {
-                listBG.RemoveFirst();
+                speedFactor = speed.maxSpeed * parallexEffect;
+            }
+            //Debug.Log("Speed" + speedFactor);
+            //tinh vi tri moi cua background bang cach tinh khoang cach so voi vi tri ban dau
 
-                Transform lastBgPos = LastBGPosition();
-                current.position = lastBgPos.position + new Vector3(bgLength,0,0);
-                listBG.AddLast(current.gameObject);
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                Transform current = transform.GetChild(i);
+                if (transform.GetChild(i).position.x + bgLength / 2 < Cam.transform.position.x - Cam.orthographicSize * Cam.aspect)
+                {
+                    listBG.RemoveFirst();
 
+                    Transform lastBgPos = LastBGPosition();
+                    current.position = lastBgPos.position + new Vector3(bgLength, 0, 0);
+                    listBG.AddLast(current.gameObject);
+
+                }
+
+                current.position = new Vector3(current.position.x - speedFactor * Time.deltaTime, current.position.y, current.position.z);
             }
 
-            current.position = new Vector3(current.position.x - speedFactor * Time.deltaTime,current.position.y ,current.position.z);
         }
 
-      
     }
 
     public Transform LastBGPosition()

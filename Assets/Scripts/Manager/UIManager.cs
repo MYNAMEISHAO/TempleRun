@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
+    public static UIManager Instance;
     public GameObject homePanel;
     public GameObject playingPanel;
     public GameObject pausedPanel;
@@ -48,16 +49,5 @@ public class UIManager : MonoBehaviour
             gameOverPanel.SetActive(true);
         }
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }

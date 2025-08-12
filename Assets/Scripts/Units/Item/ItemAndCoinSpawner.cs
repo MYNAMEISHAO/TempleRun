@@ -21,19 +21,20 @@ public class ItemAndCoinSpawner : MonoBehaviour
     public int maxItemAmount = 3;
 
     [Header("Cài đặt chung")]
+    public float edgeMargin = 1.5f;
     public LayerMask groundLayer;
     public int totalPoints = 20;
-    [Range(2, 10)] public int slotCount = 3; // Tăng max range để linh hoạt hơn
+    [Range(2, 10)] public int slotCount = 3;
     public bool isStartChunk = false;
 
     [Header("Cài đặt chiều cao spawn")]
     public float spawnHeightOffsetMin = 0.5f;
     public float spawnHeightOffsetMax = 1.5f;
 
-    // MỚI: Thêm cài đặt cho vùng đệm để tùy chỉnh trong Inspector
+    //Thêm cài đặt cho vùng đệm để tùy chỉnh trong Inspector
     [Header("Cài đặt Vùng Đệm")]
     public bool useBufferSlots = true; // Bật/tắt tính năng vùng đệm
-    [Range(1, 3)] public int bufferSlotCount = 1; // Số slot đệm mỗi bên (1 là đủ cho hầu hết trường hợp)
+    [Range(1, 3)] public int bufferSlotCount = 1; // Số slot đệm mỗi bên 
 
     private SpriteRenderer chunkSpriteRenderer;
 
@@ -64,7 +65,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
                 SpawnPattern randomPattern = (SpawnPattern)Random.Range(0, System.Enum.GetValues(typeof(SpawnPattern)).Length);
                 SpawnCoinPattern(randomPattern, coinStartPosition);
 
-                // SỬA ĐỔI: Logic đánh dấu slot đã chiếm của coin
+                // Logic đánh dấu slot đã chiếm của coin
                 List<Vector2> coinPositions = GetCoinPositions(randomPattern, coinStartPosition);
                 HashSet<int> slotsOccupiedByCoins = new HashSet<int>();
                 foreach (var pos in coinPositions)
@@ -78,7 +79,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
                     usedSlots.Add(slot);
                 }
 
-                // MỚI: Thêm các slot lân cận (vùng đệm) nếu được bật
+                //Thêm các slot lân cận (vùng đệm) nếu được bật
                 if (useBufferSlots)
                 {
                     foreach (int slot in slotsOccupiedByCoins)
@@ -122,7 +123,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
 
                 if (!found) break;
 
-                // SỬA ĐỔI: Thêm slot của item và vùng đệm xung quanh nó vào usedSlots
+                // Thêm slot của item và vùng đệm xung quanh nó vào usedSlots
                 usedSlots.Add(itemSlot);
                 if (useBufferSlots)
                 {
@@ -193,7 +194,8 @@ public class ItemAndCoinSpawner : MonoBehaviour
     List<Vector2> GenerateSpawnPoints()
     {
         List<Vector2> points = new List<Vector2>();
-        if (chunkSpriteRenderer == null) return points; // Thêm kiểm tra null
+        if (chunkSpriteRenderer == null) return points;
+
         Bounds chunkBounds = chunkSpriteRenderer.bounds;
         float minScanX = chunkBounds.min.x;
 
@@ -205,16 +207,29 @@ public class ItemAndCoinSpawner : MonoBehaviour
             minScanX = Mathf.Max(chunkBounds.min.x, playerRight);
         }
 
-        if (minScanX >= chunkBounds.max.x) return points;
+
+
+        // 1. Tính toán lại tọa độ bắt đầu và kết thúc, trừ đi vùng đệm ở 2 mép
+        float startX = minScanX + edgeMargin;
+        float endX = chunkBounds.max.x - edgeMargin;
+
+        // 2. Kiểm tra xem vùng đệm có quá lớn không, nếu không còn chỗ thì thoát
+        if (startX >= endX)
+        {
+            // Debug.LogWarning("Vùng đệm (edgeMargin) quá lớn, không còn không gian để spawn.");
+            return points;
+        }
 
         for (int i = 0; i < totalPoints; i++)
         {
             float t = (totalPoints > 1) ? (float)i / (totalPoints - 1) : 0.5f;
-            float pointX = Mathf.Lerp(minScanX, chunkBounds.max.x, t);
+
+            // 3. Dùng startX và endX mới để tính toán vị trí
+            float pointX = Mathf.Lerp(startX, endX, t);
+
             RaycastHit2D hit = Physics2D.Raycast(new Vector2(pointX, chunkBounds.max.y + 5f), Vector2.down, 20f, groundLayer);
             if (hit.collider != null)
             {
-                // Dùng giá trị random chiều cao spawn
                 points.Add(hit.point + new Vector2(0, Random.Range(spawnHeightOffsetMin, spawnHeightOffsetMax)));
             }
         }
@@ -257,7 +272,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
 #if UNITY_EDITOR
     void OnDrawGizmosSelected()
     {
-        if (chunkSpriteRenderer == null) chunkSpriteRenderer = GetComponentInChildren<SpriteRenderer>(); // Sửa lại GetComponent
+        if (chunkSpriteRenderer == null) chunkSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
         if (chunkSpriteRenderer == null) return;
 
         Bounds bounds = chunkSpriteRenderer.bounds;

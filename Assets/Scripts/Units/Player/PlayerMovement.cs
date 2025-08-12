@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : Entity
 {
     public PlayerConfig pConfig;
     public GameSpeedConfig gameSpeedConfig;
@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
 
     //Kiểm tra đã ấn nhảy chưa
     private bool isJumpPressed = false;
-    private bool isGameStart = true;
 
     private bool isRollPressed = false;
 
@@ -54,14 +53,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isRollPressed = Input.GetKeyDown(KeyCode.S);
-        isJumpPressed = Input.GetButtonDown("Jump");
+        if (isGameStart)
+        {
+            isRollPressed = Input.GetKeyDown(KeyCode.S);
+            isJumpPressed = Input.GetButtonDown("Jump");
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        HandleInput();
+            HandleInput();
+            
+        }
         CheckAnimation();
-
     }
 
     public void HandleInput()
