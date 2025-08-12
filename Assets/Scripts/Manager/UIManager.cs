@@ -37,7 +37,6 @@ public class UIManager : MonoBehaviour
         else if (state == GameState.Paused)
         {
             //homePanel.SetActive(false);
-            playingPanel.SetActive(false);
             pausedPanel.SetActive(true);
             gameOverPanel.SetActive(false);
         }
