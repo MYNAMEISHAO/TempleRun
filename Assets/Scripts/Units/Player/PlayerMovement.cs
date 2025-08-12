@@ -63,7 +63,11 @@ public class PlayerMovement : Entity
             HandleInput();
             
         }
-        CheckAnimation();
+        if (!isPlaying)
+        {
+            PauseAnimation();
+        }
+        else CheckAnimation();
     }
 
     public void HandleInput()
@@ -126,6 +130,7 @@ public class PlayerMovement : Entity
 
     private void CheckAnimation()
     {
+        animator.speed = 1f; // Đặt tốc độ hoạt hình về mặc định
         if (isDead)
         {
             ChangeAnimation("Die");
@@ -149,6 +154,14 @@ public class PlayerMovement : Entity
                 ChangeAnimation("Run");
             }
             
+        }
+    }
+
+    private void PauseAnimation()
+    {
+        if (animator != null)
+        {
+            animator.speed = 0f; // Dừng hoạt ảnh
         }
     }
 }

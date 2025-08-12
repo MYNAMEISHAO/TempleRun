@@ -24,7 +24,7 @@ public class EntityManager : MonoBehaviour
     {
         if (state == GameState.Playing)
         {
-            
+            UnFreeze();
         }
         else if (state == GameState.Home)
         {
@@ -45,22 +45,29 @@ public class EntityManager : MonoBehaviour
 
     public void Freeze()
     {
-        Time.timeScale = 0f;
+        Entity.Instance.StopMoving();
+        Entity.Instance.StopAnimation();
     }
 
     public void UnFreeze()
     {
-        Time.timeScale = 1f;
+        StartCoroutine(WaitToUnFreeze());
+        IEnumerator WaitToUnFreeze()
+        {
+            yield return new WaitForSeconds(1f);
+            Entity.Instance.StartMoving();
+            Entity.Instance.ResumeAnimation();
+        }
+
     }
 
     public void StopMoving(float afterSec)
     {
-        StartCoroutine(Wait());
-        Entity.Instance.StopMoving();
-
-        IEnumerator Wait()
+        StartCoroutine(WaitToEnd());
+        IEnumerator WaitToEnd()
         {
             yield return new WaitForSeconds(afterSec);
+            Entity.Instance.StopMoving();
         }
         
     }

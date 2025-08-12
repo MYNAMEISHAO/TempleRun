@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\units\\item\\itemandcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\item\\itemandcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\ui\\in-game controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\in-game controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\UI\\BaseButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\UI\\BaseButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\units\\environment\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\environment\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\manager\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\ui\\pause controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pause controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +25,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\interface\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\interface\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|c:\\users\\hao\\documents\\github\\templerun\\assets\\scripts\\units\\item\\itemandcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\units\\item\\itemandcoinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\ui\\in-game controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\in-game controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\UI\\BaseButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\UI\\BaseButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185AFD5A-9FC2-9159-7692-4FD596DD4B74}|Assembly-CSharp.csproj|C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\assets\\scripts\\units\\environment\\ground\\groundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,6 +83,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BackGroundController.cs",
+              "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",
+              "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Units\\Environment\\BackGroundController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:53:27.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pause Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\UI\\Pause Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Pause Controller.cs",
+              "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\UI\\Pause Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Pause Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:30:48.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ItemAndCoinSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Item\\ItemAndCoinSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Item\\ItemAndCoinSpawner.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "In-Game Controller.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\UI\\In-Game Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\In-Game Controller.cs",
@@ -95,12 +129,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\In-Game Controller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T14:48:17.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T14:48:17.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ButtonController.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\UI\\ButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ButtonController.cs",
@@ -112,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "BaseButton.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\UI\\BaseButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BaseButton.cs",
@@ -124,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Interface\\Entity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Interface\\Entity.cs",
@@ -132,35 +165,38 @@
               "RelativeToolTip": "Assets\\Scripts\\Units\\Interface\\Entity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T10:53:04.037Z"
+              "WhenOpened": "2025-08-12T10:53:04.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Manager\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\UIManager.cs",
               "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Manager\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Manager\\UIManager.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T18:17:07.804Z"
+              "WhenOpened": "2025-08-11T18:17:07.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "EntityManager.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Manager\\EntityManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\EntityManager.cs",
               "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Manager\\EntityManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Manager\\EntityManager.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAmwDoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwDsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:50:46.199Z"
+              "WhenOpened": "2025-08-11T17:50:46.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "OnFinish.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\OnFinish.cs",
               "RelativeDocumentMoniker": "Assets\\OnFinish.cs",
@@ -172,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "GroundPool.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\GroundPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Ground\\GroundPool.cs",
@@ -184,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "GroundController.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Environment\\Ground\\GroundController.cs",
@@ -196,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PlayerConfig.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\GameSpeed\\PlayerConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\GameSpeed\\PlayerConfig.cs",
@@ -208,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "GameSpeedConfig.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\GameSpeed\\GameSpeedConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\GameSpeed\\GameSpeedConfig.cs",
@@ -220,27 +256,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Units\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowGYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwHAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:43:28.212Z"
+              "WhenOpened": "2025-07-23T07:43:28.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Manager\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameManager.cs",
               "ToolTip": "C:\\Users\\Hao\\Documents\\GitHub\\TempleRun\\Assets\\Scripts\\Manager\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Manager\\GameManager.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wBIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:53:55.518Z"
+              "WhenOpened": "2025-08-11T17:53:55.518Z",
+              "EditorCaption": ""
             }
           ]
         }

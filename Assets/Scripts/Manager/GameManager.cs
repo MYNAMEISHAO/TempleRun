@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
         }
 
         OnGameStateChanged?.Invoke(newState);
+        Debug.Log($"Game state updated to: {newState}"); // Debug log for state change
     }
 
     private void HandleGameOver()
