@@ -6,10 +6,10 @@ public class PlayerMovement : Entity
     public PlayerConfig pConfig;
     public GameSpeedConfig gameSpeedConfig;
 
-
     public float jumpForce;
     private float speedChar;
     private float coyoteCounter = 0;
+    private int jumpCount = 0; // Số lần nhảy đã thực hiện
     private Rigidbody2D rb;
 
     //Dành cho mục đích kiểm tra nhân vật đã chạm đất chưa
@@ -85,11 +85,25 @@ public class PlayerMovement : Entity
             return;
         }
 
-        if (isJumpPressed && isGrounded)
+        if (isJumpPressed)
         {
-            ChangeAnimation("Jump");
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            return;
+            if (isGrounded)
+            {
+                ChangeAnimation("Jump");
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                jumpCount = 1;
+                return;
+            }
+            else if(jumpCount!=2)
+            {
+                ChangeAnimation("Jump");
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce - 2);
+                jumpCount = 2;
+            }  
+        }
+        if (isGrounded)
+        {
+            jumpCount = 0; // Reset jump count when grounded
         }
 
         if (isRollPressed)
