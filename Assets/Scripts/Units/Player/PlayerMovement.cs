@@ -47,17 +47,17 @@ public class PlayerMovement : Entity
 
         minY = pConfig.minHeight;
 
-        ChangeAnimation("Run");
+        ChangeAnimation("Idle");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.state != GameState.Playing)
-        {
-            return; // Thoát khỏi hàm Update ngay
-        }
-        if (isGameStart)
+        //if (GameManager.instance.state != GameState.Playing)
+        //{
+        //    return; // Thoát khỏi hàm Update ngay
+        //}
+        if (canMove)
         {
             isRollPressed = Input.GetKeyDown(KeyCode.S);
             isJumpPressed = Input.GetButtonDown("Jump");
@@ -65,15 +65,16 @@ public class PlayerMovement : Entity
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
             HandleInput();
-            
+            CheckAnimation();
         }
-        if (!isPlaying)
+        else
         {
-            PauseAnimation();
+            if (!canAnimate)
+            {
+                PauseAnimation();
+            }
         }
-        else CheckAnimation();
     }
-
     public void HandleInput()
     {
         if (transform.position.y < minY)
@@ -151,7 +152,7 @@ public class PlayerMovement : Entity
             }
             else if (!isGrounded)
             {
-                ChangeAnimation("Fall");
+                ChangeAnimation("Fall");    
             }
             else if (isGrounded)
             {

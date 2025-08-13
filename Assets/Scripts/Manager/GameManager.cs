@@ -6,39 +6,16 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public GameState state;
     public static event Action<GameState> OnGameStateChanged;
-    public static bool startPlayingImmediately = false;
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-            return; 
-        }
+        instance = this;
 
         // Đặt trạng thái game ngay lập tức trong Awake
         UpdateGameState(GameState.Home);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        if (startPlayingImmediately)
-        {
-            UpdateGameState(GameState.Playing);
-            startPlayingImmediately = false; // Reset lại cờ ngay sau khi dùng
-        }
-        //else
-        //{
-        //    UpdateGameState(GameState.Home);
-        //}
-    }
-
     public void UpdateGameState(GameState newState)
     {
         state = newState;

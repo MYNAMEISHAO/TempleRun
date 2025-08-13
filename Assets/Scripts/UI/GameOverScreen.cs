@@ -21,7 +21,7 @@ public class GameOverScreen : MonoBehaviour
 
     public void OnRestartButtonClicked()
     {
-        GameManager.startPlayingImmediately = true;
+        GameManager.instance.UpdateGameState(GameState.Playing);
 
         // Tải lại màn chơi
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

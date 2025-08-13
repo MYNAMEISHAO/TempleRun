@@ -27,7 +27,7 @@ public class BackGroundController : Entity
     // Update is called once per frame
     void Update()
     {
-        if (isGameStart)
+        if (canMove)
         {
             float totalTime = speed.totalTime;
             float speedFactor = speed.speedOverTime.Evaluate(totalTime) * parallexEffect;

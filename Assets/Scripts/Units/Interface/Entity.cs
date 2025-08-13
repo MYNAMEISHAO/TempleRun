@@ -3,28 +3,28 @@ using UnityEngine;
 public class Entity : MonoBehaviour
 {
     public static Entity Instance;
-    public static bool isGameStart = true;
-    public static bool isPlaying = true;
+    public static bool canMove = false;
+    public static bool canAnimate = true;
     private void Awake()
     {
         Instance = this;
     }
-    public void StopMoving()
+    
+    public void MoveAndAnimate()
     {
-        isGameStart = false;
-    }
-    public void StartMoving()
-    {
-        isGameStart = true;
+        canAnimate = true;
+        canMove = true;
     }
 
-    public void StopAnimation()
+    public void AnimateAndNoMove()
     {
-        isPlaying = false;
+        canAnimate = true;
+        canMove = false;
     }
 
-    public void ResumeAnimation()
+    public void NoMoveNoAnimate()
     {
-        isPlaying = true;
+        canAnimate = false;
+        canMove = false;
     }
 }

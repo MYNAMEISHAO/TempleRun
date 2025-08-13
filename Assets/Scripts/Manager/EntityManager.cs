@@ -28,7 +28,7 @@ public class EntityManager : MonoBehaviour
         }
         else if (state == GameState.Home)
         {
-            StopMoving(1f);
+            StopMoving(0f);
         }
         else if (state == GameState.Paused)
         {
@@ -45,8 +45,7 @@ public class EntityManager : MonoBehaviour
 
     public void Freeze()
     {
-        Entity.Instance.StopMoving();
-        Entity.Instance.StopAnimation();
+        Entity.Instance.NoMoveNoAnimate();
     }
 
     public void UnFreeze()
@@ -55,8 +54,7 @@ public class EntityManager : MonoBehaviour
         IEnumerator WaitToUnFreeze()
         {
             yield return new WaitForSeconds(1f);
-            Entity.Instance.StartMoving();
-            Entity.Instance.ResumeAnimation();
+            Entity.Instance.MoveAndAnimate();
         }
 
     }
@@ -67,8 +65,9 @@ public class EntityManager : MonoBehaviour
         IEnumerator WaitToEnd()
         {
             yield return new WaitForSeconds(afterSec);
-            Entity.Instance.StopMoving();
+            Entity.Instance.AnimateAndNoMove();
         }
         
     }
+
 }

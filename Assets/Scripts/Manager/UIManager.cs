@@ -22,28 +22,27 @@ public class UIManager : MonoBehaviour
     {
         if (state == GameState.Playing)
         {
-            //homePanel.SetActive(false);
+            homePanel.SetActive(false);
             playingPanel.SetActive(true);
             pausedPanel.SetActive(false);
             gameOverPanel.SetActive(false);
         }
         else if (state == GameState.Home)
         {
-            //homePanel.SetActive(true);
+            homePanel.SetActive(true);
             playingPanel.SetActive(false);
             pausedPanel.SetActive(false);
             gameOverPanel.SetActive(false);
         }
         else if (state == GameState.Paused)
         {
-            //homePanel.SetActive(false);
+            homePanel.SetActive(false);
             pausedPanel.SetActive(true);
             gameOverPanel.SetActive(false);
         }
         else if (state == GameState.GameOver)
         {
-            //homePanel.SetActive(false);
-            playingPanel.SetActive(false);
+            homePanel.SetActive(false);
             pausedPanel.SetActive(false);
             gameOverPanel.SetActive(true);
         }
