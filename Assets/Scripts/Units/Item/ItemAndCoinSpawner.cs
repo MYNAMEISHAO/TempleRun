@@ -21,21 +21,22 @@ public class ItemAndCoinSpawner : MonoBehaviour
     public int maxItemAmount = 3;
 
     [Header("Cài đặt chung")]
+    public float edgeMargin = 1.5f;
     public LayerMask groundLayer;
     public int totalPoints = 20;
-    [Range(2, 10)] public int slotCount = 3; // Tăng max range để linh hoạt hơn
+    [Range(2, 10)] public int slotCount = 3;
     public bool isStartChunk = false;
 
     [Header("Cài đặt chiều cao spawn")]
     public float spawnHeightOffsetMin = 0.5f;
     public float spawnHeightOffsetMax = 1.5f;
 
-    // MỚI: Thêm cài đặt cho vùng đệm để tùy chỉnh trong Inspector
     [Header("Cài đặt Vùng Đệm")]
-    public bool useBufferSlots = true; // Bật/tắt tính năng vùng đệm
-    [Range(1, 3)] public int bufferSlotCount = 1; // Số slot đệm mỗi bên (1 là đủ cho hầu hết trường hợp)
+    public bool useBufferSlots = true;
+    [Range(1, 3)] public int bufferSlotCount = 1;
 
     private SpriteRenderer chunkSpriteRenderer;
+    private bool hasSpawned = false; // Biến cờ mới
 
     void Awake()
     {
@@ -43,6 +44,42 @@ public class ItemAndCoinSpawner : MonoBehaviour
     }
 
     void OnEnable()
+    {
+        // Đăng ký lắng nghe sự kiện thay đổi trạng thái game
+        GameManager.OnGameStateChanged += HandleGameStateChanged;
+        hasSpawned = false; // Đặt lại cờ khi chunk được bật lại
+
+        // Kiểm tra nếu game đã ở trạng thái Playing (để xử lý trường hợp script được bật sau khi game đã bắt đầu)
+        if (GameManager.instance != null && GameManager.instance.state == GameState.Playing)
+        {
+            HandleGameStateChanged(GameState.Playing);
+        }
+    }
+
+    void OnDisable()
+    {
+        // Hủy đăng ký sự kiện khi chunk bị tắt
+        GameManager.OnGameStateChanged -= HandleGameStateChanged;
+
+        // Xóa tất cả các vật phẩm đã spawn trên chunk này
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+
+    // Hàm xử lý khi trạng thái game thay đổi
+    private void HandleGameStateChanged(GameState state)
+    {
+        // Chỉ spawn nếu trạng thái là Playing và chưa spawn lần nào
+        if (state == GameState.Playing && !hasSpawned)
+        {
+            SpawnObjects();
+            hasSpawned = true; // Đặt cờ đã spawn
+        }
+    }
+
+    private void SpawnObjects()
     {
         if (chunkSpriteRenderer == null) return;
 
@@ -64,7 +101,6 @@ public class ItemAndCoinSpawner : MonoBehaviour
                 SpawnPattern randomPattern = (SpawnPattern)Random.Range(0, System.Enum.GetValues(typeof(SpawnPattern)).Length);
                 SpawnCoinPattern(randomPattern, coinStartPosition);
 
-                // SỬA ĐỔI: Logic đánh dấu slot đã chiếm của coin
                 List<Vector2> coinPositions = GetCoinPositions(randomPattern, coinStartPosition);
                 HashSet<int> slotsOccupiedByCoins = new HashSet<int>();
                 foreach (var pos in coinPositions)
@@ -72,22 +108,18 @@ public class ItemAndCoinSpawner : MonoBehaviour
                     slotsOccupiedByCoins.Add(GetSlotIndex(pos.x, chunkSpriteRenderer.bounds));
                 }
 
-                // Thêm các slot đã chiếm vào danh sách tổng
                 foreach (int slot in slotsOccupiedByCoins)
                 {
                     usedSlots.Add(slot);
                 }
 
-                // MỚI: Thêm các slot lân cận (vùng đệm) nếu được bật
                 if (useBufferSlots)
                 {
                     foreach (int slot in slotsOccupiedByCoins)
                     {
                         for (int i = 1; i <= bufferSlotCount; i++)
                         {
-                            // Thêm slot bên trái
                             if (slot - i >= 0) usedSlots.Add(slot - i);
-                            // Thêm slot bên phải
                             if (slot + i < slotCount) usedSlots.Add(slot + i);
                         }
                     }
@@ -106,14 +138,13 @@ public class ItemAndCoinSpawner : MonoBehaviour
                 bool found = false;
                 int itemSlot = -1;
 
-                // Tìm một điểm spawn hợp lệ
                 foreach (var point in potentialSpawnPoints.ToList())
                 {
                     int slot = GetSlotIndex(point.x, chunkSpriteRenderer.bounds);
                     if (!usedSlots.Contains(slot))
                     {
                         spawnPosition = point;
-                        itemSlot = slot; // Lưu lại slot của item
+                        itemSlot = slot;
                         potentialSpawnPoints.Remove(point);
                         found = true;
                         break;
@@ -122,7 +153,6 @@ public class ItemAndCoinSpawner : MonoBehaviour
 
                 if (!found) break;
 
-                // SỬA ĐỔI: Thêm slot của item và vùng đệm xung quanh nó vào usedSlots
                 usedSlots.Add(itemSlot);
                 if (useBufferSlots)
                 {
@@ -139,15 +169,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
         }
     }
 
-    void OnDisable()
-    {
-        foreach (Transform child in transform)
-        {
-            Destroy(child.gameObject);
-        }
-    }
-
-    // ==== CÁC HÀM HỖ TRỢ (Không thay đổi) ====
+    // ==== CÁC HÀM HỖ TRỢ (Không thay đổi) ==== 
 
     void SpawnCoinPattern(SpawnPattern pattern, Vector2 position)
     {
@@ -193,7 +215,8 @@ public class ItemAndCoinSpawner : MonoBehaviour
     List<Vector2> GenerateSpawnPoints()
     {
         List<Vector2> points = new List<Vector2>();
-        if (chunkSpriteRenderer == null) return points; // Thêm kiểm tra null
+        if (chunkSpriteRenderer == null) return points;
+
         Bounds chunkBounds = chunkSpriteRenderer.bounds;
         float minScanX = chunkBounds.min.x;
 
@@ -205,16 +228,22 @@ public class ItemAndCoinSpawner : MonoBehaviour
             minScanX = Mathf.Max(chunkBounds.min.x, playerRight);
         }
 
-        if (minScanX >= chunkBounds.max.x) return points;
+        float startX = minScanX + edgeMargin;
+        float endX = chunkBounds.max.x - edgeMargin;
+
+        if (startX >= endX)
+        {
+            return points;
+        }
 
         for (int i = 0; i < totalPoints; i++)
         {
             float t = (totalPoints > 1) ? (float)i / (totalPoints - 1) : 0.5f;
-            float pointX = Mathf.Lerp(minScanX, chunkBounds.max.x, t);
+            float pointX = Mathf.Lerp(startX, endX, t);
+
             RaycastHit2D hit = Physics2D.Raycast(new Vector2(pointX, chunkBounds.max.y + 5f), Vector2.down, 20f, groundLayer);
             if (hit.collider != null)
             {
-                // Dùng giá trị random chiều cao spawn
                 points.Add(hit.point + new Vector2(0, Random.Range(spawnHeightOffsetMin, spawnHeightOffsetMax)));
             }
         }
@@ -257,7 +286,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
 #if UNITY_EDITOR
     void OnDrawGizmosSelected()
     {
-        if (chunkSpriteRenderer == null) chunkSpriteRenderer = GetComponentInChildren<SpriteRenderer>(); // Sửa lại GetComponent
+        if (chunkSpriteRenderer == null) chunkSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
         if (chunkSpriteRenderer == null) return;
 
         Bounds bounds = chunkSpriteRenderer.bounds;
