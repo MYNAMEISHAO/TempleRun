@@ -21,22 +21,21 @@ public class ItemAndCoinSpawner : MonoBehaviour
     public int maxItemAmount = 3;
 
     [Header("Cài đặt chung")]
-    public float edgeMargin = 1.5f;
     public LayerMask groundLayer;
     public int totalPoints = 20;
-    [Range(2, 10)] public int slotCount = 3;
+    [Range(2, 10)] public int slotCount = 3; // Tăng max range để linh hoạt hơn
     public bool isStartChunk = false;
 
     [Header("Cài đặt chiều cao spawn")]
     public float spawnHeightOffsetMin = 0.5f;
     public float spawnHeightOffsetMax = 1.5f;
 
-    [Header("Cài đặt vùng đệm")]
-    public bool useBufferSlots = true;
-    [Range(1, 3)] public int bufferSlotCount = 1;
+    // MỚI: Thêm cài đặt cho vùng đệm để tùy chỉnh trong Inspector
+    [Header("Cài đặt Vùng Đệm")]
+    public bool useBufferSlots = true; // Bật/tắt tính năng vùng đệm
+    [Range(1, 3)] public int bufferSlotCount = 1; // Số slot đệm mỗi bên (1 là đủ cho hầu hết trường hợp)
 
     private SpriteRenderer chunkSpriteRenderer;
-    private bool hasSpawned = false;
 
     void Awake()
     {
@@ -45,40 +44,13 @@ public class ItemAndCoinSpawner : MonoBehaviour
 
     void OnEnable()
     {
-        GameManager.OnGameStateChanged += HandleGameStateChanged;
-        hasSpawned = false;
-    }
-
-    void OnDisable()
-    {
-        GameManager.OnGameStateChanged -= HandleGameStateChanged;
-    }
-
-    private void HandleGameStateChanged(GameState state)
-    {
-        if (state == GameState.Playing && !hasSpawned)
-        {
-            StartSpawning();
-            hasSpawned = true;
-        }
-
-        if (state == GameState.Home || state == GameState.GameOver)
-        {
-            ClearAllSpawnedObjects();
-            hasSpawned = false;
-        }
-    }
-
-    private void StartSpawning()
-    {
-        ClearAllSpawnedObjects();
-
         if (chunkSpriteRenderer == null) return;
 
         List<Vector2> potentialSpawnPoints = GenerateSpawnPoints();
         if (potentialSpawnPoints.Count == 0) return;
 
         potentialSpawnPoints = potentialSpawnPoints.OrderBy(p => Random.value).ToList();
+
         HashSet<int> usedSlots = new HashSet<int>();
 
         // Spawn Coin
@@ -92,21 +64,30 @@ public class ItemAndCoinSpawner : MonoBehaviour
                 SpawnPattern randomPattern = (SpawnPattern)Random.Range(0, System.Enum.GetValues(typeof(SpawnPattern)).Length);
                 SpawnCoinPattern(randomPattern, coinStartPosition);
 
+                // SỬA ĐỔI: Logic đánh dấu slot đã chiếm của coin
                 List<Vector2> coinPositions = GetCoinPositions(randomPattern, coinStartPosition);
                 HashSet<int> slotsOccupiedByCoins = new HashSet<int>();
                 foreach (var pos in coinPositions)
+                {
                     slotsOccupiedByCoins.Add(GetSlotIndex(pos.x, chunkSpriteRenderer.bounds));
+                }
 
+                // Thêm các slot đã chiếm vào danh sách tổng
                 foreach (int slot in slotsOccupiedByCoins)
+                {
                     usedSlots.Add(slot);
+                }
 
+                // MỚI: Thêm các slot lân cận (vùng đệm) nếu được bật
                 if (useBufferSlots)
                 {
                     foreach (int slot in slotsOccupiedByCoins)
                     {
                         for (int i = 1; i <= bufferSlotCount; i++)
                         {
+                            // Thêm slot bên trái
                             if (slot - i >= 0) usedSlots.Add(slot - i);
+                            // Thêm slot bên phải
                             if (slot + i < slotCount) usedSlots.Add(slot + i);
                         }
                     }
@@ -118,19 +99,21 @@ public class ItemAndCoinSpawner : MonoBehaviour
         if (Random.value <= itemSpawnChance && itemPrefabs.Count > 0)
         {
             int amountToSpawn = Random.Range(1, maxItemAmount + 1);
+
             for (int i = 0; i < amountToSpawn && potentialSpawnPoints.Count > 0; i++)
             {
                 Vector2 spawnPosition = Vector2.zero;
                 bool found = false;
                 int itemSlot = -1;
 
+                // Tìm một điểm spawn hợp lệ
                 foreach (var point in potentialSpawnPoints.ToList())
                 {
                     int slot = GetSlotIndex(point.x, chunkSpriteRenderer.bounds);
                     if (!usedSlots.Contains(slot))
                     {
                         spawnPosition = point;
-                        itemSlot = slot;
+                        itemSlot = slot; // Lưu lại slot của item
                         potentialSpawnPoints.Remove(point);
                         found = true;
                         break;
@@ -139,6 +122,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
 
                 if (!found) break;
 
+                // SỬA ĐỔI: Thêm slot của item và vùng đệm xung quanh nó vào usedSlots
                 usedSlots.Add(itemSlot);
                 if (useBufferSlots)
                 {
@@ -155,44 +139,16 @@ public class ItemAndCoinSpawner : MonoBehaviour
         }
     }
 
-    private void ClearAllSpawnedObjects()
+    void OnDisable()
     {
-        for (int i = transform.childCount - 1; i >= 0; i--)
-            Destroy(transform.GetChild(i).gameObject);
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
     }
 
-    private List<Vector2> GenerateSpawnPoints()
-    {
-        List<Vector2> points = new List<Vector2>();
-        if (chunkSpriteRenderer == null) return points;
+    // ==== CÁC HÀM HỖ TRỢ (Không thay đổi) ====
 
-        Bounds chunkBounds = chunkSpriteRenderer.bounds;
-        float minScanX = chunkBounds.min.x;
-
-        if (isStartChunk)
-        {
-            GameObject player = GameObject.FindWithTag("Player");
-            if (player != null)
-                minScanX = Mathf.Max(chunkBounds.min.x, player.transform.position.x + 2f);
-        }
-
-        float startX = minScanX + edgeMargin;
-        float endX = chunkBounds.max.x - edgeMargin;
-        if (startX >= endX) return points;
-
-        for (int i = 0; i < totalPoints; i++)
-        {
-            float t = (totalPoints > 1) ? (float)i / (totalPoints - 1) : 0.5f;
-            float pointX = Mathf.Lerp(startX, endX, t);
-
-            RaycastHit2D hit = Physics2D.Raycast(new Vector2(pointX, chunkBounds.max.y + 5f), Vector2.down, 20f, groundLayer);
-            if (hit.collider != null)
-                points.Add(hit.point + new Vector2(0, Random.Range(spawnHeightOffsetMin, spawnHeightOffsetMax)));
-        }
-        return points;
-    }
-
-    // --- Các hàm spawn coin patterns ---
     void SpawnCoinPattern(SpawnPattern pattern, Vector2 position)
     {
         switch (pattern)
@@ -212,7 +168,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
     void SpawnLine(Vector2 startPos, int count)
     {
         for (int i = 0; i < count; i++)
-            Instantiate(coinPrefab, startPos + Vector2.right * coinSpacing * i, Quaternion.identity, transform);
+            Instantiate(coinPrefab, startPos + new Vector2(i * coinSpacing, 0), Quaternion.identity, transform);
     }
 
     void SpawnSquare(Vector2 startPos, int sideLength)
@@ -226,10 +182,50 @@ public class ItemAndCoinSpawner : MonoBehaviour
     {
         for (int y = 0; y < numRows; y++)
         {
-            float offset = (y % 2 == 0) ? 0 : coinSpacing / 2;
+            float xOffset = (y % 2 == 0) ? 0 : coinSpacing / 2f;
             for (int x = 0; x < coinsPerRow; x++)
-                Instantiate(coinPrefab, startPos + new Vector2(x * coinSpacing + offset, y * coinSpacing), Quaternion.identity, transform);
+            {
+                Instantiate(coinPrefab, startPos + new Vector2(x * coinSpacing + xOffset, y * coinSpacing), Quaternion.identity, transform);
+            }
         }
+    }
+
+    List<Vector2> GenerateSpawnPoints()
+    {
+        List<Vector2> points = new List<Vector2>();
+        if (chunkSpriteRenderer == null) return points; // Thêm kiểm tra null
+        Bounds chunkBounds = chunkSpriteRenderer.bounds;
+        float minScanX = chunkBounds.min.x;
+
+        Transform playerTransform = GameObject.FindWithTag("Player")?.transform;
+
+        if (isStartChunk && playerTransform != null)
+        {
+            float playerRight = playerTransform.position.x + 2f;
+            minScanX = Mathf.Max(chunkBounds.min.x, playerRight);
+        }
+
+        if (minScanX >= chunkBounds.max.x) return points;
+
+        for (int i = 0; i < totalPoints; i++)
+        {
+            float t = (totalPoints > 1) ? (float)i / (totalPoints - 1) : 0.5f;
+            float pointX = Mathf.Lerp(minScanX, chunkBounds.max.x, t);
+            RaycastHit2D hit = Physics2D.Raycast(new Vector2(pointX, chunkBounds.max.y + 5f), Vector2.down, 20f, groundLayer);
+            if (hit.collider != null)
+            {
+                // Dùng giá trị random chiều cao spawn
+                points.Add(hit.point + new Vector2(0, Random.Range(spawnHeightOffsetMin, spawnHeightOffsetMax)));
+            }
+        }
+
+        return points;
+    }
+
+    int GetSlotIndex(float xPos, Bounds bounds)
+    {
+        float normalized = Mathf.InverseLerp(bounds.min.x, bounds.max.x, xPos);
+        return Mathf.Clamp(Mathf.FloorToInt(normalized * slotCount), 0, slotCount - 1);
     }
 
     List<Vector2> GetCoinPositions(SpawnPattern pattern, Vector2 startPos)
@@ -239,7 +235,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
         {
             case SpawnPattern.Line:
                 for (int i = 0; i < lineCount; i++)
-                    positions.Add(startPos + Vector2.right * coinSpacing * i);
+                    positions.Add(startPos + new Vector2(i * coinSpacing, 0));
                 break;
             case SpawnPattern.Square:
                 for (int y = 0; y < squareSide; y++)
@@ -249,27 +245,30 @@ public class ItemAndCoinSpawner : MonoBehaviour
             case SpawnPattern.StaggeredRows:
                 for (int y = 0; y < staggeredRows; y++)
                 {
-                    float offset = (y % 2 == 0) ? 0 : coinSpacing / 2;
+                    float xOffset = (y % 2 == 0) ? 0 : coinSpacing / 2f;
                     for (int x = 0; x < staggeredCols; x++)
-                        positions.Add(startPos + new Vector2(x * coinSpacing + offset, y * coinSpacing));
+                        positions.Add(startPos + new Vector2(x * coinSpacing + xOffset, y * coinSpacing));
                 }
                 break;
         }
         return positions;
     }
 
-    int GetSlotIndex(float xPos, Bounds bounds)
-    {
-        float relativeX = xPos - bounds.min.x;
-        float slotWidth = bounds.size.x / slotCount;
-        return Mathf.Clamp(Mathf.FloorToInt(relativeX / slotWidth), 0, slotCount - 1);
-    }
-
 #if UNITY_EDITOR
     void OnDrawGizmosSelected()
     {
-        if (chunkSpriteRenderer != null)
-            Gizmos.DrawWireCube(chunkSpriteRenderer.bounds.center, chunkSpriteRenderer.bounds.size);
+        if (chunkSpriteRenderer == null) chunkSpriteRenderer = GetComponentInChildren<SpriteRenderer>(); // Sửa lại GetComponent
+        if (chunkSpriteRenderer == null) return;
+
+        Bounds bounds = chunkSpriteRenderer.bounds;
+        float widthPerSlot = (bounds.max.x - bounds.min.x) / slotCount;
+
+        Gizmos.color = Color.cyan;
+        for (int i = 1; i < slotCount; i++)
+        {
+            float x = bounds.min.x + i * widthPerSlot;
+            Gizmos.DrawLine(new Vector3(x, bounds.min.y - 2f, 0), new Vector3(x, bounds.max.y + 2f, 0));
+        }
     }
 #endif
 }
