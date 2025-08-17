@@ -28,7 +28,7 @@ public class EntityManager : MonoBehaviour
         }
         else if (state == GameState.Home)
         {
-            StopMoving(0f);
+            StopMoving();
         }
         else if (state == GameState.Paused)
         {
@@ -36,7 +36,7 @@ public class EntityManager : MonoBehaviour
         }
         else if (state == GameState.GameOver)
         {
-            StopMoving(1f);
+            StopMoving();
         }
     }
 
@@ -59,15 +59,10 @@ public class EntityManager : MonoBehaviour
 
     }
 
-    public void StopMoving(float afterSec)
+    public void StopMoving()
     {
-        StartCoroutine(WaitToEnd());
-        IEnumerator WaitToEnd()
-        {
-            yield return new WaitForSeconds(afterSec);
             Entity.Instance.AnimateAndNoMove();
-        }
-        
+  
     }
 
 }
