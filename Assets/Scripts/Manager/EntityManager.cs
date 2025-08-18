@@ -22,6 +22,7 @@ public class EntityManager : MonoBehaviour
 
     private void HandleGameStateChange(GameState state)
     {
+        Debug.Log($"Game state changed to: {state} in EntityManager");
         if (state == GameState.Playing)
         {
             UnFreeze();

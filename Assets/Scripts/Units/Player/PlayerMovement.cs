@@ -24,11 +24,13 @@ public class PlayerMovement : Entity
     private bool isRollPressed = false;
 
     public bool isDead = false; // Kiểm tra nhân vật đã chết chưa
+    private bool inDeathAnim = false; // Kiểm tra đang trong hoạt ảnh chết chưa
     public Animator animator;
     private string currentAnim = "";
     private float minY;
+    PlayerState state;
 
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -79,14 +81,22 @@ public class PlayerMovement : Entity
     {
         if (transform.position.y < minY)
         {
-            isDead = true;
-            transform.gameObject.SetActive(false);
-            GameManager.instance.UpdateGameState(GameState.GameOver);
+            isDead = true; // Set isDead to true if player falls below minY
+        }
+        if (isDead && !inDeathAnim)
+        {
+            ChangeAnimation("Die");
+            rb.linearVelocity = new Vector3(0, 10f, 0f);
+            transform.GetChild(2).gameObject.SetActive(false); // Tắt collider khi chết
+            transform.GetChild(3).gameObject.SetActive(false); // Tắt collider khi chết
+            inDeathAnim = true; // Set inDeathAnim to true to prevent multiple triggers
+            StartCoroutine(WaitForDeathAnim());
             return;
         }
 
         if (isJumpPressed)
         {
+
             if (isGrounded)
             {
                 ChangeAnimation("Jump");
@@ -94,20 +104,27 @@ public class PlayerMovement : Entity
                 jumpCount = 1;
                 return;
             }
-            else if(jumpCount!=2)
+            else if (jumpCount != 2)
             {
                 ChangeAnimation("Jump");
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce - 2);
                 jumpCount = 2;
-            }  
+            }
         }
         if (isGrounded)
         {
             jumpCount = 0; // Reset jump count when grounded
+            if(currentAnim == "Run")
+            {
+                transform.GetChild(2).gameObject.SetActive(true); // Tắt collider khi chết
+                transform.GetChild(3).gameObject.SetActive(false); // Tắt collider khi chết
+            }
         }
 
         if (isRollPressed)
         {
+            transform.GetChild(2).gameObject.SetActive(false); // Tắt collider khi chết
+            transform.GetChild(3).gameObject.SetActive(true); // Tắt collider khi chết
             ChangeAnimation("Roll");
             if (!isGrounded)
             {
@@ -118,10 +135,17 @@ public class PlayerMovement : Entity
         }
     }
 
-
+    IEnumerator WaitForDeathAnim()
+    {
+        yield return new WaitForSeconds(1f);
+        isDead = false; // Reset isDead to false after death animation
+        inDeathAnim = false; // Reset inDeathAnim to false after death animation
+        GameManager.instance.UpdateGameState(GameState.GameOver);
+        transform.gameObject.SetActive(false);
+    }
     public void ChangeAnimation(string animation, float crossFade = 0.2f, float time = 0)
     {
-        if(time > 0)
+        if (time > 0)
         {
             StartCoroutine(Wait());
         }
@@ -144,15 +168,15 @@ public class PlayerMovement : Entity
                 animator.CrossFade(animation, crossFade);
             }
         }
-        
+
     }
 
     private void CheckAnimation()
     {
         animator.speed = 1f; // Đặt tốc độ hoạt hình về mặc định
-        if (isDead)
+        if (currentAnim == "Die")
         {
-            ChangeAnimation("Die");
+            return;
         }
         if (currentAnim == "Roll")
         {
@@ -166,13 +190,13 @@ public class PlayerMovement : Entity
             }
             else if (!isGrounded)
             {
-                ChangeAnimation("Fall");    
+                ChangeAnimation("Fall");
             }
             else if (isGrounded)
             {
                 ChangeAnimation("Run");
             }
-            
+
         }
     }
 
@@ -182,5 +206,15 @@ public class PlayerMovement : Entity
         {
             animator.speed = 0f; // Dừng hoạt ảnh
         }
+    }
+
+    enum PlayerState
+    {
+        Idle,
+        Run,
+        Jump,
+        Fall,
+        Roll,
+        Die
     }
 }

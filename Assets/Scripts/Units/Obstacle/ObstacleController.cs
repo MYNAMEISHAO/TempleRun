@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObstacleController : MonoBehaviour
+public class ObstacleController : Entity
 {
     [SerializeField] GameSpeedConfig GameSpeedConfig;
     Camera Cam;
@@ -11,17 +11,21 @@ public class ObstacleController : MonoBehaviour
     {
         Cam = Camera.main;
         obstacleLength = transform.GetComponent<SpriteRenderer>().bounds.size.x;
+        GameSpeedConfig = GameObject.Find("GameSpeed").GetComponent<GameSpeedConfig>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float posX = transform.position.x - Time.deltaTime * GameSpeedConfig.speedOverTime.Evaluate(GameSpeedConfig.totalTime);
-        transform.position = new Vector3(posX,transform.position.y,transform.position.z);
-
-        if (CheckOutOfCam())
+        if (canMove)
         {
-            transform.gameObject.SetActive(false);
+            float posX = transform.position.x - Time.deltaTime * GameSpeedConfig.speedOverTime.Evaluate(GameSpeedConfig.totalTime);
+            transform.position = new Vector3(posX, transform.position.y, transform.position.z);
+
+            if (CheckOutOfCam())
+            {
+                transform.gameObject.SetActive(false);
+            }
         }
         
     }
