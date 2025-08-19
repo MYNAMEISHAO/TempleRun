@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0a03b0493c63ef34bb98a56c39fc3519
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - introMusic: {fileID: 8300000, guid: e33ddf246f47b9c41958bec617780843, type: 3}
+  - gameMusic: {fileID: 8300000, guid: f2f7b2e0a9dc88c4d85e8e152f7ee17f, type: 3}
+  - clickSound: {fileID: 8300000, guid: eb88cb0bb84945d4bbd4426943c6e604, type: 3}
+  - jumpSound: {fileID: 8300000, guid: 5400ad5cb7ce2e449993bb1894f0f479, type: 3}
+  - coinSound: {fileID: 8300000, guid: d527e6ab6d09c9948900de4ce09650d2, type: 3}
+  - itemSound: {fileID: 8300000, guid: 00d64440154aa0244a2962029f628264, type: 3}
+  executionOrder: -100
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,4 +7,5 @@ public class PlayerConfig
     public float gravity = 1.5f;
     public float jumpForce = 10f;
     public float coyoteTime = 0.2f;  //khoảng thời gian tối đa để người chơi bấm nhảy nếu không chạm đất
+    public float minHeight = -4f;     //chiều cao tối thiểu của người chơi
 }

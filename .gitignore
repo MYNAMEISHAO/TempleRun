@@ -1,8 +1,24 @@
-/Library
-/Logs
-/Temp
-/obj
-*.vsidx
-.vsconfig
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Visual Studio
+.vs/
 *.csproj
+*.unityproj
 *.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity cache
+*.unitypackage
