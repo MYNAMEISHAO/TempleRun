@@ -1,16 +1,29 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameOverScreen : MonoBehaviour
 {
-    private void HandleGameStateChanged(GameState state)
+    [Header("UI Elements")]
+    [SerializeField] private Image soundButtonImage;
+    [SerializeField] private Color soundOffColor = Color.gray;
+    private Color soundButtonOriginalColor;
+
+    private void Awake()
     {
-        gameObject.SetActive(state == GameState.GameOver);
+        if (soundButtonImage != null)
+        {
+            soundButtonOriginalColor = soundButtonImage.color;
+        }
     }
 
     void OnEnable()
     {
         GameManager.OnGameStateChanged += HandleGameStateChanged;
+        UpdateSoundButtonVisual();
+
+        SoundManager.instance.PlayGameOverMusic();
     }
 
     void OnDisable()
@@ -18,18 +31,34 @@ public class GameOverScreen : MonoBehaviour
         GameManager.OnGameStateChanged -= HandleGameStateChanged;
     }
 
+    private void HandleGameStateChanged(GameState state)
+    {
+        gameObject.SetActive(state == GameState.GameOver);
+    }
 
     public void OnRestartButtonClicked()
     {
-        GameManager.instance.UpdateGameState(GameState.Playing);
-
-        // Tải lại màn chơi
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void OnMainMenuButtonClicked()
     {
-        // Chỉ cần yêu cầu GameManager quay về trạng thái Home là đủ
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Sound()
+    {
+        SoundManager.instance.ToggleSound();
+        UpdateSoundButtonVisual();
+    }
+
+    private void UpdateSoundButtonVisual()
+    {
+        if (soundButtonImage != null && SoundManager.instance != null)
+        {
+            soundButtonImage.color = SoundManager.instance.IsMuted ? soundOffColor : soundButtonOriginalColor;
+        }
     }
 }

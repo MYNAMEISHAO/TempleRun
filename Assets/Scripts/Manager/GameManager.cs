@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections; 
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -10,60 +11,74 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+    }
 
-        // Đặt trạng thái game ngay lập tức trong Awake
+    private void Start()
+    {
         UpdateGameState(GameState.Home);
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void UpdateGameState(GameState newState)
     {
+
+        if (newState == GameState.GameOver)
+        {
+            StartCoroutine(GameOverDelayRoutine());
+            return; 
+        }
+
+        
         state = newState;
 
-        switch(newState)
+        switch (newState)
         {
             case GameState.Home:
-                // Logic for home state
                 HandleHome();
                 break;
             case GameState.Playing:
-                // Logic for playing state
                 HandlePlaying();
                 break;
             case GameState.Paused:
-                // Logic for paused state
                 HandlePause();
-                break;
-            case GameState.GameOver:
-                // Logic for game over state
-                HandleGameOver();
                 break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
         }
 
         OnGameStateChanged?.Invoke(newState);
-        Debug.Log($"Game state updated to: {newState}"); // Debug log for state change
+        Debug.Log($"Game state updated to: {newState}");
     }
+
+    private IEnumerator GameOverDelayRoutine()
+    {
+        HandleGameOver();
+
+        yield return new WaitForSeconds(2f);
+
+        state = GameState.GameOver;
+        OnGameStateChanged?.Invoke(state);
+        Debug.Log($"Game state updated to: {state} (sau khi trễ 2 giây)");
+    }
+
 
     private void HandleGameOver()
     {
-        
+
     }
 
     private void HandlePause()
     {
-        
+        Time.timeScale = 0f; 
     }
 
     private void HandlePlaying()
     {
-        
+        Time.timeScale = 1f;
     }
 
     private void HandleHome()
     {
-        
+        Time.timeScale = 1f; 
     }
 }
 

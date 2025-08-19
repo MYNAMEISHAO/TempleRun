@@ -1,8 +1,14 @@
 ﻿using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
-    void OnEnable() { GameManager.OnGameStateChanged += HandleGameStateChanged; }
-    void OnDisable() { GameManager.OnGameStateChanged -= HandleGameStateChanged; }
+    void OnEnable() 
+    { 
+        GameManager.OnGameStateChanged += HandleGameStateChanged; 
+    }
+    void OnDisable() 
+    { 
+        GameManager.OnGameStateChanged -= HandleGameStateChanged; 
+    }
 
     // Hàm này tự động ẩn/hiện panel dựa trên trạng thái game
     void HandleGameStateChanged(GameState state)
@@ -13,6 +19,8 @@ public class MainMenu : MonoBehaviour
     // Hàm này cho nút PLAY gọi
     public void OnStartButtonClicked()
     {
+        //SoundManager.instance.PlayClick();   
+        SoundManager.instance.PlayGameMusic();
         GameManager.instance.UpdateGameState(GameState.Playing);
     }
 }
