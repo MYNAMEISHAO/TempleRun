@@ -95,6 +95,9 @@ public class PlayerMovement : Entity
             transform.GetChild(3).gameObject.SetActive(false); // Tắt collider khi chết
             inDeathAnim = true; // Set inDeathAnim to true to prevent multiple triggers
             StartCoroutine(WaitForDeathAnim());
+
+            SoundManager.instance.StopMusic();
+            SoundManager.instance.PlayPlayerDie();
             return;
         }
 
@@ -103,6 +106,8 @@ public class PlayerMovement : Entity
 
             if (isGrounded)
             {
+                SoundManager.instance.PlayJump();
+
                 ChangeAnimation("Jump");
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpCount = 1;
@@ -110,6 +115,8 @@ public class PlayerMovement : Entity
             }
             else if (jumpCount != 2)
             {
+                SoundManager.instance.PlayJump();
+
                 ChangeAnimation("Jump");
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce - 2);
                 jumpCount = 2;
