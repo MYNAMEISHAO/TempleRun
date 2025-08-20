@@ -4060,6 +4060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341857677}
   - component: {fileID: 1341857678}
+  - component: {fileID: 1341857679}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -4098,6 +4099,18 @@ MonoBehaviour:
   playingPanel: {fileID: 52985281}
   pausedPanel: {fileID: 38116137}
   gameOverPanel: {fileID: 1463588744}
+--- !u!114 &1341857679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341857676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9142e353cd8fe44094eb95891aa9596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1370930268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1937654484174797315, guid: 0fbbee5f281478844a3d1514f84da310, type: 3}
@@ -5803,7 +5816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1390213767604918921, guid: e163f951ca5c8124185a70ca682daa0c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1731812498340865887, guid: e163f951ca5c8124185a70ca682daa0c, type: 3}
       propertyPath: GameSpeedConfig
@@ -5978,6 +5991,10 @@ PrefabInstance:
     - target: {fileID: 6598853570648427302, guid: 0fbbee5f281478844a3d1514f84da310, type: 3}
       propertyPath: m_Name
       value: ObstacleHigh
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598853570648427302, guid: 0fbbee5f281478844a3d1514f84da310, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

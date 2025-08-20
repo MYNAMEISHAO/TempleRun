@@ -81,6 +81,13 @@ public class PlayerMovement : Entity
     {
         if(inDeathAnim)
         {
+            if (CheckOutOfCam())
+            {
+                isDead = false; // Reset isDead to false if player falls out of camera bounds
+                inDeathAnim = false; // Reset inDeathAnim to false to allow new death animation
+                GameManager.instance.UpdateGameState(GameState.GameOver);
+                gameObject.SetActive(false); // Deactivate player object
+            }
             return; // Nếu đang trong hoạt ảnh chết, không xử lý đầu vào
         }
         if (transform.position.y < minY)
@@ -149,10 +156,8 @@ public class PlayerMovement : Entity
     IEnumerator WaitForDeathAnim()
     {
         yield return new WaitForSeconds(1f);
-        isDead = false; // Reset isDead to false after death animation
-        inDeathAnim = false; // Reset inDeathAnim to false after death animation
         GameManager.instance.UpdateGameState(GameState.GameOver);
-        transform.gameObject.SetActive(false);
+
     }
     public void ChangeAnimation(string animation, float crossFade = 0.2f, float time = 0)
     {
@@ -219,6 +224,14 @@ public class PlayerMovement : Entity
         }
     }
 
+    
+    bool CheckOutOfCam()
+    {
+        if (transform.position.y < minY - 2) return true;
+        return false;
+    }
+    
+        
     enum PlayerState
     {
         Idle,
