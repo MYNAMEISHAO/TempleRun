@@ -79,6 +79,10 @@ public class PlayerMovement : Entity
     }
     public void HandleInput()
     {
+        if(inDeathAnim)
+        {
+            return; // Nếu đang trong hoạt ảnh chết, không xử lý đầu vào
+        }
         if (transform.position.y < minY)
         {
             isDead = true; // Set isDead to true if player falls below minY
