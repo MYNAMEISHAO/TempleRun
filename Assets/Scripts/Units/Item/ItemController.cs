@@ -8,6 +8,8 @@ public class ItemController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            SoundManager.instance.PlayItem();
+
             InventoryManager.instance?.AddItem(itemData);
             Destroy(gameObject);
         }
