@@ -7,33 +7,33 @@ public class ItemAndCoinSpawner : MonoBehaviour
     public enum SpawnPattern { Line, Square, StaggeredRows }
 
     [Header("Cài đặt sinh Coin")]
-    public GameObject coinPrefab;
-    [Range(0, 1)] public float coinSpawnChance = 1f;
-    public float coinSpacing = 0.7f;
-    public int lineCount = 7;
-    public int squareSide = 4;
-    public int staggeredRows = 3;
-    public int staggeredCols = 6;
+    [SerializeField] private GameObject coinPrefab;
+    [SerializeField, Range(0, 1)] private float coinSpawnChance = 1f;
+    [SerializeField] private float coinSpacing = 0.7f;
+    [SerializeField] private int lineCount = 7;
+    [SerializeField] private int squareSide = 4;
+    [SerializeField] private int staggeredRows = 3;
+    [SerializeField] private int staggeredCols = 6;
 
     [Header("Cài đặt sinh Item")]
-    public List<GameObject> itemPrefabs;
-    [Range(0, 1)] public float itemSpawnChance = 0.5f;
-    public int maxItemAmount = 3;
+    [SerializeField] private List<GameObject> itemPrefabs;
+    [SerializeField, Range(0, 1)] private float itemSpawnChance = 0.5f;
+    [SerializeField] private int maxItemAmount = 3;
 
     [Header("Cài đặt chung")]
-    public float edgeMargin = 1.5f;
-    public LayerMask groundLayer;
-    public int totalPoints = 20;
-    [Range(2, 10)] public int slotCount = 3;
-    public bool isStartChunk = false;
+    [SerializeField] private float edgeMargin = 1.5f;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private int totalPoints = 20;
+    [SerializeField, Range(2, 10)] private int slotCount = 3;
+    [SerializeField] private bool isStartChunk = false;
 
     [Header("Cài đặt chiều cao spawn")]
-    public float spawnHeightOffsetMin = 0.5f;
-    public float spawnHeightOffsetMax = 1.5f;
+    [SerializeField] private float spawnHeightOffsetMin = 0.5f;
+    [SerializeField] private float spawnHeightOffsetMax = 1.5f;
 
     [Header("Cài đặt Vùng Đệm")]
-    public bool useBufferSlots = true;
-    [Range(1, 3)] public int bufferSlotCount = 1;
+    [SerializeField] private bool useBufferSlots = true;
+    [SerializeField, Range(1, 3)] private int bufferSlotCount = 1;
 
     private SpriteRenderer chunkSpriteRenderer;
     private bool hasSpawned = false; // Biến cờ mới

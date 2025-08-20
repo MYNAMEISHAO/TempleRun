@@ -1,12 +1,51 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void BackHome()
+    [Header("Sound Button Settings")]
+    [SerializeField] private Image soundButtonImage;
+    [SerializeField] private Color soundOffColor = Color.gray;
+
+    private Color soundButtonOriginalColor;
+
+    void Awake()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (soundButtonImage != null)
+        {
+            soundButtonOriginalColor = soundButtonImage.color;
+        }
+    }
+
+    void OnEnable()
+    {
+
+        UpdateSoundButtonVisual();
+    }
+
+    public void Sound()
+    {
+        Debug.Log("--- HÀM Sound() TRONG PauseController ĐÃ ĐƯỢC GỌI! ---");
+
+        if (SoundManager.instance == null)
+        {
+            //Debug.LogError("LỖI NGHIÊM TRỌNG: SoundManager.instance không tồn tại (bị null)!");
+            return; 
+        }
+        // ------------------------------------
+
+        //Debug.Log("SoundManager.instance đã tồn tại. Đang gọi hàm ToggleSound()...");
+        SoundManager.instance.ToggleSound();
+        UpdateSoundButtonVisual();
+    }
+
+    private void UpdateSoundButtonVisual()
+    {
+        if (soundButtonImage != null)
+        {
+            soundButtonImage.color = SoundManager.instance.IsMuted ? soundOffColor : soundButtonOriginalColor;
+        }
     }
 
     public void Resume()
@@ -14,8 +53,9 @@ public class PauseController : MonoBehaviour
         GameManager.instance.UpdateGameState(GameState.Playing);
     }
 
-    public void Sound()
+    public void BackHome()
     {
-        Debug.Log("Sound button clicked");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
