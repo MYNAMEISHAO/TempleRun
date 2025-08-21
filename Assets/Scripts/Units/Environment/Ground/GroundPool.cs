@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class GroundPool : MonoBehaviour
 {
-    public static event Action<Vector3> OnGroundSpawned;
+    public static event Action<GameObject, int> OnGroundSpawned;
 
     static int MAX_GROUND_PREFAB = 5;
     GameObject[] GroundPrefab = new GameObject[MAX_GROUND_PREFAB];
@@ -90,6 +90,8 @@ public class GroundPool : MonoBehaviour
     {
         GameObject reused = FindInactiveMatching(transform, go);
         GameObject obj;
+
+        int obstaclePatternIndex = Random.Range(0, 3);
         //Nếu như trong hierachy đã có sẵn và đang inactive thì active lại và đặt lại vị trí
         if (reused != null)
         {
@@ -112,8 +114,8 @@ public class GroundPool : MonoBehaviour
             GroundQueue.AddLast(obj);
         }
         Debug.Log("Spawn phia bên groundPool");
-        OnGroundSpawned?.Invoke(position);   //Gọi event khi spawn thành công
-        
+        OnGroundSpawned?.Invoke(obj, obstaclePatternIndex);
+
 
     }
 

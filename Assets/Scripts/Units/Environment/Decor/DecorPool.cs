@@ -1,35 +1,28 @@
 using System;
 using System.Collections.Generic;
+using System.Linq; 
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class DecorPool : MonoBehaviour
 {
-    private GroundPool groundPool; // Lấy GroundPool để lấy thông tin về ground
+    private GroundPool groundPool;
 
     private float groundLength;
     private float groundHeight;
     GameObject[] DecorPrefabs;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
-        GroundPool.OnGroundSpawned += HandleGroundSpawned; // Đăng ký sự kiện khi ground được spawn
-
-
+        GroundPool.OnGroundSpawned += HandleGroundSpawned;
     }
+
     void Start()
     {
-
-        groundPool = GameObject.Find("GroundPool").GetComponent<GroundPool>(); // Lấy GroundPool từ scene
+        groundPool = GameObject.Find("GroundPool").GetComponent<GroundPool>();
         groundLength = groundPool.GroundLength;
         groundHeight = groundPool.GroundHeight;
-
-        Debug.Log("Ground Length: " + groundLength);
-        Debug.Log("Ground Height: " + groundHeight);
         DecorPrefabs = Resources.LoadAll<GameObject>("Prefabs/Decor");
-        
-
     }
 
     void OnDestroy()
@@ -37,35 +30,30 @@ public class DecorPool : MonoBehaviour
         GroundPool.OnGroundSpawned -= HandleGroundSpawned;
     }
 
-    // Update is called once per frame
-
-    public void HandleGroundSpawned(Vector3 gPos)
+    public void HandleGroundSpawned(GameObject groundObject, int obstaclePatternIndex)
     {
-        List<GameObject> rd = RandomDecor(); // Lấy một prefab ngẫu nhiên từ mảng DecorPrefabs
-        if (rd.Count == 0) return; // Nếu không có decor nào, thoát
-        else
-        {
-            List<int> decorPos = RandomDecorPos(rd.Count); // Lấy vị trí ngẫu nhiên để spawn decor
-            for (int i = 0; i < rd.Count; i++)
-            {
-                float decorHeight = rd[i].GetComponent<SpriteRenderer>().bounds.size.y;
+        Vector3 gPos = groundObject.transform.position;
 
-                Vector3 spawnPos = new Vector3(gPos.x + groundLength * decorPos[i] / 20f - groundLength / 2,
-                    gPos.y + groundHeight / 2 + decorHeight / 2, gPos.z);
-                Spawn(spawnPos, rd[i]);
-            }
-            
+        List<GameObject> rd = RandomDecor();
+        if (rd.Count == 0) return;
+
+        List<int> decorPos = RandomDecorPos(rd.Count);
+
+        for (int i = 0; i < rd.Count; i++)
+        {
+            float decorHeight = rd[i].GetComponent<SpriteRenderer>().bounds.size.y;
+            Vector3 spawnPos = new Vector3(gPos.x + groundLength * decorPos[i] / 20f - groundLength / 2,
+                gPos.y + groundHeight / 2 + decorHeight / 2, gPos.z);
+            Spawn(spawnPos, rd[i]);
         }
-            
     }
 
     List<GameObject> RandomDecor()
     {
         List<GameObject> decorList = new List<GameObject>();
-        foreach(GameObject decor in DecorPrefabs)
+        foreach (GameObject decor in DecorPrefabs)
         {
-            int chance = Random.Range(0, 2);
-            if(chance == 1) // 50% xác suất để thêm decor vào danh sách
+            if (Random.value < 0.5f) // 50% xác suất
             {
                 decorList.Add(decor);
             }
@@ -75,12 +63,11 @@ public class DecorPool : MonoBehaviour
 
     List<int> RandomDecorPos(int n)
     {
-        List<int> decorPosList = new List<int>();
-        for(int i = 0; i < n; i++)
-        {
-            decorPosList.Add(Random.Range(1, 20));
-        }
-        return decorPosList;
+        List<int> possiblePositions = Enumerable.Range(1, 19).ToList();
+
+        var shuffledPositions = possiblePositions.OrderBy(pos => Random.value);
+
+        return shuffledPositions.Take(n).ToList();
     }
 
     void Spawn(Vector3 pos, GameObject prefab)
@@ -89,8 +76,8 @@ public class DecorPool : MonoBehaviour
         GameObject obj;
         if (reused != null)
         {
-            reused.SetActive(true); // Kích hoạt lại object
-            reused.transform.position = pos; // Đặt lại vị trí
+            reused.SetActive(true);
+            reused.transform.position = pos;
             obj = reused;
         }
         else
@@ -106,10 +93,9 @@ public class DecorPool : MonoBehaviour
             GameObject child = parent.GetChild(i).gameObject;
             if (!child.activeInHierarchy && child.name.Contains(go.name))
             {
-                return child; // trả về object đang inactive phù hợp
+                return child;
             }
         }
         return null;
     }
-
 }

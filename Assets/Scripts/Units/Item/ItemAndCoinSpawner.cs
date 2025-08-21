@@ -45,21 +45,17 @@ public class ItemAndCoinSpawner : MonoBehaviour
 
     void OnEnable()
     {
-        // Đăng ký lắng nghe sự kiện thay đổi trạng thái game
-        GameManager.OnGameStateChanged += HandleGameStateChanged;
+        GroundPool.OnGroundSpawned += OnChunkSpawned;
         hasSpawned = false; // Đặt lại cờ khi chunk được bật lại
 
-        // Kiểm tra nếu game đã ở trạng thái Playing (để xử lý trường hợp script được bật sau khi game đã bắt đầu)
-        if (GameManager.instance != null && GameManager.instance.state == GameState.Playing)
-        {
-            HandleGameStateChanged(GameState.Playing);
-        }
     }
+
+    
 
     void OnDisable()
     {
         // Hủy đăng ký sự kiện khi chunk bị tắt
-        GameManager.OnGameStateChanged -= HandleGameStateChanged;
+        GroundPool.OnGroundSpawned -= OnChunkSpawned;
 
         // Xóa tất cả các vật phẩm đã spawn trên chunk này
         foreach (Transform child in transform)
@@ -68,19 +64,23 @@ public class ItemAndCoinSpawner : MonoBehaviour
         }
     }
 
-    // Hàm xử lý khi trạng thái game thay đổi
-    private void HandleGameStateChanged(GameState state)
+    private void OnChunkSpawned(GameObject spawnedChunk, int obstaclePatternIndex)
     {
-        // Chỉ spawn nếu trạng thái là Playing và chưa spawn lần nào
-        if (state == GameState.Playing && !hasSpawned)
+        if (spawnedChunk != this.gameObject) return;
+
+        if (!hasSpawned)
         {
-            SpawnObjects();
-            hasSpawned = true; // Đặt cờ đã spawn
+            SpawnObjects(obstaclePatternIndex);
+            hasSpawned = true;
         }
     }
 
-    private void SpawnObjects()
+    // Hàm xử lý khi trạng thái game thay đổi
+
+
+    private void SpawnObjects(int obstaclePatternIndex)
     {
+        // --- Các bước kiểm tra ban đầu ---
         if (chunkSpriteRenderer == null) return;
 
         List<Vector2> potentialSpawnPoints = GenerateSpawnPoints();
@@ -90,54 +90,96 @@ public class ItemAndCoinSpawner : MonoBehaviour
 
         HashSet<int> usedSlots = new HashSet<int>();
 
-        // Spawn Coin
-        if (Random.value <= coinSpawnChance && coinPrefab != null)
+        //  LOGIC NÉ VẬT CẢN 
+        if (ObstaclePool.ObstacleLayouts.ContainsKey(obstaclePatternIndex))
         {
-            if (potentialSpawnPoints.Count > 0)
+            List<float> obstaclePattern = ObstaclePool.ObstacleLayouts[obstaclePatternIndex];
+            if (obstaclePattern != null && obstaclePattern.Count > 0)
             {
-                Vector2 coinStartPosition = potentialSpawnPoints[0];
-                potentialSpawnPoints.RemoveAt(0);
-
-                SpawnPattern randomPattern = (SpawnPattern)Random.Range(0, System.Enum.GetValues(typeof(SpawnPattern)).Length);
-                SpawnCoinPattern(randomPattern, coinStartPosition);
-
-                List<Vector2> coinPositions = GetCoinPositions(randomPattern, coinStartPosition);
-                HashSet<int> slotsOccupiedByCoins = new HashSet<int>();
-                foreach (var pos in coinPositions)
+                Bounds chunkBounds = chunkSpriteRenderer.bounds;
+                float groundLength = chunkBounds.size.x;
+                foreach (float normalizedPos in obstaclePattern)
                 {
-                    slotsOccupiedByCoins.Add(GetSlotIndex(pos.x, chunkSpriteRenderer.bounds));
-                }
-
-                foreach (int slot in slotsOccupiedByCoins)
-                {
-                    usedSlots.Add(slot);
-                }
-
-                if (useBufferSlots)
-                {
-                    foreach (int slot in slotsOccupiedByCoins)
+                    float obstaclePosX = transform.position.x - groundLength / 2 + groundLength * normalizedPos;
+                    int occupiedSlot = GetSlotIndex(obstaclePosX, chunkBounds);
+                    usedSlots.Add(occupiedSlot);
+                    if (useBufferSlots)
                     {
                         for (int i = 1; i <= bufferSlotCount; i++)
                         {
-                            if (slot - i >= 0) usedSlots.Add(slot - i);
-                            if (slot + i < slotCount) usedSlots.Add(slot + i);
+                            if (occupiedSlot - i >= 0) usedSlots.Add(occupiedSlot - i);
+                            if (occupiedSlot + i < slotCount) usedSlots.Add(occupiedSlot + i);
                         }
                     }
                 }
             }
         }
 
-        // Spawn Items
+        // LOGIC SPAWN COIN 
+        if (Random.value <= coinSpawnChance && coinPrefab != null)
+        {
+            foreach (var startPoint in potentialSpawnPoints.ToList())
+            {
+                // Với mỗi điểm, thử tạo một mẫu coin ngẫu nhiên
+                SpawnPattern randomPattern = (SpawnPattern)Random.Range(0, System.Enum.GetValues(typeof(SpawnPattern)).Length);
+                List<Vector2> coinPositions = GetCoinPositions(randomPattern, startPoint);
+
+                // Tính toán tất cả các slot mà mẫu coin này sẽ chiếm
+                HashSet<int> requiredSlots = new HashSet<int>();
+                foreach (var pos in coinPositions)
+                {
+                    requiredSlots.Add(GetSlotIndex(pos.x, chunkSpriteRenderer.bounds));
+                }
+
+                // Kiểm tra xem có slot nào bị trùng với các slot đã dùng (của vật cản) không
+                bool canSpawn = true;
+                foreach (int slot in requiredSlots)
+                {
+                    if (usedSlots.Contains(slot))
+                    {
+                        canSpawn = false; // Bị trùng, không thể spawn ở đây
+                        break;
+                    }
+                }
+
+                // Nếu không bị trùng, đây là vị trí tốt!
+                if (canSpawn)
+                {
+                    // 1. Thực hiện spawn coin
+                    foreach (var pos in coinPositions)
+                    {
+                        Instantiate(coinPrefab, pos, Quaternion.identity, transform);
+                    }
+
+                    // 2. Cập nhật usedSlots với các slot vừa dùng cho coin
+                    foreach (int slot in requiredSlots)
+                    {
+                        usedSlots.Add(slot);
+                        if (useBufferSlots)
+                        {
+                            for (int i = 1; i <= bufferSlotCount; i++)
+                            {
+                                if (slot - i >= 0) usedSlots.Add(slot - i);
+                                if (slot + i < slotCount) usedSlots.Add(slot + i);
+                            }
+                        }
+                    }
+
+                    // 3. Đã spawn xong, thoát khỏi vòng lặp tìm kiếm
+                    break;
+                }
+            }
+        }
+
+        //  LOGIC SPAWN ITEM 
         if (Random.value <= itemSpawnChance && itemPrefabs.Count > 0)
         {
             int amountToSpawn = Random.Range(1, maxItemAmount + 1);
-
             for (int i = 0; i < amountToSpawn && potentialSpawnPoints.Count > 0; i++)
             {
                 Vector2 spawnPosition = Vector2.zero;
                 bool found = false;
                 int itemSlot = -1;
-
                 foreach (var point in potentialSpawnPoints.ToList())
                 {
                     int slot = GetSlotIndex(point.x, chunkSpriteRenderer.bounds);
@@ -150,9 +192,7 @@ public class ItemAndCoinSpawner : MonoBehaviour
                         break;
                     }
                 }
-
                 if (!found) break;
-
                 usedSlots.Add(itemSlot);
                 if (useBufferSlots)
                 {
@@ -162,14 +202,13 @@ public class ItemAndCoinSpawner : MonoBehaviour
                         if (itemSlot + j < slotCount) usedSlots.Add(itemSlot + j);
                     }
                 }
-
                 GameObject randomPrefab = itemPrefabs[Random.Range(0, itemPrefabs.Count)];
                 Instantiate(randomPrefab, spawnPosition, Quaternion.identity, transform);
             }
         }
     }
 
-    // ==== CÁC HÀM HỖ TRỢ (Không thay đổi) ==== 
+    // ==== CÁC HÀM HỖ TRỢ ==== 
 
     void SpawnCoinPattern(SpawnPattern pattern, Vector2 position)
     {
