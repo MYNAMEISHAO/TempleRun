@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 7157281640420502986}
   - component: {fileID: 1731812498340865887}
   - component: {fileID: 8790478442068640138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ObstacleLow
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7974209848496858063
 Transform:
   m_ObjectHideFlags: 0

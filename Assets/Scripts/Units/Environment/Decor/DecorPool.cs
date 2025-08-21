@@ -3,29 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class ObstaclePool : MonoBehaviour
+public class DecorPool : MonoBehaviour
 {
     private GroundPool groundPool; // Lấy GroundPool để lấy thông tin về ground
 
-    Dictionary<int, List<float>> ObstaclePos;
     private float groundLength;
-    private float groundHeight; 
-    GameObject[] ObstaclePrefabs;
+    private float groundHeight;
+    GameObject[] DecorPrefabs;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
         GroundPool.OnGroundSpawned += HandleGroundSpawned; // Đăng ký sự kiện khi ground được spawn
-        
+
 
     }
     void Start()
     {
-        SetUpObstaclePos();
+
         groundPool = GameObject.Find("GroundPool").GetComponent<GroundPool>(); // Lấy GroundPool từ scene
         groundLength = groundPool.GroundLength;
         groundHeight = groundPool.GroundHeight;
-        ObstaclePrefabs = Resources.LoadAll<GameObject>("Prefabs/Obstacle");
+
+        Debug.Log("Ground Length: " + groundLength);
+        Debug.Log("Ground Height: " + groundHeight);
+        DecorPrefabs = Resources.LoadAll<GameObject>("Prefabs/Decor");
+        
 
     }
 
@@ -38,32 +41,53 @@ public class ObstaclePool : MonoBehaviour
 
     public void HandleGroundSpawned(Vector3 gPos)
     {
-        int op = Random.Range(0, ObstaclePos.Count); // Chọn ngẫu nhiên một prefab
-        if (ObstaclePos[op] != null)
+        List<GameObject> rd = RandomDecor(); // Lấy một prefab ngẫu nhiên từ mảng DecorPrefabs
+        if (rd.Count == 0) return; // Nếu không có decor nào, thoát
+        else
         {
-            foreach(float pos in ObstaclePos[op])
+            List<int> decorPos = RandomDecorPos(rd.Count); // Lấy vị trí ngẫu nhiên để spawn decor
+            for (int i = 0; i < rd.Count; i++)
             {
-          
-                GameObject rgo = RandomObstacle(); // Lấy một prefab ngẫu nhiên từ mảng ObstaclePrefabs
-                float obstacleHeight = rgo.GetComponent<SpriteRenderer>().bounds.size.y;
+                float decorHeight = rd[i].GetComponent<SpriteRenderer>().bounds.size.y;
 
-                Vector3 spawnPos = new Vector3(gPos.x + groundLength * pos - groundLength/2,
-                    gPos.y + groundHeight/2 + obstacleHeight/2, gPos.z);
-                Spawn(spawnPos, rgo);
+                Vector3 spawnPos = new Vector3(gPos.x + groundLength * decorPos[i] / 20f - groundLength / 2,
+                    gPos.y + groundHeight / 2 + decorHeight / 2, gPos.z);
+                Spawn(spawnPos, rd[i]);
             }
+            
         }
+            
     }
 
-    GameObject RandomObstacle()
+    List<GameObject> RandomDecor()
     {
-        return ObstaclePrefabs[Random.Range(0, ObstaclePrefabs.Length)];
+        List<GameObject> decorList = new List<GameObject>();
+        foreach(GameObject decor in DecorPrefabs)
+        {
+            int chance = Random.Range(0, 2);
+            if(chance == 1) // 50% xác suất để thêm decor vào danh sách
+            {
+                decorList.Add(decor);
+            }
+        }
+        return decorList;
+    }
+
+    List<int> RandomDecorPos(int n)
+    {
+        List<int> decorPosList = new List<int>();
+        for(int i = 0; i < n; i++)
+        {
+            decorPosList.Add(Random.Range(1, 20));
+        }
+        return decorPosList;
     }
 
     void Spawn(Vector3 pos, GameObject prefab)
     {
-        GameObject reused = FindInactiveMatching(transform,prefab);
+        GameObject reused = FindInactiveMatching(transform, prefab);
         GameObject obj;
-        if(reused != null)
+        if (reused != null)
         {
             reused.SetActive(true); // Kích hoạt lại object
             reused.transform.position = pos; // Đặt lại vị trí
@@ -88,12 +112,4 @@ public class ObstaclePool : MonoBehaviour
         return null;
     }
 
-    void SetUpObstaclePos()
-    {
-        ObstaclePos = new Dictionary<int, List<float>>();
-        //Ground nào chọn cx đc
-        ObstaclePos.Add(0, new List<float>() { });
-        ObstaclePos.Add(1, new List<float>() { 10f / 19 });
-        ObstaclePos.Add(2, new List<float>() { 6f / 19, 13f / 19 });
-    }
 }

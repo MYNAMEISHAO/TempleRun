@@ -6,7 +6,7 @@ using UnityEngine;
 public class EntityManager : MonoBehaviour
 {
     public static EntityManager Instance;
-    [SerializeField] private List<GameObject> list;
+    //[SerializeField] private List<GameObject> list;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
