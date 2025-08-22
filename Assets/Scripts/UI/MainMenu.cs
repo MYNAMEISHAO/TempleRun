@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
     public GameObject playButton;
     public GameObject volumeSettingsPanel; // Panel chứa slider và overlay
     public GameObject closeSettingsOverlay; // Nút vô hình để đóng panel
+    public GameObject exitButton; // Nút thoát game
 
     void OnEnable()
     {
@@ -31,6 +32,11 @@ public class MainMenu : MonoBehaviour
         GameManager.instance.UpdateGameState(GameState.Playing);
     }
 
+    public void OnExitButtonClicked()
+    {
+        Application.Quit();
+    }
+
     // Hàm này được gọi bởi nút SoundSettingsButton
     public void ToggleSettingsPanel()
     {
@@ -47,12 +53,14 @@ public class MainMenu : MonoBehaviour
     // Hàm này được gọi bởi "màn che" CloseSettingsOverlay
     public void CloseSettings()
     {
+        if(exitButton != null) exitButton.SetActive(true);
         if (playButton != null) playButton.SetActive(true);
         if (volumeSettingsPanel != null) volumeSettingsPanel.SetActive(false);
     }
 
     private void OpenSettings()
     {
+        if (exitButton != null) exitButton.SetActive(false);
         if (playButton != null) playButton.SetActive(false);
         if (volumeSettingsPanel != null) volumeSettingsPanel.SetActive(true);
     }
