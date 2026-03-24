@@ -1,9 +1,6 @@
-using System.Collections.Generic;
-using NUnit.Framework;
-using TreeEditor;
 using UnityEngine;
 
-public class GroundController : MonoBehaviour
+public class GroundController : Entity
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float parallexEffect;
@@ -25,16 +22,17 @@ public class GroundController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float time = speedConfig.totalTime;
-        float speedFactor = speedConfig.speedOverTime.Evaluate(time) * parallexEffect;
-        if (speedFactor > speedConfig.maxSpeed * parallexEffect)
+        if (canMove)
         {
-            speedFactor = speedConfig.maxSpeed * parallexEffect;
+            float time = speedConfig.totalTime;
+            float speedFactor = speedConfig.speedOverTime.Evaluate(time) * parallexEffect;
+            if (speedFactor > speedConfig.maxSpeed * parallexEffect)
+            {
+                speedFactor = speedConfig.maxSpeed * parallexEffect;
+            }
+
+            transform.position = new Vector3(transform.position.x - speedFactor * Time.deltaTime, transform.position.y, transform.position.z);
         }
 
-        transform.position = new Vector3(transform.position.x - speedFactor * Time.deltaTime, transform.position.y, transform.position.z);
-        
     }
-
-    
 }

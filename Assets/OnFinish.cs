@@ -6,7 +6,7 @@ public class OnFinish : StateMachineBehaviour
     [SerializeField] public string animation; // Default state to change to
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.GetComponentInParent<PlayerMovement>().ChangeAnimation(animation,0.2f,stateInfo.length);
+        animator.GetComponentInParent<PlayerMovement>().ChangeAnimation(animation,0.2f,1f);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

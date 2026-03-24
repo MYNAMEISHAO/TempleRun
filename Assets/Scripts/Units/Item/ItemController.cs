@@ -1,0 +1,17 @@
+using UnityEngine;
+
+public class ItemController : MonoBehaviour
+{
+    public ItemData itemData;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            SoundManager.instance.PlayItem();
+
+            InventoryManager.instance?.AddItem(itemData);
+            Destroy(gameObject);
+        }
+    }
+}

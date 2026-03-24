@@ -1,9 +1,12 @@
+using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GroundPool : MonoBehaviour
 {
+    public static event Action<GameObject, int> OnGroundSpawned;
 
     static int MAX_GROUND_PREFAB = 5;
     GameObject[] GroundPrefab = new GameObject[MAX_GROUND_PREFAB];
@@ -11,26 +14,34 @@ public class GroundPool : MonoBehaviour
     Dictionary<int, List<int>> nextGround;
 
     LinkedList<GameObject> GroundQueue; //queue 2 chiều
-    float GroundLength = 0;
+    public float GroundLength;
+    public float GroundHeight; //Chiều cao của ground, dùng để tính toán vị trí spawn
     GameSpeedConfig GameSpeedConfig;
+
+
     private void Start()
     {
         //Nạp các prefab Ground vào List
         setUpDictionaryAndDequeue();
-        GroundLength = transform.GetChild(1).GetComponent<SpriteRenderer>().bounds.size.x;
         GroundPrefab = Resources.LoadAll<GameObject>("Prefabs/Ground");
+
+        GroundLength = transform.GetChild(1).GetComponent<SpriteRenderer>().bounds.size.x;
+        GroundHeight = transform.GetChild(1).GetComponent<SpriteRenderer>().bounds.size.y;
         GameSpeedConfig = GameObject.Find("GameSpeed").gameObject.GetComponent<GameSpeedConfig>();
     }
 
     public void Update()
     {
+        if (GameManager.instance.state != GameState.Playing)
+        {
+            return; // Thoát khỏi hàm ngay lập tức
+        }
         for (int i = 0; i < transform.childCount; i++)
         {
             float PosX = transform.GetChild(i).position.x;
             
             if (PosX + GroundLength/2 < Camera.main.transform.position.x - Camera.main.orthographicSize * Camera.main.aspect && transform.GetChild(i).gameObject.activeInHierarchy)
             {
-                Debug.Log("thu " + i + "vi tri x la " + PosX);
                 int ID_Last_Ground = getIDLastGround();
                 int ID_Next_Ground = getIDNextGround(ID_Last_Ground);
                 GameObject nextGround = getNextGround(ID_Next_Ground);
@@ -78,6 +89,9 @@ public class GroundPool : MonoBehaviour
     public void Spawn(Vector3 position, GameObject go)
     {
         GameObject reused = FindInactiveMatching(transform, go);
+        GameObject obj;
+
+        int obstaclePatternIndex = Random.Range(0, 3);
         //Nếu như trong hierachy đã có sẵn và đang inactive thì active lại và đặt lại vị trí
         if (reused != null)
         {
@@ -85,17 +99,24 @@ public class GroundPool : MonoBehaviour
             reused.transform.position = position;
             reused.SetActive(true);
             GroundQueue.AddLast(reused);
+
+            obj = reused;
         }
 
         //Nếu không thì sinh ra cái mới và thêm vào danh sách các ground có trong hierachy
         else
         {
-            GameObject obj = Instantiate(go, position, Quaternion.identity, transform);
+            obj = Instantiate(go, position, Quaternion.identity, transform);
             //Debug.Log("Sinh cai moi" + obj.name);
             //Ta cần phải gán lại pool và spawnpoint cho ground mới sinh vì spawnpoint và pool chỉ có trong hierachy mà cái mới thì chưa được gán
-            GroundController gc = obj.GetComponent<GroundController>();
+            //GroundController gc = obj.GetComponent<GroundController>();
+
             GroundQueue.AddLast(obj);
         }
+        Debug.Log("Spawn phia bên groundPool");
+        OnGroundSpawned?.Invoke(obj, obstaclePatternIndex);
+
+
     }
 
     public int getIDLastGround()
@@ -148,4 +169,5 @@ public class GroundPool : MonoBehaviour
         }
 
     }
+
 }
