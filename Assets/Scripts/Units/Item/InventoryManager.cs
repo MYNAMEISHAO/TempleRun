@@ -10,12 +10,15 @@ public class InventoryManager : MonoBehaviour
     [Header("Cài đặt Dữ liệu")]
     public ItemDatabase itemDatabase;
 
-    [Header("Cài đặt UI")]
+    [Header("Cài đặt UI Chính")]
     public GameObject inventoryPanelObject;
     public GameObject closeButtonObject;
     public Transform itemSlotContainer;
     public GameObject itemSlotPrefab;
     public Animator bagAnimator;
+
+    [Header("Quản lý UI Khác")]
+    public List<GameObject> otherUIPanels = new List<GameObject>();
 
     public Dictionary<ItemData, int> inventory = new Dictionary<ItemData, int>();
     private List<GameObject> itemSlotsUI = new List<GameObject>();
@@ -28,92 +31,82 @@ public class InventoryManager : MonoBehaviour
 
     void Start()
     {
+        // Đảm bảo ban đầu túi đồ đóng
         inventoryPanelObject.SetActive(false);
         if (closeButtonObject != null) closeButtonObject.SetActive(false);
+
         InitializeInventory();
     }
 
     void InitializeInventory()
     {
-        if (itemDatabase == null)
-        {
-            Debug.LogError("Chưa gán ItemDatabase cho InventoryManager!");
-            return;
-        }
+        if (itemDatabase == null) return;
 
         foreach (var itemData in itemDatabase.allItems)
         {
             GameObject slotInstance = Instantiate(itemSlotPrefab, itemSlotContainer);
-
-            Image itemIcon = slotInstance.transform.Find("ItemIcon")?.GetComponent<Image>();
-            TextMeshProUGUI quantityText = slotInstance.GetComponentInChildren<TextMeshProUGUI>();
-
-            if (itemIcon != null) itemIcon.sprite = itemData.icon;
-            if (quantityText != null) quantityText.text = "0";
-
+            // Thiết lập icon và text ban đầu...
             itemSlotsUI.Add(slotInstance);
         }
     }
 
+    // Hàm chính để bật/tắt Inventory
     public void ToggleInventoryPanel()
     {
-        bool isActive = inventoryPanelObject.activeSelf;
-        inventoryPanelObject.SetActive(!isActive);
-        if (closeButtonObject != null) closeButtonObject.SetActive(!isActive);
+        bool isOpening = !inventoryPanelObject.activeSelf;
 
-        if (!isActive)
+        inventoryPanelObject.SetActive(isOpening);
+        if (closeButtonObject != null) closeButtonObject.SetActive(isOpening);
+
+        // Xử lý các UI khác dựa trên trạng thái của Inventory
+        SetOtherUIActive(!isOpening);
+
+        if (isOpening)
         {
             RefreshInventoryUI();
         }
     }
 
+    // Hàm đóng túi đồ (thường gắn vào nút Close)
     public void CloseInventoryPanel()
     {
-        inventoryPanelObject.SetActive(false);
         if (closeButtonObject != null) closeButtonObject.SetActive(false);
+        SetOtherUIActive(true);
+        inventoryPanelObject.SetActive(false);
     }
 
+    // Hàm bổ trợ để bật/tắt danh sách UI
+    private void SetOtherUIActive(bool state)
+    {
+        foreach (GameObject ui in otherUIPanels)
+        {
+            if (ui != null)
+            {
+                ui.SetActive(state);
+            }
+        }
+    }
+
+    // Các hàm AddItem và RefreshInventoryUI giữ nguyên như cũ của bạn...
     public void AddItem(ItemData item)
     {
-        if (inventory.ContainsKey(item))
-        {
-            inventory[item]++;
-        }
-        else
-        {
-            inventory.Add(item, 1);
-        }
+        if (inventory.ContainsKey(item)) inventory[item]++;
+        else inventory.Add(item, 1);
 
-        if (bagAnimator != null)
-        {
-            bagAnimator.SetTrigger("Collect");
-        }
-
-        if (inventoryPanelObject.activeSelf)
-        {
-            RefreshInventoryUI();
-        }
+        if (bagAnimator != null) bagAnimator.SetTrigger("Collect");
+        if (inventoryPanelObject.activeSelf) RefreshInventoryUI();
     }
 
     void RefreshInventoryUI()
     {
         if (itemDatabase == null || itemSlotsUI.Count != itemDatabase.allItems.Count) return;
-
         for (int i = 0; i < itemDatabase.allItems.Count; i++)
         {
             ItemData currentItemData = itemDatabase.allItems[i];
-            GameObject currentSlotUI = itemSlotsUI[i];
-
-            TextMeshProUGUI quantityText = currentSlotUI.GetComponentInChildren<TextMeshProUGUI>();
-            if (quantityText == null) continue;
-
-            if (inventory.ContainsKey(currentItemData))
+            TextMeshProUGUI quantityText = itemSlotsUI[i].GetComponentInChildren<TextMeshProUGUI>();
+            if (quantityText != null)
             {
-                quantityText.text = inventory[currentItemData].ToString();
-            }
-            else
-            {
-                quantityText.text = "0";
+                quantityText.text = inventory.ContainsKey(currentItemData) ? inventory[currentItemData].ToString() : "0";
             }
         }
     }

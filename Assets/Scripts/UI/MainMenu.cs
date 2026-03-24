@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
     public GameObject playButton;
     public GameObject volumeSettingsPanel; // Panel chứa slider và overlay
     public GameObject closeSettingsOverlay; // Nút vô hình để đóng panel
+    public GameObject InventoryPanel; // Panel chứa Inventory
     public GameObject exitButton; // Nút thoát game
 
     void OnEnable()
@@ -55,6 +56,7 @@ public class MainMenu : MonoBehaviour
     {
         if(exitButton != null) exitButton.SetActive(true);
         if (playButton != null) playButton.SetActive(true);
+        if(InventoryPanel != null) InventoryPanel.SetActive(true);
         if (volumeSettingsPanel != null) volumeSettingsPanel.SetActive(false);
     }
 
@@ -62,6 +64,7 @@ public class MainMenu : MonoBehaviour
     {
         if (exitButton != null) exitButton.SetActive(false);
         if (playButton != null) playButton.SetActive(false);
+        if(InventoryPanel != null) InventoryPanel.SetActive(false);
         if (volumeSettingsPanel != null) volumeSettingsPanel.SetActive(true);
     }
 }
